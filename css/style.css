@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--colorPrimary);
+    display: inline-block;
+    text-decoration: none;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: var(--colorBlack);
+    font-weight: 700;
+}
+
+p,
+span {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: var(--colorSecoundry);
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #666;
+}
+
+button {
+    border: none;
+}
+
+:root {
+    --colorPrimary: #336699;
+    --colorSecoundry: #666;
+    --colorIcon: #3c8a38;
+    --colorIconbg: #1b4f9b;
+    --colorFurth: #ccc;
+    --paraColor: #666;
+    --colorBlack: #333;
+    --colorOreng: #f96a02;
+    --colorRed: #cc0001;
+    --colorWhite: #ffffff;
+    --paraFont: 'Roboto', sans-serif;
+    --headingFont: "Poppins", serif;
+    --titleFont: "Open Sans", serif;
+}
+
+/* Topbarstart */
+
+.topbar {
+    background: #f5f6f8;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.topbar_left p {
+    font-size: 13px;
+}
+
+.topbar_right {
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+}
+
+.topbar_right a {
+    color: var(--colorBlack);
+    font-size: 13px;
+}
+
+.topbar_right a:hover {
+    color: var(--colorPrimary);
+}
+
+.topbar_right .nice-select {
+    height: 25px;
+    line-height: 20px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.topbar_right .curancy {
+    position: relative;
+    margin-right: 15px;
+}
+
+.topbar_right .curancy::after {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 1px;
+    background: var(--colorFurth);
+    top: -4px;
+    right: -15px;
+}
+
+
+/* Topbar end */
+header {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 50px;
+}
+
+.header_left {}
+
+.header_left .logo {
+    width: 230px;
+}
+
+.header_left .text {
+    border: 2px solid var(--colorPrimary);
+    margin-left: 50px;
+}
+
+.header_left .text form {
+    position: relative;
+    width: 350px;
+}
+
+.header_left .text form input {
+
+    border: none;
+}
+
+.header_left .text form button {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background: none;
+    color: var(--colorSecoundry);
+}
+
+
+.header_left .nice-select {
+    border: none;
+}
+
+.header_right {
+    gap: 20px;
+}
+
+.header_right .call_info {
+    position: relative;
+    padding-right: 30px;
+}
+
+.header_right .call_info::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 40px;
+    top: 11px;
+    right: 5px;
+    background: var(--colorFurth);
+}
+
+.header_right .call_info .icon i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: var(--colorSecoundry);
+}
+
+.header_right .call_info .text {}
+
+.header_right .call_info .text a {
+    font-size: 13px;
+    color: var(--colorSecoundry);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.header_right .call_info .text .icon i:hover,
+.header_right .call_info .text a:hover {
+    color: var(--colorPrimary);
+}
+
+.header_right .call_info .text .call_number {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header_right .wishlist {}
+
+.header_right .compare a,
+.header_right .add_curt a,
+.header_right .wishlist a {
+    color: var(--colorBlack);
+    font-size: 13px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.header_right .compare a span,
+.header_right .add_curt a span,
+.header_right .wishlist a span {
+    font-size: 25px;
+}
+
+.header_right .compare a:hover,
+.header_right .add_curt a:hover,
+.header_right .wishlist a:hover {
+    color: var(--colorPrimary);
+}
+
+.header_right .add_curt a {
+    position: relative;
+
+}
+
+.header_right .add_curt a::after {
+    position: absolute;
+    content: "2";
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    top: 0px;
+    left: 21px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
