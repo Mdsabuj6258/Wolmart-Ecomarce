@@ -249,7 +249,10 @@ $(function () {
 
 
     /*==============ZOOM==================*/
-    $(".zoom").elevateZoom();
+    $(".zoom").elevateZoom({
+        zoomType: "lens",
+    });
+
 
 
 
