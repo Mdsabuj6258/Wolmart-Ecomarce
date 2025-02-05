@@ -1793,8 +1793,6 @@ header {
 
 }
 
-.recent_item .img {}
-
 .recent_item .text {
     position: absolute;
     top: 0;
@@ -1833,8 +1831,6 @@ header {
     padding: 40px 0;
 }
 
-.Subscribe_content {}
-
 .Subscribe_text .icon i {
     color: var(--colorWhite);
     font-size: 45px;
@@ -1851,8 +1847,6 @@ header {
 .Subscribe_text p {
     color: var(--colorWhite);
 }
-
-.Subscribe_form {}
 
 .Subscribe_form input {
     width: 550px;
@@ -1902,8 +1896,6 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-.footer_logo p {}
 
 .footer_logo ul {
     gap: 10px;
@@ -1965,8 +1957,6 @@ header {
     color: var(--colorPrimary);
 }
 
-.footer_secound_contant {}
-
 .footer_secound_contant ul {
     gap: 15px;
     align-items: center;
@@ -2018,8 +2008,6 @@ header {
 .footer_copyright .right {
     gap: 10px 20px;
 }
-
-.footer_copyright .right p {}
 
 .footer_copyright .right img {
     width: 200px !important;
@@ -2093,8 +2081,6 @@ header {
     -o-border-radius: 4px;
 }
 
-.ofer_time {}
-
 .ofer_time p {
     margin-right: 10px;
 }
@@ -2135,8 +2121,6 @@ header {
     margin: 10px 0;
 }
 
-.hotdell_text .reting span {}
-
 .hotdell_text .size {
     gap: 10px;
     display: flex;
@@ -2158,8 +2142,6 @@ header {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
 }
-
-.hotdell_text .price {}
 
 .hotdell_text .price h5 {
     margin: 20px 0;
@@ -2195,8 +2177,6 @@ header {
     color: var(--colorBlack);
 }
 
-.hotdell_text .quantaty .order_plce {}
-
 .hotdell_text .quantaty .order_plce button {
     margin-left: 25px;
     padding: 12px 50px;
@@ -2216,8 +2196,6 @@ header {
 .hotdell_text .buttom ul {
     gap: 10px;
 }
-
-.hotdell_text .buttom ul li {}
 
 .hotdell_text .buttom ul li a {
     height: 30px;
@@ -2313,8 +2291,6 @@ header {
     margin-right: 30px;
 }
 
-.hotdell_sidbar .hotdell_sidbar_contant .text {}
-
 .hotdell_sidbar .hotdell_sidbar_contant .text .title {
     color: var(--colorBlack);
     margin-bottom: 5px;
@@ -2332,7 +2308,6 @@ header {
 
 
 /* ========About page Start */
-.about_menu {}
 
 .about_menu .menu_carwegory_list {
     visibility: hidden;
@@ -2365,8 +2340,6 @@ header {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-
-.about_service_text {}
 
 .about_service_text h3 {
     font-size: 35px;
@@ -2417,10 +2390,6 @@ header {
 
 }
 
-.about_counter_area {}
-
-.about_counter_area ul {}
-
 .about_counter_area ul li {
     text-align: center;
     width: 25%;
@@ -2433,17 +2402,11 @@ header {
     color: var(--colorFurth);
 }
 
-.about_counter_area ul li h2 span {}
-
-.about_counter_area ul li p {}
-
 .about_counter_area ul li h5 {
     font-size: 18px;
     font-weight: 700;
     margin: 10px 0px;
 }
-
-.Award_item {}
 
 .Award_item li {
     text-align: center;
@@ -2498,10 +2461,6 @@ header {
     margin-top: 20px;
 }
 
-.single_team .text h4 {}
-
-.single_team .text p {}
-
 .single_team .img ul {
     position: absolute;
     bottom: 20px;
@@ -2520,8 +2479,6 @@ header {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
 }
-
-.single_team .img ul li {}
 
 .single_team .img ul li a {
     height: 40px;
@@ -2562,8 +2519,6 @@ header {
     background: #f5f5f5;
     padding: 100px 0;
 }
-
-.tread_text {}
 
 .tread_text ul {
     display: flex;
@@ -2628,8 +2583,6 @@ header {
     height: 100px;
 }
 
-.single_investetor .text {}
-
 .single_investetor .text h5 {
     font-size: 16px;
     font-weight: 700;
@@ -2661,9 +2614,6 @@ header {
 
 
 /* ==========Contact Page start */
-.contact_info_area {}
-
-.contact_info_area .text {}
 
 .contact_info_area .text h2 {
     font-size: 30px;
@@ -2671,8 +2621,6 @@ header {
     font-weight: 700;
     margin-bottom: 15px;
 }
-
-.contact_info_area .text p {}
 
 .contact_info {}
 
@@ -2699,7 +2647,6 @@ header {
     margin-bottom: 5px;
 }
 
-.contact_info ul li p {}
 
 .contact_accrodian .accordion-button {
     font-size: 14px;
@@ -2723,8 +2670,6 @@ header {
     font-weight: 700;
 }
 
-.contact_info_form {}
-
 .contact_info_form h4 {
     font-size: 18px;
     font-weight: 700;
@@ -2734,8 +2679,6 @@ header {
 .contact_info_form input {
     margin-bottom: 5px;
 }
-
-.contact_info_form textarea {}
 
 .contact_info_form button {
     margin-top: 10px;
@@ -2767,8 +2710,6 @@ header {
 
 
 /* Faq Page Start */
-.faq_area .phyment_info {}
-
 .faq_area .shoping_info h3,
 .faq_area .phyment_info h3 {
     font-size: 20px;
@@ -2968,22 +2909,12 @@ header {
 
 /*  ======Shopping Cart start======*/
 
-
-.Shoping_cart_area {}
-
-.Shoping_cart_text {}
-
-
 .Shoping_cart_text table .title {
     font-size: 15px;
     font-weight: 400;
     color: var(--colorBlack);
     margin-left: 10px;
 }
-
-.Shoping_cart_text table h5 {}
-
-.Shoping_cart_text table p {}
 
 .Shoping_cart_text table form {
     position: relative;
@@ -3037,8 +2968,6 @@ header {
     top: 10px;
     left: 95px;
 }
-
-.Shoping_cart_text .discount_cupon {}
 
 .Shoping_cart_text .discount_cupon h3 {
     margin-top: 40px;
@@ -3137,8 +3066,6 @@ header {
     color: var(--colorWhite);
 }
 
-.Shoping_cart_sidebar {}
-
 .Shoping_cart_sidebar input {
     margin: 10px 0;
 }
@@ -3167,9 +3094,6 @@ header {
     width: 100% !important;
 }
 
-.checkout_contant {}
-
-.checkout_contant p {}
 
 .checkout_contant p a {
     color: var(--colorBlack);
@@ -3185,15 +3109,14 @@ header {
     text-transform: uppercase;
 }
 
-.checkout_contant form {}
-
 .checkout_contant form .input {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.checkout_contant form .input label {}
+.checkout_contant form .input label {
+    margin-bottom: 5px;
+}
 
-.checkout_contant form .input textarea {}
 
 .Checkout_sidebar .form-check-input[type=checkbox],
 .checkout_contant .form-check-input[type=checkbox] {
@@ -3208,6 +3131,7 @@ header {
 .checkout_contant .form-check-input:checked {
     background-color: var(--colorBlack);
     border-color: var(--colorBlack);
+    padding: 0;
 }
 
 .Checkout_sidebar .form-check,
@@ -3229,29 +3153,36 @@ header {
     margin-bottom: 10px;
 }
 
-.Checkout_sidebar .product p {}
-
-.Checkout_sidebar .product span {}
-
 .Checkout_sidebar .subtotal {
     margin-bottom: 20px;
 }
 
-.Checkout_sidebar .subtotal h5 {}
-
-.Checkout_sidebar .subtotal span {}
-
 .Checkout_sidebar .shopping {
     margin-top: 31px;
 }
-
-.Checkout_sidebar .shopping h5 {}
-
-.Checkout_sidebar .shopping h5 {}
 
 .Checkout_sidebar .total {
     border-top: 1px solid var(--colorFurth);
     border-bottom: 1px solid var(--colorFurth);
     padding: 20px 0;
     margin: 40px 0 0 0;
+}
+
+.form-check-input[type=radio] {
+    padding: 0;
+}
+
+.Checkout_sidebar .phymenmethod .form-check {
+    margin-left: 30px;
+}
+
+.Checkout_sidebar .phymenmethod {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.Checkout_sidebar .common_btn_2 {
+    width: 100%;
+
 }
