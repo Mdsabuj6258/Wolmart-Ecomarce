@@ -1696,7 +1696,6 @@ header {
 }
 
 /*blog_area start*/
-.blog_area {}
 
 .single_blog {
     margin: 0 12px;
@@ -3185,4 +3184,318 @@ header {
 .Checkout_sidebar .common_btn_2 {
     width: 100%;
 
+}
+
+/* My Account start */
+
+.my_accout_tab {}
+
+.my_accout_tab ul {}
+
+.my_accout_tab ul li {
+    border-bottom: 1px solid var(--colorFurth);
+    width: 300px;
+}
+
+.my_accout_tab ul li a {
+    color: var(--colorBlack);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+.my_accout_tab ul li a.active,
+.my_accout_tab ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.my_account_contant h3 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.my_account_contant .common_btn {
+    padding: 4px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border-color: var(--colorFurth);
+    margin-top: 16px;
+}
+
+.my_account_contant table p {
+    margin: 20px 0;
+}
+
+.my_account_contant .common_btn_2 {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.my_account_contant .common_btn:hover {
+    border-color: var(--colorBlack);
+}
+
+.my_account_contant .dashboard_box {
+    width: 31%;
+    height: 180px;
+    border: 1px solid var(--colorFurth);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.my_account_contant .dashboard_box .icon {
+    font-size: 40px;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.my_account_contant .dashboard_box p {
+    color: var(--colorBlack);
+}
+
+.my_account_contant .dashboard_box:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.my_account_contant .dashboard_box:hover p {
+    color: var(--colorPrimary);
+}
+
+.my_account_contant .dashboard_box:hover .icon {
+    color: var(--colorPrimary);
+    transform: scale(1.20);
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+}
+
+.my_account_contant .common_btn_3 {
+    color: var(--colorPrimary);
+    margin-top: 20px;
+}
+
+.my_account_contant .common_btn_3::after {
+    background: var(--colorPrimary);
+}
+
+.my_account_contant ul {
+    margin-top: 30px;
+}
+
+.my_account_contant ul li {
+    width: 45%;
+    margin-right: 50px;
+}
+
+.my_account_contant ul li h4 {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.my_account_contant ul li .text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.my_account_contant ul li .text p {
+    width: 150px;
+    font-size: 13px;
+}
+
+.my_account_contant ul li .text span {
+    color: var(--colorBlack);
+    font-size: 13px;
+}
+
+.my_account_login_area {
+    background: #f5f5f5;
+}
+
+.login_contant {
+    background: var(--colorWhite);
+    padding: 30px;
+    text-align: center;
+}
+
+.login_contant .login_heading a {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    width: 150px;
+    border-bottom: 2px solid #cccccc3d;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.login_contant .login_heading a.active,
+.login_contant .login_heading a:hover {
+    color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.login_contant form {
+    text-align: start;
+
+}
+
+.login_contant form button {
+    width: 100%;
+    padding: 10px 20px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.login_contant form button:hover {
+    background: #3c78b4;
+}
+
+.login_contant form label {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.login_contant form .check_box {
+    margin-top: 20px;
+}
+
+.login_contant form .check_box a {
+    font-size: 13px;
+    border: none;
+    color: var(--colorRed);
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.login_contant form .check_box label {
+    margin: 0;
+}
+
+.login_contant form .check_box a:hover {
+    text-decoration: underline;
+    color: var(--colorRed);
+}
+
+.form-check-input[type=checkbox] {
+    padding: 0;
+}
+
+.login_contant ul {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.login_contant ul li {}
+
+.login_contant ul li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--colorFurth);
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.login_contant ul li a:hover {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.login_contant .redio_box label {
+    margin: 0;
+}
+
+.signup_contant form .check_box a {
+    color: var(--colorPrimary);
+}
+
+.signup_contant form .check_box a:hover {
+    color: var(--colorPrimary);
+}
+
+.signup_contant form .redio_box {
+    margin: 20px 0;
+}
+
+.signup_contant form .redio_box .form-check-input {}
+
+.signup_contant form .redio_box .form-check-input:checked {
+    background-color: var(--colorBlack);
+    border-color: var(--colorBlack);
+}
+
+.form-check-input:checked {
+    background-color: var(--colorBlack);
+    border-color: var(--colorBlack);
+}
+
+.my_accounts_detels_contant {}
+
+.my_accounts_detels_contant form {
+    margin-top: 20px;
+}
+
+.my_accounts_detels_contant form .inpit {
+    margin-bottom: 15px;
+}
+
+.my_accounts_detels_contant form .inpit input {}
+
+.my_accounts_detels_contant form .inpit label {
+    margin-bottom: 5px;
+}
+
+.my_accounts_detels_contant form .inpit p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.my_accounts_detels_contant form h3 {
+    margin: 20px 0;
+}
+
+.my_accounts_detels_contant form button {
+    width: initial;
+    font-size: 15px;
 }
