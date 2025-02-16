@@ -4643,3 +4643,322 @@ header {
 .single_vandor_list .text .common_btn_3 {
     margin-top: 15px;
 }
+
+.vendor_grid_map iframe {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.vandor_grid_sidebar {
+    margin-right: 30px;
+}
+
+.vandor_grid_sidebar_from form {
+    position: relative;
+}
+
+.vandor_grid_sidebar_from form button {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: var(--colorBlack);
+    background: none;
+}
+
+.vandor_grid_sidebar h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.vandor_grid_sidebar input {
+    height: 42px;
+    border-color: #e8e8e8;
+}
+
+.vendor_grid_map form ul {
+    background: #f5f5f5;
+    padding: 15px;
+    margin-top: -31px;
+    margin-bottom: 30px;
+    gap: 10px;
+    align-items: center;
+}
+
+.vendor_grid_map form ul li {
+    margin-top: 10px;
+}
+
+.vendor_grid_map form ul li input {
+    width: 600px;
+    border-color: #e8e8e8;
+}
+
+.vendor_grid_map form ul li button {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.vendor_grid_map form ul li .select_js {
+    height: 52px;
+    width: 270px;
+}
+
+.vandor_sort a {
+    color: var(--colorBlack);
+    padding: 9px 15px;
+    background: var(--colorFurth);
+    border-radius: 4px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.single_vendor_3 {
+    position: relative;
+    margin-top: 25px;
+}
+
+.single_vendor_3 .img {
+    height: 320px;
+    overflow: hidden;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.single_vendor_3 .vandor_batch {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 12px;
+    left: 0;
+    bottom: 35px;
+    background: var(--colorWhite);
+    border: 1px solid var(--colorFurth);
+    margin-left: 10px;
+}
+
+.vandor_batch {}
+
+.single_vendor_3 .text {
+    position: absolute;
+    background: rgba(34, 34, 40, 0.85);
+    bottom: 0;
+    left: 0;
+    padding: 20px 20px 20px 100px;
+}
+
+.single_vendor_3 .text .title {
+    font-size: 18px;
+    color: var(--colorWhite);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.single_vendor_3 .text .title:hover {
+    text-decoration: underline;
+}
+
+.single_vendor_3 .text .location {
+    color: var(--colorFurth);
+    font-size: 14px;
+}
+
+.single_vendor_3 .text .location span {
+    margin-right: 5px;
+}
+
+.single_vendor_3 .text .retting {
+    color: var(--colorOreng);
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.vendor_brand_area .vandor_brand {
+    width: 150px;
+    height: 150px;
+    background: var(--colorWhite);
+    display: inline-block;
+    border: 1px solid #cccccc4d;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.vendor_brand_area .vandor_brand:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*Vendor Store 1 Start */
+.vandor_info {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.vandor_info .img {}
+
+.vandor_info .text {
+    position: absolute;
+    padding: 38px;
+    background: var(--colorBlack);
+    width: 400px;
+}
+
+.vandor_info .text h4 {
+    color: var(--colorWhite);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.vandor_info .text .location {
+    color: var(--colorFurth);
+}
+
+.vandor_info .text .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--colorWhite);
+    padding: 15px;
+}
+
+.vandor_info .text .number {
+    color: var(--colorFurth);
+    margin: 10px 0;
+}
+
+.vandor_info .text .number:hover {
+    color: #f93;
+}
+
+.vandor_info .text .reting {
+    color: var(--colorFurth);
+}
+
+.vandor_info .text .reting span {}
+
+.vandor_info .text .store_open {
+    color: var(--colorFurth);
+    margin-top: 10px;
+}
+
+.vandor_info .text .store_open span {}
+
+.vandor_info .text ul li a {
+    color: var(--colorFurth);
+}
+
+.vandor_store_content .product a {
+    border: 1px solid var(--colorFurth);
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    color: var(--colorBlack);
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.vandor_store_content .product a:hover {
+    color: var(--colorPrimary);
+}
+
+.vandor_store_sidebar .accordion-button {
+    font-size: 16px;
+}
+
+.vandor_store_sidebar .accordion-item {
+    color: var(--colorBlack);
+    margin-top: 0;
+}
+
+.vandor_store_sidebar .accordion-item ul li a {
+    margin-top: 10px;
+    color: var(--colorBlack);
+}
+
+.vandor_store_sidebar .accordion-item ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.vandor_store_sidebar .accordion-item form {}
+
+.vandor_store_sidebar .accordion-item form input {
+    margin-top: 10px;
+}
+
+.vandor_store_sidebar .accordion-item form textarea {
+    margin-top: 10px;
+}
+
+.vandor_store_sidebar .accordion-item form button {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.vandor_store_sidebar .accordion-item .store_time ul li {
+    margin-top: 10px;
+    position: relative;
+}
+
+.vandor_store_sidebar .accordion-item .store_time ul li::after {
+    position: absolute;
+    content: "\f2d1";
+    width: 20px;
+    height: 20px;
+    color: var(--colorBlack);
+    margin-left: 10px;
+}
+
+.vandor_store_sidebar .accordion-item .best_seling {
+    margin-top: 25px;
+}
+
+.vandor_store_sidebar .accordion-item .best_seling .img {
+    width: 120px;
+}
+
+.vandor_store_sidebar .accordion-item .best_seling .text {
+    width: 43%;
+    margin-left: 20px;
+}
+
+.vandor_store_sidebar .accordion-item .best_seling .text .reting {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.vandor_store_sidebar .accordion-item .best_seling .text .title {
+    color: var(--colorBlack);
+    font-weight: 500;
+}
+
+.vandor_store_sidebar .accordion-item .best_seling .text .title:hover {
+    color: var(--colorPrimary);
+}
+
+.vandor_store_sidebar .accordion-item .best_seling .text h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
