@@ -4491,6 +4491,7 @@ header {
     padding: 20px 0px 20px 30px;
 }
 
+.vandor_info_3 .text .logo,
 .single_vendor .vandor_batch {
     position: absolute;
     display: inline-block;
@@ -5062,9 +5063,6 @@ header {
     text-align: center;
 }
 
-.store_item .img {}
-
-.store_item .text {}
 
 .store_item .text .Quick_View {
     position: absolute;
@@ -5273,14 +5271,14 @@ header {
 
 .vandor_store_content .polici li {
     border-bottom: 1px solid var(--colorFurth);
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .vandor_store_content .polici li h3 {
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .vandor_store_content .polici li p {
@@ -5315,3 +5313,246 @@ header {
 .nav-tabs .nav-link:hover {
     border-color: transparent;
 }
+
+.vandor_store_content .review_from form {
+    position: relative;
+    border: 1px solid var(--colorFurth);
+    padding: 30px;
+}
+
+.vandor_store_content .previus_review h3,
+.vandor_store_content .review_from form h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vandor_store_content .review_from form input {
+    padding-left: 30px;
+    margin: 20px 0px 15px 0px;
+}
+
+.vandor_store_content .review_from form button {
+    font-size: 15px;
+}
+
+.vandor_store_content .review_from form::after {
+    position: absolute;
+    content: "\f304";
+    font-family: "font awesome 5 free";
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--colorFurth);
+    top: 90px;
+    left: 36px;
+}
+
+.vandor_store_content .previus_review {
+    border: 1px solid var(--colorFurth);
+    padding: 30px;
+}
+
+.vandor_store_content .previus_review .author {
+    gap: 20px;
+    margin: 20px 0px 30px 0px;
+}
+
+.vandor_store_content .previus_review .author .profile {
+    margin-left: 15px;
+}
+
+.vandor_store_content .previus_review .author .profile span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--colorSecoundry);
+    background: var(--colorFurth);
+    border: 1px solid var(--colorWhite);
+    border-radius: 50%;
+    margin-left: -15px;
+}
+
+.vandor_store_content .previus_review .author .name a {
+    color: var(--colorBlack);
+    font-weight: 700;
+}
+
+.vandor_store_content .previus_review ul {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+
+.vandor_store_content .previus_review ul li .retting p {
+    margin-left: 5px;
+}
+
+.vandor_store_content .previus_review ul li .retting span {
+    font-size: 13px;
+}
+
+.vandor_store_content .previus_review ul li .avarege_retting .btnn {
+    background: var(--colorSecoundry);
+    color: var(--colorWhite);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.vandor_store_content .previus_review ul li .avarege_retting p span {
+    font-size: 13px;
+}
+
+.previus_review .single_author {
+    margin-top: 30px;
+}
+
+.previus_review .single_author .single_author_profile {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.previus_review .single_author .single_author_profile .ret_btn {
+    background: var(--colorSecoundry);
+    width: 45px;
+    margin: 0 auto;
+    color: var(--colorFurth);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.previus_review .single_author .single_author_profile .user_icon {
+    width: 50px;
+    background: var(--colorFurth);
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.previus_review .single_author .single_author_info {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.previus_review .single_author .single_author_info h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.previus_review .single_author .single_author_info span {
+    margin: 20px 0;
+    display: block;
+}
+
+.previus_review .single_author .single_author_info p {
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.previus_review .single_author .single_author_retting span {
+    font-size: 13px;
+}
+
+.previus_review .single_author .single_author_retting {
+    width: 25%;
+}
+
+.previus_review .single_author .single_author_retting p {
+    margin-left: 5px;
+}
+
+
+
+/* vandor 3 start */
+.vandor_info_3 {
+    position: relative;
+}
+
+.vandor_info_3 .text .logo {
+    top: -35px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.vandor_info_3 .text h4 {
+    color: var(--colorWhite);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.vandor_info_3 .text .information .number,
+.vandor_info_3 .text .information .web,
+.vandor_info_3 .text .information {
+    color: var(--colorFurth);
+}
+
+.vandor_info_3 .text .information .number:hover,
+.vandor_info_3 .text .information .web:hover {
+    color: #f93;
+}
+
+.vandor_info_3 .text ul {
+    position: absolute;
+    top: -70px;
+    right: 30px;
+}
+
+.vandor_info_3 .text ul li a {
+    border-radius: 4px;
+    color: var(--colorWhite) !important;
+}
+
+.vandor_info_3 .text {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 40%;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+
+.vandor_info_3 .information {
+    gap: 10px;
+}
+
+.store_item_3 h4 {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.review_3 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.review_3 .author {}
+
+.review_3 .author .img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.review_3 .author .text .retting span {
+    color: var(--colorOreng);
+    font-size: 13px;
+}
+
+.review_3 .author .text p {
+    margin: 5px 0;
+}
+
+.review_3 .author .text p span {}
+
+.review_3 .author .text span {}
