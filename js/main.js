@@ -676,7 +676,8 @@ $(function () {
     //=======counter up=========   
     $('.counter').countUp();
 
-
+    // venobox js
+    $('.venobox').venobox();
 
 
 

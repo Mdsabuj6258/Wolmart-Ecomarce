@@ -356,6 +356,13 @@ button {
     color: var(--colorWhite) !important;
 }
 
+.h_whatsapp:hover {
+    background: #3c8a38 !important;
+    border-color: #3c8a38 !important;
+    color: var(--colorWhite) !important;
+}
+
+
 .h_sky:hover {
     background: #00adef !important;
     border-color: #00adef !important;
@@ -2239,6 +2246,7 @@ header {
 
 .hotdell_text .size p {
     margin-right: 15px;
+    color: var(--colorBlack);
 }
 
 .hotdell_text .size a {
@@ -2265,26 +2273,6 @@ header {
     width: 140px;
 }
 
-.hotdell_text .quantaty .amount .plus {
-    position: absolute;
-    top: 5px;
-    font-size: 24px;
-    left: 45px;
-    border-radius: 50%;
-    padding: 2px 15px;
-    background: #cccccc3d;
-}
-
-.hotdell_text .quantaty .amount .minus {
-    position: absolute;
-    top: 8px;
-    font-size: 20px;
-    left: 90px;
-    border-radius: 50%;
-    padding: 2px 15px;
-    background: #cccccc3d;
-    color: var(--colorBlack);
-}
 
 .hotdell_text .quantaty .order_plce button {
     margin-left: 25px;
@@ -2395,7 +2383,7 @@ header {
 }
 
 .hotdell_sidbar .hotdell_sidbar_contant .img {
-    width: 100px;
+    min-width: 100px;
     height: 100px;
     margin-right: 30px;
 }
@@ -3036,6 +3024,7 @@ header {
 
 .Shoping_cart_text table form button {}
 
+.hotdell_contant .hotdell_text .quantaty .plus::after,
 .Shoping_cart_text table form .minus::after {
     position: absolute;
     content: "\f068";
@@ -3057,6 +3046,7 @@ header {
     left: 60px;
 }
 
+.hotdell_contant .hotdell_text .quantaty .minus::after,
 .Shoping_cart_text table form .plus::after {
     position: absolute;
     content: "\2b";
@@ -5064,6 +5054,10 @@ header {
 }
 
 
+.store_item .text {
+    margin-top: 15px;
+}
+
 .store_item .text .Quick_View {
     position: absolute;
     background: var(--colorPrimary);
@@ -5090,7 +5084,7 @@ header {
 .store_item .text .title {
     color: var(--colorBlack);
     font-size: 15px;
-    margin-top: 15px;
+
 }
 
 .store_item .text .title:hover {
@@ -5745,4 +5739,411 @@ header {
 
 .shope_page_3_area .Shope_list_view_bottom {
     border-top: 1px solid #cccccc57;
+}
+
+
+.hotdell_contant .hotdell_text .brand {
+    margin: 15px 0;
+}
+
+.hotdell_contant .hotdell_text .brand .img {
+    width: 80px;
+    border: 1px solid var(--colorFurth);
+    margin-right: 20px;
+}
+
+.hotdell_contant .hotdell_text .brand .text {}
+
+.hotdell_contant .hotdell_text .brand .text p {
+    font-size: 13px;
+}
+
+.hotdell_contant .hotdell_text .brand .text p span {
+    color: var(--colorBlack);
+    margin-right: 5px;
+}
+
+.hotdell_contant .hotdell_text .brand .text p a {
+    color: var(--paraColor);
+}
+
+.hotdell_contant .hotdell_text .color {
+    margin: 20px 0;
+    border-top: 1px solid var(--colorFurth);
+    padding-top: 20px;
+}
+
+.hotdell_contant .hotdell_text .color p {
+    margin-right: 20px;
+    color: var(--colorBlack);
+}
+
+.hotdell_contant .hotdell_text .color span {
+    vertical-align: middle;
+    margin-right: 0.4rem;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.hotdell_contant .hotdell_text .price_1 {
+    padding-top: 15px;
+}
+
+.Variable_Product_tab .discription .text .list li,
+.hotdell_contant .hotdell_text .list li {
+    position: relative;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.Variable_Product_tab .discription .text .list li::after,
+.hotdell_contant .hotdell_text .list li::after {
+    position: absolute;
+    content: "\f00c";
+    font-family: "font awesome 5 free";
+    color: var(--colorSecoundry);
+    left: -17px;
+    font-size: 11px;
+    font-weight: 600;
+    top: 3px;
+}
+
+.hotdell_contant.Variable_Product {
+    border: none;
+}
+
+.Variable_Product .hotdell_text .buttom {
+    margin-top: 20px;
+    border-top: 0;
+    padding-top: 0;
+    gap: 30px;
+    align-items: center;
+}
+
+.Variable_sidebar {
+    border: 1px solid var(--colorFurth);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.Variable_sidebar .refeshing {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.Variable_sidebar .refeshing .img i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.Variable_sidebar .refeshing .text {}
+
+.Variable_sidebar .refeshing .text h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Variable_sidebar .refeshing .text p {
+    font-size: 14px;
+}
+
+.Variable_sidebar .refeshing.refeshing_last {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.Variable_sidebar_banner {
+    position: relative;
+}
+
+.Variable_sidebar_banner .img {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Variable_sidebar_banner .text {
+    position: absolute;
+    top: 145px;
+    z-index: 1;
+    left: 30px;
+}
+
+.Variable_sidebar_banner .text h4 {
+    color: var(--colorWhite);
+    font-size: 40px;
+    display: inline-flex;
+    position: relative;
+}
+
+.Variable_sidebar_banner .text h4 span {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.Variable_sidebar_banner .text h4 p {
+    display: block;
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+}
+
+.Variable_sidebar_banner .text h5 {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    padding: 2px 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Variable_Product_tab .nav-link {
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #999;
+    text-transform: capitalize;
+    background: none;
+}
+
+.Variable_Product_tab .nav-pills {
+    --bs-nav-pills-link-active-bg: none;
+    gap: 10px;
+    border-bottom: 1px solid var(--colorFurth);
+}
+
+.Variable_Product_tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--colorBlack);
+}
+
+
+.Variable_Product_tab .nav-link.common_btn_3.active::after {
+    width: 100%;
+}
+
+.Variable_Product_tab .nav-link.common_btn_3::after {
+    background: var(--colorPrimary);
+}
+
+.Variable_Product_tab .discription .text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.Variable_Product_tab .discription .text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.Variable_Product_tab .discription .text .list li {
+    color: var(--colorBlack);
+    font-weight: 500;
+}
+
+.video_gallery_item {
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.video_gallery_item .play_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.play_btn {
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    line-height: 86px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--colorWhite);
+    background: var(--colorPink);
+    transition: all 0.3s linear 0s;
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+.play_btn::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--colorBlack);
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    z-index: -1;
+    animation: 2s ease 0s infinite normal none running play_btn_animi;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-animation: 2s ease 0s infinite normal none running play_btn_animi;
+}
+
+@keyframes play_btn_animi {
+    0% {
+        opacity: 1;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2);
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+    }
+
+}
+
+.Variable_Product_tab .discription_item {
+    gap: 33px;
+    margin-top: 40px;
+}
+
+.Variable_Product_tab .discription_item li {
+    width: 31%;
+}
+
+.Variable_Product_tab .discription_item li h4 span,
+.Variable_Product_tab .discription_item li h4 {
+    font-size: 15px;
+    color: var(--colorBlack);
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+.Variable_Product_tab .discription_item li h4 span {
+    margin-right: 5px;
+}
+
+.Variable_Product_tab .discription_item li p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.store_item.Variable_Product_item .Quick_View {
+    bottom: 107px;
+}
+
+.store_item.Variable_Product_item:hover .text h4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.Variable_Product_item h4 del {
+    color: #999;
+}
+
+.Variable_Product_item .product_cart {
+    font-size: 13px;
+    color: #999;
+}
+
+.Variable_Product_item .product_cart:hover {
+    color: var(--colorPrimary);
+}
+
+.Variable_Product_area .apprel_heading h3 {
+    font-size: 20px;
+}
+
+.Variable_Product_area .apprel_heading a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Variable_releted_product:hover h4 {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+
+.Variable_Product_tab .Specification ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.Variable_Product_tab .Specification ul li span {
+    color: var(--colorBlack);
+    min-width: 150px;
+    display: block;
+}
+
+.Variable_Product_tab .vandor_info .vandor_img {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Variable_Product_tab .Variable_vandor_text .Variable_vandor_infor .logo {
+    width: 70px;
+    border: 1px solid var(--colorFurth);
+    padding: 10px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Variable_Product_tab .Variable_vandor_text .Variable_vandor_infor .text_1 {
+    margin-left: 20px;
+}
+
+.Variable_Product_tab .Variable_vandor_text .Variable_vandor_infor .text_1 .retting {
+    font-size: 12px;
+}
+
+.Variable_Product_tab .Variable_vandor_text ul {
+    margin: 20px 0px 30px 0px;
+}
+
+.Variable_Product_tab .Variable_vandor_text ul li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.Variable_Product_tab .Variable_vandor_text ul li span {
+    width: 100px;
 }
