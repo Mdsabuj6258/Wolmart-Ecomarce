@@ -5778,7 +5778,7 @@ header {
     color: var(--colorBlack);
 }
 
-.hotdell_contant .hotdell_text .color span {
+.hotdell_contant .hotdell_text .color a {
     vertical-align: middle;
     margin-right: 0.4rem;
     width: 25px;
@@ -6061,7 +6061,7 @@ header {
 }
 
 .store_item.Variable_Product_item .Quick_View {
-    bottom: 107px;
+    bottom: 106px;
 }
 
 .store_item.Variable_Product_item:hover .text h4 {
@@ -6146,4 +6146,248 @@ header {
 
 .Variable_Product_tab .Variable_vandor_text ul li span {
     width: 100px;
+}
+
+.Variable_Product_tab .Variable_vandor_comment p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.Variable_Product_tab .avreg_retting .Recommend {}
+
+.Variable_Product_tab .avreg_retting h5 {}
+
+.Variable_Product_tab .avreg_retting h3 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: var(--colorPrimary);
+}
+
+.Variable_Product_tab .avreg_retting .retting_comment {}
+
+.Variable_Product_tab .avreg_retting .retting_comment p {
+    font-size: 13px;
+}
+
+.Variable_Product_tab .avreg_retting .retting_comment .retting {}
+
+.Variable_Product_tab .avreg_retting .retting_comment .retting a {
+    color: #999;
+}
+
+.Variable_Product_tab .teft {
+    width: 100%;
+}
+
+.Variable_Product_tab .progressbar_area {
+    min-width: 275px;
+}
+
+.Variable_Product_tab .progres {
+    margin-left: 10px;
+}
+
+.retting_area {
+    min-width: 100px;
+}
+
+.retting_area .retting {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.Variable_Product_tab .Recommend {
+    margin-bottom: 2px;
+}
+
+.Variable_Product_tab .Recommend span {
+    color: #999;
+}
+
+/* Star Retting Start */
+.select_rating {
+    display: flex;
+    gap: 4px;
+}
+
+.select_rating i {
+    font-size: 12px;
+    color: var(--colorBlack);
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.select_rating i:hover,
+.select_rating i.active {
+    color: var(--colorOreng);
+}
+
+.Variable_Product_tab .submit_review .your_retting {
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.Variable_Product_tab .submit_review {
+    margin-top: 15px;
+}
+
+.Variable_Product_tab .submit_review h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.Variable_Product_tab .submit_review P {
+    font-size: 14px;
+}
+
+.Variable_Product_tab .submit_review form {
+    position: relative;
+}
+
+.from_chacks .custom-checkbox {
+    position: absolute;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    left: 0;
+    bottom: 69px;
+}
+
+.from_chacks label {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.Variable_Product_tab .submit_review form {
+    margin-top: 20px;
+}
+
+.Variable_Product_tab .submit_review form .texrarea {}
+
+.Variable_Product_tab .submit_review form .input {
+    margin-top: 10px;
+}
+
+.Variable_Product_tab .submit_review form button {
+    text-transform: uppercase;
+}
+
+.Variable_Product_tab .nav-pills {
+    --bs-nav-pills-link-active-bg: none;
+    gap: 70px;
+    border-bottom: 1px solid var(--colorFurth);
+}
+
+.review_tab .nav-pills {
+    --bs-nav-pills-link-active-bg: none;
+    gap: 65px;
+    border-bottom: 1px solid var(--colorFurth);
+}
+
+.review_tab .nav-link {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    background: none;
+    margin-bottom: 10px;
+    transition: all linear .3s;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.review_tab .nav-link.active,
+.review_tab .nav-link:hover {
+    color: var(--colorPrimary);
+}
+
+.review_tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--colorPrimary);
+    border: 1px solid var(--colorPrimary);
+    border-radius: 25px;
+}
+
+.review_tab .nav-pills .nav-link:hover,
+.nav-pills .show>.nav-link {
+    color: var(--colorPrimary);
+    border: 1px solid var(--colorPrimary);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.review_tab .single_review .img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+.review_tab .single_review .text {
+    width: 85%;
+    margin-left: 20px;
+}
+
+.review_tab .single_review {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 20px;
+}
+
+.review_tab .single_review.last {
+    border: none;
+}
+
+.review_tab .single_review {
+    border-bottom: 1px solid #cccccc73;
+    padding-bottom: 20px;
+}
+
+.review_tab .single_review .text span {
+    font-size: 14px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.review_tab .single_review .text .retting {
+    margin: 10px 0px 20px 0px;
+    font-size: 14px;
+}
+
+.review_tab .single_review .text .butn_area {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review_tab .single_review .text .butn_area .help_btn {
+    color: var(--colorOreng);
+    text-transform: capitalize;
+}
+
+.review_tab .single_review .text .butn_area .unhelp_btn {
+    color: var(--colorBlack);
+    text-transform: capitalize
+}
+
+.review_tab .single_review .text .butn_area .help_btn.common_btn_3::after {
+    background: var(--colorOreng);
 }
