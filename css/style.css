@@ -5769,8 +5769,27 @@ header {
 
 .hotdell_contant .hotdell_text .color {
     margin: 20px 0;
-    border-top: 1px solid var(--colorFurth);
-    padding-top: 20px;
+}
+
+.hotdell_contant .hotdell_text .color.img a {
+    border: 1px solid var(--colorFurth);
+    border-radius: 0;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.hotdell_contant .hotdell_text .color.img a:hover {
+    border-color: var(--colorPrimary);
+}
+
+.hotdell_contant .hotdell_text .list {
+    border-bottom: 1px solid var(--colorFurth);
+    padding-bottom: 20px;
 }
 
 .hotdell_contant .hotdell_text .color p {
@@ -5789,6 +5808,10 @@ header {
 
 .hotdell_contant .hotdell_text .price_1 {
     padding-top: 15px;
+}
+
+.hotdell_contant .hotdell_text .price_1 del {
+    color: #999;
 }
 
 .Variable_Product_tab .discription .text .list li,
@@ -6144,6 +6167,11 @@ header {
     margin-bottom: 20px;
 }
 
+.hotdell_text h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
 .Variable_Product_tab .Variable_vandor_text ul li span {
     width: 100px;
 }
@@ -6153,10 +6181,6 @@ header {
     font-size: 14px;
 }
 
-.Variable_Product_tab .avreg_retting .Recommend {}
-
-.Variable_Product_tab .avreg_retting h5 {}
-
 .Variable_Product_tab .avreg_retting h3 {
     font-size: 50px;
     font-weight: 700;
@@ -6164,13 +6188,9 @@ header {
     color: var(--colorPrimary);
 }
 
-.Variable_Product_tab .avreg_retting .retting_comment {}
-
 .Variable_Product_tab .avreg_retting .retting_comment p {
     font-size: 13px;
 }
-
-.Variable_Product_tab .avreg_retting .retting_comment .retting {}
 
 .Variable_Product_tab .avreg_retting .retting_comment .retting a {
     color: #999;
@@ -6281,7 +6301,7 @@ header {
 
 .Variable_Product_tab .nav-pills {
     --bs-nav-pills-link-active-bg: none;
-    gap: 70px;
+    gap: 50px;
     border-bottom: 1px solid var(--colorFurth);
 }
 
