@@ -658,18 +658,18 @@ $(function () {
     });
 
 
-    // //=======COUNTDOWN======   
-    // var d = new Date(),
-    //     countUpDate = new Date();
-    // d.setDate(d.getDate() + 365);
+    //=======COUNTDOWN======   
+    var d = new Date(),
+        countUpDate = new Date();
+    d.setDate(d.getDate() + 365);
 
     // default example
-    // simplyCountdown('.simply-countdown-one', {
-    //     year: d.getFullYear(),
-    //     month: d.getMonth() + 1,
-    //     day: d.getDate(),
-    //     enableUtc: true
-    // });
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: true
+    });
 
 
 
@@ -698,8 +698,34 @@ $(function () {
 
 
 
+    //*==========ISOTOPE============== 
+    var $grid = $('.grid').isotope({});
+
+    $('.isitio_filter_btn').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+
+    //active class
+    $('.isitio_filter_btn button').on("click", function (event) {
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+        event.preventDefault();
+
+    });
 
 
+    //=======SMALL DEVICE MENU ICON======
+    $(".vendor_header_left a").on("click", function () {
+        $(".vendor_heder_form").toggleClass("show");
+    });
+
+    //=======SMALL DEVICE MENU ICON======
+    $(".menu_carwegory_area").on("click", function () {
+        $(".menu_carwegory_list").toggleClass("show");
+    });
 
 
 

@@ -490,7 +490,7 @@
                 <div class="col-xl-12">
                     <div class="vendor_header d-flex flex-wrap justify-content-between">
                         <div class="vendor_header_left">
-                            <a href="#"><i class="far fa-bars"></i> Filter</a>
+                            <a><i class="far fa-bars"></i> Filter</a>
                             <span>Total Store Showing 6</span>
                         </div>
                         <div class="vendor_header_right d-flex flex-wrap align-items-center">
@@ -524,6 +524,24 @@
             </div>
             <div class="vandor_content">
                 <div class="row">
+                    <div class="col-xl-12">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions">Filter</button>
+
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>Try scrolling the rest of the page to see this option in action.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-xl-4">
                         <div class="single_vendor">
                             <div class="img">
@@ -907,6 +925,9 @@
     <script src="js/simplyCountdown.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/progress-bar.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

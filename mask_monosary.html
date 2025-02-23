@@ -486,8 +486,25 @@
     <!-- ======Mask Monosory start====== -->
     <section class="mask_area mt_100">
         <div class="container">
-            <div class="row justify-contant-center">
-                <div class="col-xl-4">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="isitio_filter_btn">
+                        <button type="button" data-filter="*" class="common_btn_3">All Blog Posts
+                            <span>6</span></button>
+                        <button type="button" data-filter=".cloth" class="common_btn_3">Clothes <span>1</span></button>
+                        <button type="button" data-filter=".entet" class="common_btn_3">Entertainment
+                            <span>1</span></button>
+                        <button type="button" data-filter=".fasino" class="common_btn_3">Fashion <span>2</span></button>
+                        <button type="button" data-filter=".life" class="common_btn_3">Lifestyle <span>3</span></button>
+                        <button type="button" data-filter=".Other" class="common_btn_3">Others <span>2</span></button>
+                        <button type="button" data-filter=".Shoes" class="common_btn_3">Shoes 1</button>
+                        <button type="button" data-filter=".tech" class="common_btn_3">Technology
+                            <span>1</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="col-xl-4 entet fasino">
                     <div class="mask_blog_item">
                         <div class="single_mask small">
                             <a class="img" href="#">
@@ -505,10 +522,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 cloth Other tech">
                     <div class="mask_blog_item">
                         <div class="single_mask">
-                            <a class="img img_small" href="#">
+                            <a class="img" href="#">
                                 <img src="images/clasic_blog_1.jpg" alt="image" class="img-flude">
                             </a>
                             <div class="text">
@@ -523,7 +540,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 entet fasino">
                     <div class="mask_blog_item">
                         <div class="single_mask small">
                             <a class="img" href="#">
@@ -541,7 +558,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 cloth life Shoes">
                     <div class="mask_blog_item">
                         <div class="single_mask">
                             <a class="img img_small" href="#">
@@ -559,9 +576,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 entet Other">
                     <div class="mask_blog_item">
-                        <div class="single_mask small">
+                        <div class="single_mask">
                             <a class="img" href="#">
                                 <img src="images/clasic_blog_4.jpg" alt="image" class="img-flude">
                             </a>
@@ -577,10 +594,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 cloth entet life">
                     <div class="mask_blog_item">
-                        <div class="single_mask">
-                            <a class="img img_small" href="#">
+                        <div class="single_mask small">
+                            <a class="img" href="#">
                                 <img src="images/clasic_blog_5.jpg" alt="image" class="img-flude">
                             </a>
                             <div class="text">
@@ -595,12 +612,9 @@
                         </div>
                     </div>
                 </div>
-
-
-
                 <div class="pagenation_area mt_60">
                     <nav aria-label="Page navigation example">
-                        <ul class="pagination">
+                        <ul class="pagination justify-content-center">
                             <li class="page-item">
                                 <a class="page-link" href="#" aria-label="Previous">
                                     <i class="fas fa-long-arrow-left"></i>
@@ -826,6 +840,9 @@
     <script src="js/simplyCountdown.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/progress-bar.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
