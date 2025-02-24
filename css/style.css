@@ -2180,6 +2180,26 @@ header {
     overflow: hidden;
 }
 
+.hotdell_main_img .icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: var(--colorBlack);
+    background: var(--colorWhite);
+    border-radius: 50%;
+    padding: 10px 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .hotdell_main_img::after {
     position: absolute;
     content: "OFF 25%";
@@ -2208,7 +2228,11 @@ header {
     gap: 20px;
 }
 
-.ofer_time .simply-amount {}
+.ofer_time .simply-word,
+.ofer_time .simply-amount {
+    color: var(--colorPrimary);
+    font-weight: 700;
+}
 
 .ofer_time .simply-word {
     display: none;
@@ -2504,9 +2528,9 @@ ul.menu_carwegory_list.show {
 }
 
 .faq_accordion .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/minimus.png);
-    filter: brightness(0) saturate(100%) invert(0%) sepia(81%) saturate(7416%) hue-rotate(311deg) brightness(105%) contrast(95%);
-
+    width: 20px;
+    height: 2px;
+    background: var(--colorBlack);
 }
 
 .about_counter_area ul li {
@@ -4041,11 +4065,14 @@ ul.menu_carwegory_list.show {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .isitio_filter_btn button {
     background: none;
     text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .isitio_filter_btn button span {
@@ -4426,11 +4453,11 @@ ul.menu_carwegory_list.show {
     background: #ffffff;
 }
 
-.vendor_header .vendor_header_left {}
-
+.off_canvas .fitler_btn,
 .vendor_header .vendor_header_left a {
     border: 2px solid var(--colorPrimary);
     padding: 6px 10px;
+    color: var(--colorPrimary);
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
@@ -4448,18 +4475,11 @@ ul.menu_carwegory_list.show {
     cursor: pointer;
 }
 
+.off_canvas .fitler_btn:hover,
 .vendor_header .vendor_header_left a:hover {
     color: var(--colorWhite);
     background: var(--colorPrimary);
 }
-
-.vendor_header .vendor_header_left span {}
-
-.vendor_header .vendor_header_right {}
-
-.vendor_header .vendor_header_right .select {}
-
-.vendor_header .vendor_header_right .select p {}
 
 .vendor_header .vendor_header_right .select p {
     margin-right: 15px;
@@ -5753,6 +5773,108 @@ ul.menu_carwegory_list.show {
     margin-top: 5px;
 }
 
+.filter_cetagory {
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+    align-items: center;
+}
+
+.filter_cetagory .filter_items {
+    position: absolute;
+    background: var(--colorWhite);
+    z-index: 1;
+    width: 250px;
+    top: 45px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 7px;
+    border-radius: 5px;
+    transform: scale(.5);
+    transform-origin: top;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+    transition: all linear .3s;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.filter_cetagory .filter_5.show,
+.filter_cetagory .filter_4.show,
+.filter_cetagory .filter_3.show,
+.filter_cetagory .filter_1.show,
+.filter_cetagory .filter_2.show {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.filter_cetagory .filter_items li {}
+
+.filter_cetagory .filter_items li a {
+    background: #cccccc3b;
+    color: var(--colorBlack);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.filter_cetagory .filter_menu {
+    position: relative;
+    border: 1px solid var(--colorFurth);
+    padding: 7px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.price_range input {
+    padding: 0 !important;
+    width: 70px;
+}
+
+.price_range .price_btn {
+    background: var(--colorPrimary) !important;
+    color: var(--colorWhite) !important;
+    margin-left: 5px;
+}
+
+.filter_cetagory .filter_menu .filter_nav {
+    color: var(--colorBlack);
+}
+
+.filter_cetagory .filter_menu .filter_nav i {
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+.filter_cetagory form.price-range {
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-content.toolbox-left {
+    gap: 6px;
+}
+
+
 .store_item.shope_1_item .img .icon {
     top: 294px;
     right: 50%;
@@ -5805,6 +5927,7 @@ ul.menu_carwegory_list.show {
     margin-top: 50px;
 }
 
+/* shope start */
 .shope_page_3_area .vandor_store_content,
 .Shope_list_view_bottom,
 .Shope_list_view .vandor_store_content {
@@ -5855,6 +5978,37 @@ ul.menu_carwegory_list.show {
     border-top: 1px solid #cccccc57;
 }
 
+/* off canvas start */
+.off_canvas {}
+
+.off_canvas .offcanvas {
+    max-width: 350px;
+}
+
+.off_canvas .reset_btn {
+    background: none;
+}
+
+.off_canvas .form-check {
+    margin-top: 10px;
+}
+
+.Sidebar_price .price_range .price_btn {
+    padding: 9px 30px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+
+.Sidebar_price input {
+    padding: 7px !important;
+    width: 70px;
+}
+
+.Sidebar_price .delimiter {
+    font-size: 40px;
+    color: #999;
+}
+
 
 .hotdell_contant .hotdell_text .brand {
     margin: 15px 0;
@@ -5866,7 +6020,6 @@ ul.menu_carwegory_list.show {
     margin-right: 20px;
 }
 
-.hotdell_contant .hotdell_text .brand .text {}
 
 .hotdell_contant .hotdell_text .brand .text p {
     font-size: 13px;
@@ -6524,4 +6677,9 @@ ul.menu_carwegory_list.show {
 
 .review_tab .single_review .text .butn_area .help_btn.common_btn_3::after {
     background: var(--colorOreng);
+}
+
+/* Data_Accordion start */
+.Data_Accordion .hotdell_text .list {
+    border: 0;
 }

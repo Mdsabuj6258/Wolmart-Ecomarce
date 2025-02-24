@@ -717,15 +717,53 @@ $(function () {
     });
 
 
-    //=======SMALL DEVICE MENU ICON======
+    //=======Filter add class======
     $(".vendor_header_left a").on("click", function () {
         $(".vendor_heder_form").toggleClass("show");
     });
 
-    //=======SMALL DEVICE MENU ICON======
+    //=======Menu add class======
     $(".menu_carwegory_area").on("click", function () {
         $(".menu_carwegory_list").toggleClass("show");
     });
+
+
+
+
+    //=======Filter Cetagory add class======
+    $(".menu_1").on("click", function () {
+        $(".filter_1").toggleClass("show");
+    });
+
+
+    //=======Filter Cetagory add class======
+    $(".menu_2").on("click", function () {
+        $(".filter_2").toggleClass("show");
+    });
+    //=======Filter Cetagory add class======
+    $(".menu_3").on("click", function () {
+        $(".filter_3").toggleClass("show");
+    });
+
+    //=======Filter Cetagory add class======
+    $(".menu_4").on("click", function () {
+        $(".filter_4").toggleClass("show");
+    });
+
+    //=======Filter Cetagory add class======
+    $(".menu_5").on("click", function () {
+        $(".filter_5").toggleClass("show");
+    });
+
+
+
+
+
+
+
+
+
+
 
 
 
