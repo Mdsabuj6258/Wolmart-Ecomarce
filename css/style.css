@@ -27,6 +27,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: var(--colorPrimary);
 }
 
 h1,
@@ -5872,11 +5873,17 @@ ul.menu_carwegory_list.show {
     font-size: 35px;
 }
 
+.Shope_both_sidebar_bottom,
 .Shope_list_view_bottom {
     margin-top: 50px;
 }
 
+.Shope_both_sidebar_bottom {
+    border-top: 1px solid var(--colorFurth);
+}
+
 /* shope start */
+.shope_page_both_sidebar_area,
 .shope_page_3_area .vandor_store_content,
 .Shope_list_view_bottom,
 .Shope_list_view .vandor_store_content {
@@ -6665,6 +6672,7 @@ ul.menu_carwegory_list.show {
 }
 
 /* shope 5clom start */
+.both_sidebar .img .icon,
 .shop_5clom .img .icon {
     min-width: 170px;
     gap: 10px;
@@ -6683,6 +6691,7 @@ ul.menu_carwegory_list.show {
     -o-transform: translate(-50%);
 }
 
+.both_sidebar .img .icon li a,
 .shop_5clom .img .icon li a {
     margin: 0;
 }
@@ -6691,12 +6700,133 @@ ul.menu_carwegory_list.show {
     top: 190px;
 }
 
+.both_sidebar .icon li a:hover,
 .shop_5clom .icon li a:hover {
     background: none !important;
     color: var(--colorPrimary) !important;
 }
 
+.both_sidebar:hover h4,
 .shop_5clom:hover h4 {
     visibility: visible;
     opacity: 1;
+}
+
+.both_sidebar .img .icon {
+    top: 240px;
+}
+
+.both_sidebar:hover .icon {
+    top: 220px;
+}
+
+/* orderdone start */
+.order_done_heading {
+    border: 2px solid #e1e1e1;
+    padding: 30px;
+}
+
+.order_done_heading h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.order_done_contant .order_view {
+    margin: 40px 0;
+}
+
+.order_done_contant .order_view li {
+    width: 20%;
+    text-align: center;
+}
+
+.order_done_contant .order_view li p {
+    font-weight: 600;
+}
+
+.order_done_contant .order_view li h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.order_done_contant .order_deteils h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.order_done_contant .order_content {
+    border: 1px solid#cccccc75;
+    padding: 30px 20px;
+}
+
+.order_done_contant .order_content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #cccccc75;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.order_done_contant .order_content .product {
+    margin-bottom: 30px;
+}
+
+.order_done_contant .order_content .product a {}
+
+.order_done_contant .order_content .product span {}
+
+
+.order_done_contant .order_content .Payment_method,
+.order_done_contant .order_content .Shipping,
+.order_done_contant .order_content .subtotal {
+    border-bottom: 1px solid#cccccc75;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.order_done_contant .order_content .Payment_method h5,
+.order_done_contant .order_content .Shipping h5,
+.order_done_contant .order_content .subtotal h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.order_done_contant .order_content .Payment_method span,
+.order_done_contant .order_content .Shipping span,
+.order_done_contant .order_content .subtotal span {
+    font-weight: 700;
+}
+
+.order_done_contant .order_content .total h5 {
+    font: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.order_done_contant .sub_order h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.order_done_contant .sub_order .sub_order_alart {
+    border: 1px dashed #e5e5e5;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.order_done_contant .sub_order .sub_order_alart span {
+    color: #799b5a;
+}
+
+.order_done_contant .sub_order .sub_order_alart span h5 {}
+
+.order_done_contant .sub_order .sub_order_alart p {
+    width: 90%;
+}
+
+.order_done_btn button {
+    font-size: 15px;
 }
