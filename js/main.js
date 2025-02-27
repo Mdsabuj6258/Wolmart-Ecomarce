@@ -631,11 +631,33 @@ $(function () {
 
     /*==============ZOOM==================*/
     $(".zoom").elevateZoom({
-        zoomType: "",
+        zoomType: "outer",
+    });
+    // Hot dell slider
+    $('.slider-for-1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        asNavFor: '.slider-nav',
+        autoplay: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+    });
+    $('.slider-nav-1').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        vertical: true,
+        focusOnSelect: true,
+        autoplay: false,
+        dots: false,
+        arrows: false,
+        centerMode: false,
     });
 
 
-    // listing details slider
+    // Hot dell slider
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -651,7 +673,7 @@ $(function () {
         asNavFor: '.slider-for',
         dots: false,
         focusOnSelect: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         arrows: false,
         centerMode: false,
@@ -756,7 +778,13 @@ $(function () {
     });
 
 
-
+    //=========calender.js=========   
+    $(function () {
+        $('#calendar_js').calendar({
+            months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        });
+    });
 
 
 

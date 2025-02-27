@@ -39,7 +39,7 @@ h6 {
     margin: 0;
     padding: 0;
     color: var(--colorBlack);
-
+    font-family: 'Poppins';
 }
 
 p,
@@ -88,7 +88,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 input::placeholder,
@@ -112,8 +112,16 @@ button {
     --colorRed: #cc0001;
     --colorWhite: #ffffff;
     --paraFont: 'Roboto', sans-serif;
-    --headingFont: "Poppins", serif;
+    --headingFont: "Poppins", sans-serif;
     --titleFont: "Open Sans", serif;
+}
+
+button {
+    background: none;
+}
+
+header {
+    font-family: "Poppins", sans-serif;
 }
 
 .pagenation_area nav ul {
@@ -144,8 +152,8 @@ button {
 }
 
 .common_btn {
-    padding: 12px 30px;
-    font-size: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
     font-weight: 500;
     font-family: var(--paraFont);
     color: var(--colorBlack);
@@ -160,6 +168,10 @@ button {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+
+.common_btn i {
+    margin-left: 5px;
 }
 
 .common_btn:hover {
@@ -188,6 +200,7 @@ button {
 
 .common_btn_2:hover {
     background: #0e0d0d;
+    color: var(--colorWhite);
 }
 
 .common_btn_3 {
@@ -531,7 +544,8 @@ button {
 
 .topbar_right a {
     color: var(--colorBlack);
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .topbar_right a:hover {
@@ -544,6 +558,13 @@ button {
     outline: none;
     padding-left: 5px;
     padding-right: 25px;
+    background: #f5f6f8;
+    border: none;
+}
+
+.topbar_right .nice-select span {
+    font-size: 12px;
+    color: var(--colorBlack);
 }
 
 .topbar_right .curancy {
@@ -554,11 +575,15 @@ button {
 .topbar_right .curancy::after {
     position: absolute;
     content: "";
-    height: 30px;
+    height: 17px;
     width: 1px;
     background: var(--colorFurth);
-    top: -4px;
+    top: 4px;
     right: -15px;
+}
+
+.topbar_right .oblik {
+    color: #999;
 }
 
 
@@ -571,12 +596,22 @@ header {
 .header_left {}
 
 .header_left .logo {
-    width: 230px;
+    width: 170px;
 }
 
 .header_left .text {
     border: 2px solid var(--colorPrimary);
     margin-left: 50px;
+    align-items: center;
+}
+
+.header_left .text .cetagory span {
+    font-size: 14px;
+    color: #666;
+}
+
+.header_left .text .cetagory {
+    border-right: 1px solid #66666645;
 }
 
 .header_left .text form {
@@ -782,11 +817,18 @@ header {
 .main_menu .right_menu {
     gap: 20px;
     margin-left: auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+.main_menu .right_menu li a i {
+    margin-right: 5px;
+    font-size: 20px;
 }
 
 .main_menu .right_menu li a {
     color: var(--colorBlack);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -1047,6 +1089,17 @@ header {
     padding-left: 20px;
 }
 
+.about_menu .menu_carwegory_area p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about_menu .menu_carwegory_area p:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
 .menu_carwegory_area p i {}
 
 .menu_carwegory_area .menu_carwegory_list {
@@ -1112,6 +1165,11 @@ header {
     opacity: 1;
     visibility: visible;
     margin-left: 20px;
+}
+
+.menu_carwegory_list .menu-title {
+    border-bottom: 1px solid #cccccc82;
+    padding-bottom: 10px;
 }
 
 /* Banner start */
@@ -1332,6 +1390,18 @@ header {
 }
 
 /* top munth area start */
+.recent_heading h3,
+.blog_heading h3,
+.clint_heading h3,
+.kitchen_heading h3,
+.electric_area_heading h3,
+.apprel_heading h3,
+.popular_cetagory_heading h3,
+.top_munth_cetagory_heading h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
 .top_munth_cetagory {
     background: #f5f5f5;
 }
@@ -1465,6 +1535,7 @@ header {
     color: var(--colorSecoundry);
     border: 1px solid var(--colorFurth);
     font-weight: 500;
+    font-size: 14px;
 }
 
 .popular_cetagory_item {
@@ -1948,7 +2019,7 @@ header {
 }
 
 .recent_item .text .title {
-    color: var(--colorWhite);
+    color: var(--colorWhite) !important;
     font-size: 15px;
     font-weight: 500;
 
@@ -2187,13 +2258,12 @@ header {
 
 .hotdell_small_img {
     cursor: pointer;
-    height: 130px;
-    margin: 0px 5px;
+    height: 105px;
 }
 
 .hotdell_main_img {
     position: relative;
-    height: auto;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -2215,6 +2285,7 @@ header {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    z-index: 999;
 }
 
 .hotdell_main_img::after {
@@ -2384,13 +2455,13 @@ header {
 
 .prevArrow {
     right: auto;
-    left: 380px;
+    left: 295px;
 }
 
 .hotdell_contant .nextArrow,
 .hotdell_contant .prevArrow {
     position: absolute;
-    right: 395px;
+    right: 295px;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -2476,11 +2547,12 @@ ul.menu_carwegory_list.show {
 }
 
 
+
 .about_menu .right_menu {
     gap: 20px;
     margin-left: auto;
-    height: fit-content;
     margin-top: 15px;
+    line-height: initial;
 }
 
 .about_service_img,
@@ -2799,6 +2871,9 @@ ul.menu_carwegory_list.show {
     margin-bottom: 5px;
 }
 
+.contact_accrodian {
+    padding-right: 20px;
+}
 
 .contact_accrodian .accordion-button {
     font-size: 14px;
@@ -2825,11 +2900,11 @@ ul.menu_carwegory_list.show {
 .contact_info_form h4 {
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .contact_info_form input {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .contact_info_form button {
@@ -2851,7 +2926,7 @@ ul.menu_carwegory_list.show {
 }
 
 .contact_info_form button:hover {
-    background: #454545;
+    background: #303030e6;
 }
 
 .contact_location_area iframe {
@@ -3385,7 +3460,7 @@ ul.menu_carwegory_list.show {
 .my_accout_tab ul {}
 
 .my_accout_tab ul li {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #cccccc75;
     width: 300px;
 }
 
@@ -3433,7 +3508,7 @@ ul.menu_carwegory_list.show {
 .my_account_contant .dashboard_box {
     width: 31%;
     height: 180px;
-    border: 1px solid var(--colorFurth);
+    border: 1px solid #cccccc75;
     text-align: center;
     display: inline-flex;
     flex-direction: column;
@@ -4403,7 +4478,6 @@ ul.menu_carwegory_list.show {
 }
 
 .coment_area .single_coment {
-    align-items: center;
     margin-top: 50px;
 }
 
@@ -6646,13 +6720,13 @@ ul.menu_carwegory_list.show {
     width: 190px;
 }
 
-.hotdell_contant .hotdell_text .quantaty .plus::after,
+
 .Product_without_sidebar_contant table form .minus::after {
 
     left: 95px;
 }
 
-.hotdell_contant .hotdell_text .quantaty .minus::after,
+
 .Product_without_sidebar_contant table form .plus::after {
     left: 135px;
 }
