@@ -15,7 +15,6 @@ li {
 }
 
 a {
-    color: var(--colorBlack);
     display: inline-block;
     text-decoration: none;
     transition: all linear .3s;
@@ -27,7 +26,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: var(--colorPrimary);
 }
 
 h1,
@@ -67,7 +65,7 @@ img {
 }
 
 .title {
-    color: var(--colorBlack) !important;
+    color: var(--colorBlack);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -76,7 +74,7 @@ img {
 }
 
 .title:hover {
-    color: var(--colorPrimary) !important;
+    color: var(--colorPrimary);
 }
 
 input,
@@ -562,6 +560,7 @@ header {
     border: none;
 }
 
+.topbar_right .nice-select option,
 .topbar_right .nice-select span {
     font-size: 12px;
     color: var(--colorBlack);
@@ -1078,6 +1077,22 @@ header {
     -o-transition: all linear .3s;
 }
 
+.main_menu .megamenu ul li a .tip.tip-new,
+.main_menu .megamenu ul li a .tip.tip-hot {
+    background: var(--colorOreng);
+    color: var(--colorWhite);
+    font-weight: 500;
+    margin-left: 5px;
+    border-radius: 4px;
+    padding: 0px 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.main_menu .megamenu ul li a .tip.tip-new {
+    background: var(--colorPrimary);
+}
+
 .main_menu .megamenu ul li a:hover {
     color: var(--colorPrimary);
 }
@@ -1093,6 +1108,7 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    transition: all linear .3s;
 }
 
 .about_menu .menu_carwegory_area p:hover {
@@ -1390,6 +1406,7 @@ header {
 }
 
 /* top munth area start */
+
 .recent_heading h3,
 .blog_heading h3,
 .clint_heading h3,
@@ -1707,7 +1724,7 @@ header {
 .kitchen_heading,
 .electric_area_heading,
 .apprel_heading {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     padding-bottom: 20px;
 }
 
@@ -1732,6 +1749,12 @@ header {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+}
+
+.kitchen_heading a i,
+.electric_area_heading a i,
+.apprel_heading a i {
+    margin-left: 3px;
 }
 
 .kitchen_heading a:hover,
@@ -2227,7 +2250,7 @@ header {
 
 /* Hotdell start */
 .hotdell_contant {
-    border: 1px solid var(--colorFurth);
+    border: 1px solid #eee;
     padding: 30px;
     border-radius: 5px;
     transition: all linear .3s;
@@ -2247,18 +2270,21 @@ header {
 }
 
 .hotdell_heading {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     margin-bottom: 30px;
 }
 
+.hotdell_sidbar_heading h3,
 .hotdell_heading h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .hotdell_small_img {
     cursor: pointer;
     height: 105px;
+    overflow: hidden;
 }
 
 .hotdell_main_img {
@@ -2313,7 +2339,7 @@ header {
 .ofer_time .simply-countdown-one {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
 }
 
 .ofer_time .simply-word,
@@ -2322,12 +2348,15 @@ header {
     font-weight: 700;
 }
 
+
+
 .ofer_time .simply-word {
     display: none;
 }
 
 .ofer_time .simply-days-section .simply-word {
     display: block;
+    margin-left: 5px;
 }
 
 .ofer_time .simply-days-section>div {
@@ -2346,7 +2375,7 @@ header {
 
 
 .hotdell_text h3 {
-    border-top: 1px solid var(--colorFurth);
+    border-top: 1px solid #eee;
     padding-top: 30px;
     margin-top: 10px;
     font-weight: 700;
@@ -2404,7 +2433,7 @@ header {
 
 .hotdell_text .buttom {
     margin-top: 30px;
-    border-top: 1px solid var(--colorFurth);
+    border-top: 1px solid #eee;
     padding-top: 20px;
     gap: 30px;
     align-items: center;
@@ -2448,7 +2477,7 @@ header {
 .hotdell_text .buttom .wish_list a:hover,
 .hotdell_text .size a:hover,
 .hotdell_text .title:hover {
-    border-color: var(--colorPrimary);
+    border-color: var(--colorPrimary) !important;
 }
 
 
@@ -2474,7 +2503,8 @@ header {
 .hotdell_sidbar {
     padding: 30px;
     border-radius: 5px;
-    border: 1px solid var(--colorFurth);
+    border: 1px solid #eee;
+    );
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -2487,13 +2517,9 @@ header {
 }
 
 .hotdell_sidbar .hotdell_sidbar_heading {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
+    );
     margin-bottom: 30px;
-}
-
-.hotdell_sidbar .hotdell_sidbar_heading h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
 }
 
 .hotdell_sidbar .hotdell_sidbar_contant {
@@ -2551,8 +2577,6 @@ ul.menu_carwegory_list.show {
 .about_menu .right_menu {
     gap: 20px;
     margin-left: auto;
-    margin-top: 15px;
-    line-height: initial;
 }
 
 .about_service_img,
@@ -3083,12 +3107,14 @@ ul.menu_carwegory_list.show {
 .wishlist_text table .produti_img button {
     position: absolute;
     background: var(--colorWhite);
-    border: 1px solid var(--colorFurth);
+    border: 2px solid #fff;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    top: -10px;
-    left: 80px;
+    height: 20px;
+    width: 20px;
+    top: -15px;
+    left: 87px;
+    font-size: 12px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -3114,8 +3140,8 @@ ul.menu_carwegory_list.show {
 }
 
 .wishlist_text table .common_btn {
-    padding: 7px 16px;
-    border-color: var(--colorFurth);
+    padding: 7px 30px;
+    border: 1px solid var(--colorFurth);
     margin-right: 5px;
     font-size: 15px;
 }
@@ -3127,6 +3153,7 @@ ul.menu_carwegory_list.show {
 
 .wishlist_text table .common_btn_2 {
     font-size: 15px;
+    padding: 7px 30px;
 }
 
 .socal_link {
@@ -3162,8 +3189,14 @@ ul.menu_carwegory_list.show {
 .wishlist_text table .title,
 .Shoping_cart_text table .title {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 10px;
+    color: var(--colorSecoundry);
+}
+
+.wishlist_text table .title:hover,
+.Shoping_cart_text table .title:hover {
+    color: var(--colorPrimary);
 }
 
 .Shoping_cart_text table form {
@@ -3460,7 +3493,7 @@ ul.menu_carwegory_list.show {
 .my_accout_tab ul {}
 
 .my_accout_tab ul li {
-    border-bottom: 1px solid #cccccc75;
+    border-bottom: 1px solid #eee;
     width: 300px;
 }
 
@@ -3508,7 +3541,7 @@ ul.menu_carwegory_list.show {
 .my_account_contant .dashboard_box {
     width: 31%;
     height: 180px;
-    border: 1px solid #cccccc75;
+    border: 1px solid #eee;
     text-align: center;
     display: inline-flex;
     flex-direction: column;
@@ -3543,6 +3576,7 @@ ul.menu_carwegory_list.show {
 
 .my_account_contant .dashboard_box:hover p {
     color: var(--colorPrimary);
+    text-decoration: underline;
 }
 
 .my_account_contant .dashboard_box:hover .icon {
@@ -4634,9 +4668,13 @@ ul.menu_carwegory_list.show {
 
 
 .single_vendor .text .title {
-    color: var(--colorWhite);
+    color: var(--colorWhite) !important;
     font-weight: 700;
     font-size: 18px;
+}
+
+.single_vendor .text .title:hover {
+    color: var(--colorPrimary) !important;
 }
 
 .single_vendor .text .retting {
@@ -4667,6 +4705,27 @@ ul.menu_carwegory_list.show {
 
 .single_vendor .vendor_button {
     padding: 20px 0px 20px 30px;
+}
+
+.single_vendor .vendor_button .vendor_btn a {
+    color: var(--colorBlack);
+    background: #eee;
+    padding: 7px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.single_vendor .vendor_button .vendor_btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.single_vendor .vendor_button .vendor_btn a:hover {
+    color: var(--colorWhite);
+    background: var(--colorBlack);
 }
 
 .vandor_info_3 .text .logo,
@@ -4729,8 +4788,7 @@ ul.menu_carwegory_list.show {
     border-radius: 5px;
     overflow: hidden;
     margin-top: 25px;
-    border: 1px solid var(--colorFurth);
-
+    border: 1px solid #eee;
 }
 
 .single_vandor_list .text {
@@ -4820,6 +4878,10 @@ ul.menu_carwegory_list.show {
 
 .single_vandor_list .text .common_btn_3 {
     margin-top: 15px;
+}
+
+.single_vandor_list .text .common_btn_3:hover {
+    color: var(--colorBlack);
 }
 
 .vendor_grid_map iframe {
@@ -4939,7 +5001,7 @@ ul.menu_carwegory_list.show {
 
 .single_vendor_3 .text .title {
     font-size: 18px;
-    color: var(--colorWhite);
+    color: var(--colorWhite) !important;
     margin-bottom: 10px;
     font-weight: 700;
 }

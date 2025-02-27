@@ -630,8 +630,11 @@ $(function () {
 
 
     /*==============ZOOM==================*/
-    $(".zoom").elevateZoom({
-        zoomType: "outer",
+    $('.zoom_01').elevateZoom({
+        zoomType: "inner",
+        cursor: "crosshair",
+        zoomWindowFadeIn: 500,
+        zoomWindowFadeOut: 750
     });
     // Hot dell slider
     $('.slider-for-1').slick({
