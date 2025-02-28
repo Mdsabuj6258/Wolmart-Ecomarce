@@ -42,7 +42,7 @@ h6 {
 
 p,
 span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0;
 
@@ -516,6 +516,10 @@ header {
     font-size: 18px;
 }
 
+.table {
+    border-color: #eee !important;
+}
+
 /* Gobal css end */
 
 
@@ -538,6 +542,11 @@ header {
     gap: 20px;
     justify-content: end;
     align-items: center;
+}
+
+.topbar_right .langauge,
+.topbar_right .curancy {
+    margin-top: 5px;
 }
 
 .topbar_right a {
@@ -577,7 +586,7 @@ header {
     height: 17px;
     width: 1px;
     background: var(--colorFurth);
-    top: 4px;
+    top: 2px;
     right: -15px;
 }
 
@@ -605,8 +614,9 @@ header {
 }
 
 .header_left .text .cetagory span {
-    font-size: 14px;
+    font-size: 13px;
     color: #666;
+    font-weight: 300;
 }
 
 .header_left .text .cetagory {
@@ -621,6 +631,10 @@ header {
 .header_left .text form input {
 
     border: none;
+
+    font-weight: 300;
+
+    font-size: 13px;
 }
 
 .header_left .text form button {
@@ -658,14 +672,14 @@ header {
 .header_right .call_info .icon i {
     font-size: 30px;
     margin-right: 10px;
-    color: var(--colorSecoundry);
+    color: var(--colorBlack);
 }
 
 .header_right .call_info .text {}
 
 .header_right .call_info .text a {
     font-size: 13px;
-    color: var(--colorSecoundry);
+    color: var(--colorBlack);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -680,7 +694,7 @@ header {
 
 .header_right .call_info .text .call_number {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .header_right .wishlist {}
@@ -1294,10 +1308,9 @@ header {
 /* freeshoping start */
 .frreshoping_area .freeshoping_content {
     margin-top: 20px;
-    border: 1px solid var(--colorFurth);
+    border: 1px solid #eee;
     padding: 20px 30px;
     gap: 100px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -1307,6 +1320,7 @@ header {
 
 .frreshoping_area .freeshoping_content li {
     align-items: center;
+    margin-left: 45px;
 }
 
 .frreshoping_area .freeshoping_content li .icon {
@@ -1317,8 +1331,8 @@ header {
 
 
 .frreshoping_area .freeshoping_content li .text h4 {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 /* cetagory_area start */
@@ -1453,8 +1467,8 @@ header {
     position: absolute;
     bottom: 25px;
     left: 50%;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     color: var(--colorBlack);
     transform: translateX(-50%);
     transition: all linear .3s;
@@ -1498,7 +1512,7 @@ header {
     position: absolute;
     content: "";
     width: 0px;
-    height: 2px;
+    height: 3px;
     background: var(--colorPrimary);
     bottom: 0;
     left: 50%;
@@ -1646,12 +1660,18 @@ header {
 
 .single_popular .text .title {
     font-weight: 500;
+    font-size: 13px;
+}
+
+.single_popular .text h5 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .single_popular .text .retting {
     color: var(--paraColor);
     margin: 5px 0px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -1686,13 +1706,16 @@ header {
 .women_cetagory .single_cetagory .text_left h5 {
     color: var(--colorFurth);
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .women_cetagory .single_cetagory .text_left h3 {
     color: var(--colorWhite);
     font-weight: 700;
+    font-size: 25px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .women_cetagory .single_cetagory .text_left a {
@@ -1704,11 +1727,15 @@ header {
 .women_cetagory .single_cetagory .text_right h5 {
     color: var(--colorSecoundry);
     text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .women_cetagory .single_cetagory .text_right h3 {
     font-weight: 700;
     margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .women_cetagory .single_cetagory .text_right a {
@@ -1963,13 +1990,13 @@ header {
 .single_blog .text .name a {
     color: var(--colorBlack);
     font-weight: 500;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+
 }
 
+.single_blog .text .title:hover,
+.single_blog .text .name a:hover {
+    color: var(--colorPrimary);
+}
 
 .single_blog .text .read_more_btn {
     color: var(--colorBlack);
@@ -2099,7 +2126,7 @@ header {
 }
 
 .Subscribe_form button:hover {
-    background: var(--colorSecoundry);
+    background: #0c0b0bc7;
 }
 
 /* Footer start */
@@ -2118,7 +2145,7 @@ header {
 
 .footer_logo .number {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--colorBlack);
     margin-top: 10px;
     margin-bottom: 10px;
@@ -2191,8 +2218,8 @@ header {
 }
 
 .footer_secound_contant ul h2 {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
     color: var(--colorSecoundry);
 }
 
@@ -2228,7 +2255,7 @@ header {
 }
 
 .footer_secound_contant {
-    border-top: 1px solid var(--colorFurth);
+    border-top: 1px solid #eee;
     padding-top: 50px;
 }
 
@@ -2241,11 +2268,14 @@ header {
 }
 
 .copyright_contant {
-    border-top: 1px solid var(--colorFurth);
+    border-top: 1px solid #eee;
     padding-top: 30px;
     margin: 20px 0;
 }
 
+.copyright_contant p {
+    font-size: 14px;
+}
 
 
 /* Hotdell start */
@@ -2266,7 +2296,7 @@ header {
 
 .hotdell_sidbar:hover,
 .hotdell_contant:hover {
-    border-color: var(--colorSecoundry);
+    border-color: var(--colorPrimary);
 }
 
 .hotdell_heading {
@@ -2370,7 +2400,7 @@ header {
 
 .hotdell_text .title {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
@@ -2378,6 +2408,7 @@ header {
     border-top: 1px solid #eee;
     padding-top: 30px;
     margin-top: 10px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -2416,6 +2447,9 @@ header {
 
 .hotdell_text .quantaty {
     position: relative;
+    border-top: 1px solid #eee;
+    );
+    padding-top: 20px;
 }
 
 .hotdell_text .quantaty input {
@@ -2432,9 +2466,7 @@ header {
 }
 
 .hotdell_text .buttom {
-    margin-top: 30px;
-    border-top: 1px solid #eee;
-    padding-top: 20px;
+    margin-top: 20px;
     gap: 30px;
     align-items: center;
 }
@@ -2462,10 +2494,21 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    position: relative;
+}
+
+.hotdell_text .buttom .wish_list::after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 1px;
+    background: var(--colorFurth);
+    left: -15px;
+    top: 3px;
 }
 
 .hotdell_text .buttom .wish_list a {
-    font-size: 25px;
+    font-size: 18px;
     color: var(--colorBlack);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -3233,7 +3276,7 @@ ul.menu_carwegory_list.show {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    top: 10px;
+    top: 30px;
     left: 60px;
 }
 
@@ -3255,7 +3298,7 @@ ul.menu_carwegory_list.show {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    top: 10px;
+    top: 30px;
     left: 95px;
 }
 
@@ -4056,13 +4099,11 @@ ul.menu_carwegory_list.show {
 .clasic_sidebar_cetagory ul li a {
     color: var(--colorBlack);
     margin-bottom: 10px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
 }
 
+.clasic_sidebar_cetagory ul li a:hover {
+    color: var(--colorPrimary);
+}
 
 .clasic_sidebar_popular_post ul li {
     display: flex;
@@ -4348,6 +4389,9 @@ ul.menu_carwegory_list.show {
     margin-top: 20px;
 }
 
+.Sigle_blog_item .img_text a {
+    color: var(--colorBlack);
+}
 
 
 .Sigle_blog_item .img_title {
@@ -4355,12 +4399,26 @@ ul.menu_carwegory_list.show {
     font-weight: 700;
     margin-bottom: 30px;
     margin-top: 10px;
+    color: var(--colorBlack);
+}
+
+.Sigle_blog_item .img_text a:hover,
+.Sigle_blog_item .img_title:hover {
+    color: var(--colorPrimary);
 }
 
 .Sigle_blog_item p {
     margin: 15px 0;
-    font-family: var(--headingFont);
-    font-size: 14px;
+    font-family: 'Poppins';
+    text-transform: lowercase;
+}
+
+.Sigle_blog_item p a {
+    color: var(--colorPrimary);
+}
+
+.Sigle_blog_item p a:hover {
+    text-decoration: underline;
 }
 
 .Sigle_blog_item h2 {}
@@ -4377,7 +4435,7 @@ ul.menu_carwegory_list.show {
     position: relative;
     margin-bottom: 10px;
     margin-left: 15px;
-    color: var(--colorBlack);
+    font-size: 14px;
 }
 
 .Sigle_blog_item .list li::after {
@@ -4389,14 +4447,14 @@ ul.menu_carwegory_list.show {
     width: 20px;
     height: 20px;
     line-height: 20px;
-    color: var(--colorBlack);
+    color: var(--paraColor);
     text-align: center;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    top: 3px;
+    top: 0px;
     left: -20px;
 }
 
@@ -4462,10 +4520,24 @@ ul.menu_carwegory_list.show {
 }
 
 .Sigle_blog_item .author .text .heading h4 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.Sigle_blog_item .author .text .heading a {
+    font-size: 15px;
+    color: var(--colorPrimary);
+}
+
+.Sigle_blog_item .author .text .heading a i {
+    margin-left: 3px;
+}
+
+.Sigle_blog_item .author .text .heading a:hover {
+    text-decoration: underline;
 }
 
 .Sigle_blog_item .author .text .heading h4 p {
@@ -4479,11 +4551,21 @@ ul.menu_carwegory_list.show {
 .Sigle_blog_item .next_prev_btn {
     margin-top: 50px;
     padding-bottom: 40px;
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
+    );
 }
 
 .Sigle_blog_item .next_prev_btn h4 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Sigle_blog_item .next_prev_btn .next_btn h4 i {
+    margin-left: 3px;
+}
+
+.Sigle_blog_item .next_prev_btn .prev_btn h4 i {
+    margin-right: 3px;
 }
 
 .Sigle_blog_item .next_prev_btn .common_btn_3 {
@@ -4497,8 +4579,16 @@ ul.menu_carwegory_list.show {
 }
 
 .Sigle_blog_item .releted_post {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     padding-bottom: 40px;
+}
+
+
+.coment_area h3,
+.Sigle_blog_item .form h3,
+.Sigle_blog_item .releted_post h3 {
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .Sigle_blog_item .releted_post .single_blog {
@@ -4507,12 +4597,23 @@ ul.menu_carwegory_list.show {
 
 .coment_area {
     margin-top: 40px;
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     padding-bottom: 50px;
 }
 
+.coment_area h3 {}
+
 .coment_area .single_coment {
     margin-top: 50px;
+}
+
+.coment_area .single_coment .common_btn_3:hover {
+    color: var(--colorPrimary);
+}
+
+.coment_area .single_coment .common_btn_3::after {
+    background: var(--colorPrimary);
+    height: 2px;
 }
 
 .coment_area .single_coment .img {
@@ -4533,6 +4634,11 @@ ul.menu_carwegory_list.show {
 
 .Sigle_blog_item .form {
     margin-top: 40px;
+}
+
+.Sigle_blog_item .form textarea,
+.Sigle_blog_item .form input {
+    border-color: #eee;
 }
 
 .Sigle_blog_item .form form .input {
@@ -5929,7 +6035,7 @@ ul.menu_carwegory_list.show {
     color: var(--colorBlack);
     padding: 4px 8px;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .filter_cetagory .filter_menu {
@@ -5953,6 +6059,7 @@ ul.menu_carwegory_list.show {
 
 .filter_cetagory .filter_menu .filter_nav {
     color: var(--colorBlack);
+    font-size: 13px;
 }
 
 .filter_cetagory .filter_menu .filter_nav i {
@@ -6024,6 +6131,13 @@ ul.menu_carwegory_list.show {
 .Shope_list_view_bottom,
 .Shope_list_view .vandor_store_content {
     padding: 0 50px;
+}
+
+.active>.page-link,
+.page-link.active {
+    color: var(--bs-pagination-active-color);
+    background-color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
 }
 
 .pasination nav ul {
@@ -6956,8 +7070,6 @@ ul.menu_carwegory_list.show {
 .order_done_contant .sub_order .sub_order_alart span {
     color: #799b5a;
 }
-
-.order_done_contant .sub_order .sub_order_alart span h5 {}
 
 .order_done_contant .sub_order .sub_order_alart p {
     width: 90%;
