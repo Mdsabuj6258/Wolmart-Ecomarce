@@ -2315,6 +2315,7 @@ header {
     cursor: pointer;
     height: 105px;
     overflow: hidden;
+    margin: 0 5px;
 }
 
 .hotdell_main_img {
@@ -2526,7 +2527,6 @@ header {
 
 
 .prevArrow {
-    right: auto;
     left: 295px;
 }
 
@@ -2543,11 +2543,20 @@ header {
     z-index: 1;
 }
 
+.Variable_Product .nextArrow,
+.Variable_Product .prevArrow {
+    right: 410px;
+}
+
+.Variable_Product .prevArrow {
+    right: auto;
+    left: 410px;
+}
+
 .hotdell_sidbar {
     padding: 30px;
     border-radius: 5px;
     border: 1px solid #eee;
-    );
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -2561,7 +2570,6 @@ header {
 
 .hotdell_sidbar .hotdell_sidbar_heading {
     border-bottom: 1px solid #eee;
-    );
     margin-bottom: 30px;
 }
 
@@ -5436,8 +5444,9 @@ ul.menu_carwegory_list.show {
 }
 
 .store_item .text .title {
-    font-size: 15px;
-
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins';
 }
 
 
@@ -6261,7 +6270,7 @@ ul.menu_carwegory_list.show {
 }
 
 .hotdell_contant .hotdell_text .list {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     padding-bottom: 20px;
 }
 
@@ -6293,6 +6302,7 @@ ul.menu_carwegory_list.show {
     margin-top: 10px;
     font-size: 14px;
     margin-left: 20px;
+    font-family: var(--paraFont);
 }
 
 .Variable_Product_tab .discription .text .list li::after,
@@ -6300,7 +6310,7 @@ ul.menu_carwegory_list.show {
     position: absolute;
     content: "\f00c";
     font-family: "font awesome 5 free";
-    color: var(--colorSecoundry);
+    color: #666666b5;
     left: -17px;
     font-size: 11px;
     font-weight: 600;
@@ -6331,7 +6341,7 @@ ul.menu_carwegory_list.show {
 }
 
 .Variable_sidebar .refeshing {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
@@ -6445,10 +6455,7 @@ ul.menu_carwegory_list.show {
     margin-bottom: 20px;
 }
 
-.Variable_Product_tab .discription .text .list li {
-    color: var(--colorBlack);
-    font-weight: 500;
-}
+.Variable_Product_tab .discription .text .list li {}
 
 .video_gallery_item {
     position: relative;
@@ -6558,6 +6565,7 @@ ul.menu_carwegory_list.show {
 
 .store_item.Variable_releted_product .Quick_View {
     text-align: center;
+    bottom: 84px;
 }
 
 .store_item.Variable_Product_item .Quick_View {
@@ -6885,6 +6893,8 @@ ul.menu_carwegory_list.show {
 /* Data_Accordion start */
 .Data_Accordion .hotdell_text .list {
     border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Product without sidebar start*/
@@ -7077,4 +7087,101 @@ ul.menu_carwegory_list.show {
 
 .order_done_btn button {
     font-size: 15px;
+}
+
+.extnded_content {
+    border: none;
+}
+
+.extnded_content .hotdell_main_img {
+    height: 495px;
+    overflow: hidden;
+    display: block;
+}
+
+.store_item.Variable_Product_item .Quick_View {
+    bottom: 102px;
+    text-align: center;
+}
+
+.Frequently_contant {
+    gap: 50px;
+    align-items: center;
+}
+
+.Frequently_bought_heading h3 {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.single_Frequently {
+    max-width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.single_Frequently .img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.single_Frequently .img .form-check {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.single_Frequently .img .form-check-input[type=checkbox] {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    --bs-form-check-bg: none;
+    border-color: var(--colorFurth);
+}
+
+.single_Frequently .text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.single_Frequently .text .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.single_Frequently .text h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Frequently_total {
+    width: 20%;
+    text-align: start;
+    margin-left: 80px;
+}
+
+.Frequently_total h2 {
+    color: var(--colorPrimary);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.Frequently_total p {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.Frequently_total .common_btn_2 {
+    font-size: 15px;
+    padding: 10px 30px;
 }
