@@ -849,7 +849,9 @@ header {
     font-weight: 600;
 }
 
-
+.main_menu .right_menu li a:hover {
+    color: var(--colorPrimary);
+}
 
 
 .main_menu .right_menu li .common_btn {
@@ -4680,7 +4682,7 @@ ul.menu_carwegory_list.show {
 .off_canvas .fitler_btn,
 .vendor_header .vendor_header_left a {
     border: 2px solid var(--colorPrimary);
-    padding: 6px 10px;
+    padding: 6px 15px;
     color: var(--colorPrimary);
     font-size: 16px;
     text-transform: uppercase;
@@ -5270,7 +5272,7 @@ ul.menu_carwegory_list.show {
 }
 
 .vandor_store_sidebar .accordion-item ul li a {
-    margin-top: 10px;
+    margin-top: 15px;
     color: var(--colorBlack);
 }
 
@@ -5418,7 +5420,7 @@ ul.menu_carwegory_list.show {
 
 .content_header .right .link a {
     font-size: 25px;
-    color: var(--colorSecoundry);
+    color: #dadada;
 }
 
 .content_header .right .link a.active,
@@ -6154,6 +6156,7 @@ ul.menu_carwegory_list.show {
 .Shope_both_sidebar_bottom,
 .Shope_list_view_bottom {
     margin-top: 50px;
+    border-top: 1px solid #eee;
 }
 
 .Shope_both_sidebar_bottom {
@@ -6231,7 +6234,7 @@ ul.menu_carwegory_list.show {
 }
 
 .off_canvas .form-check {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .Sidebar_price .price_range .price_btn {
@@ -7248,4 +7251,52 @@ ul.menu_carwegory_list.show {
 .Variable_Product .grid_img {
     height: 250px;
     margin-bottom: 20px;
+}
+
+.vandor_store_content {
+    padding: 0 50px;
+}
+
+.col-xl-1-8 {
+    max-width: 12.5%;
+}
+
+.vandor_store_content .shope7clom .img .icon,
+.vandor_store_content .shope8clom .img .icon {
+    top: 190px;
+    background: var(--colorWhite);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.vandor_store_content .shope7clom .img .icon {
+    top: 220px;
+    right: 35px;
+}
+
+.vandor_store_content .shope7clom .img .icon a,
+.vandor_store_content .shope8clom .img .icon a {
+    margin-bottom: 0;
+}
+
+.vandor_store_content .shope8clom:hover .icon {
+    top: 175px;
+}
+
+.vandor_store_content .shope7clom:hover .icon {
+    top: 205px;
+}
+
+.vandor_store_content .shope7clom .text h4,
+.vandor_store_content .shope8clom .text h4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.col-xl-1-7 {
+    max-width: 14%;
+}
+
+.Shope_list_view_with_sidebar .vandor_store_content {
+    padding: 0;
 }
