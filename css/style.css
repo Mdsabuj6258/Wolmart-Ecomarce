@@ -7250,7 +7250,7 @@ ul.menu_carwegory_list.show {
 
 .Variable_Product .grid_img {
     height: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .vandor_store_content {
@@ -7299,4 +7299,8 @@ ul.menu_carwegory_list.show {
 
 .Shope_list_view_with_sidebar .vandor_store_content {
     padding: 0;
+}
+
+.extnded_content .hotdell_text {
+    margin-left: 0;
 }
