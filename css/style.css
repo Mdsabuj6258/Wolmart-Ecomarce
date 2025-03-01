@@ -2433,6 +2433,8 @@ header {
 .hotdell_text .size a {
     color: var(--colorSecoundry);
     padding: 3px 5px;
+    font-size: 13px;
+    font-family: 'Poppins';
     border: 1px solid var(--colorFurth);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
