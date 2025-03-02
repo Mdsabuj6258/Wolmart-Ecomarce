@@ -14,6 +14,12 @@ li {
     padding: 0;
 }
 
+.form-check-input:focus {
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -427,12 +433,13 @@ header {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     margin-bottom: 0;
+    height: 180px;
 }
 
 .breadcrumb_overlay {
     background: rgba(47, 38, 57, .8);
     backdrop-filter: blur(0px);
-    padding: 145px 0px 65px 0px;
+    padding: 52px 0px 55px 0px;
     width: 100%;
 }
 
@@ -1296,6 +1303,7 @@ header {
 }
 
 .banner_3 .banner_text h1 span {
+    position: relative;
     background: var(--colorOreng);
     color: var(--colorWhite);
     font-weight: 700;
@@ -1305,6 +1313,11 @@ header {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+
+.banner_3 .banner_text h1 span::after {
+    position: absolute;
+    content: "";
 }
 
 .banner_3 .banner_text p {
@@ -2326,6 +2339,10 @@ header {
     margin: 0 5px;
 }
 
+.hotdell_img_area {
+    overflow: hidden;
+}
+
 .hotdell_main_img {
     position: relative;
     height: 450px;
@@ -2353,9 +2370,9 @@ header {
     z-index: 999;
 }
 
-.hotdell_main_img::after {
+.hotdell_main_img span {
     position: absolute;
-    content: "OFF 25%";
+    content: "";
     color: var(--colorWhite);
     background: var(--colorOreng);
     width: 71px;
@@ -2459,7 +2476,6 @@ header {
 .hotdell_text .quantaty {
     position: relative;
     border-top: 1px solid #eee;
-    );
     padding-top: 20px;
 }
 
@@ -2537,13 +2553,13 @@ header {
 
 
 .prevArrow {
-    left: 295px;
+    left: 20px;
 }
 
 .hotdell_contant .nextArrow,
 .hotdell_contant .prevArrow {
     position: absolute;
-    right: 295px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -2555,12 +2571,7 @@ header {
 
 .Variable_Product .nextArrow,
 .Variable_Product .prevArrow {
-    right: 410px;
-}
-
-.Variable_Product .prevArrow {
-    right: auto;
-    left: 410px;
+    right: 20px;
 }
 
 .vertical_sidebar,
@@ -3391,6 +3402,10 @@ ul.menu_carwegory_list.show {
     font-weight: 700;
 }
 
+.custom-checkbox:checked {
+    background: var(--colorBlack);
+}
+
 .Shoping_cart_sidebar .form-check-input:checked {
     background-color: var(--colorBlack);
     border-color: var(--colorBlack);
@@ -4068,6 +4083,7 @@ ul.menu_carwegory_list.show {
 
 .single_clasic .clasic_post {
     margin-top: 10px;
+    color: var(--colorBlack);
 }
 
 .single_clasic .title {
@@ -4577,7 +4593,6 @@ ul.menu_carwegory_list.show {
     margin-top: 50px;
     padding-bottom: 40px;
     border-bottom: 1px solid #eee;
-    );
 }
 
 .Sigle_blog_item .next_prev_btn h4 {
@@ -5554,6 +5569,38 @@ ul.menu_carwegory_list.show {
 
 .store_list_item .img {
     width: 30%;
+    position: relative;
+}
+
+.store_list_item .img .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+    background: var(--colorWhite);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.store_list_item .img .icon:hover {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+}
+
+.store_list_item .img:hover .icon {
+    visibility: visible;
+    opacity: 1;
 }
 
 .store_list_item .text {
@@ -6006,6 +6053,7 @@ ul.menu_carwegory_list.show {
     color: var(--colorPrimary);
 }
 
+.store_item.shope_4_item h4,
 .store_item.shope_1_item h4 {
     visibility: visible;
     opacity: 1;
@@ -6115,11 +6163,13 @@ ul.menu_carwegory_list.show {
 }
 
 
+.store_item.shope_4_item .img .icon,
 .store_item.shope_1_item .img .icon {
-    top: 303px;
+    top: 265px;
     right: 50%;
     background: var(--colorWhite);
     border-radius: 4px;
+    width: 155px;
     padding: 6px 10px;
     gap: 4px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -6129,16 +6179,25 @@ ul.menu_carwegory_list.show {
     -o-transform: translate(50%);
 }
 
+.store_item.shope_4_item .img .icon {
+    top: 303px;
+}
+
+.store_item.shope_4_item:hover .icon {
+    top: 288px;
+}
+
 .store_item.shope_1_item .text .title {
     margin: 5px 0;
 }
 
+.store_item.shope_4_item .img .icon li a,
 .store_item.shope_1_item .img .icon li a {
     margin-bottom: 0;
 }
 
 .store_item.shope_1_item:hover .icon {
-    top: 290px;
+    top: 250px;
 }
 
 .shope_page_2_area .banner_content {
@@ -6961,6 +7020,7 @@ ul.menu_carwegory_list.show {
 }
 
 /* shope 5clom start */
+.shop_offcanvas .img .icon,
 .shop_4clom .img .icon,
 .both_sidebar .img .icon,
 .shop_5clom .img .icon {
@@ -6989,6 +7049,7 @@ ul.menu_carwegory_list.show {
     top: 195px;
 }
 
+.shop_offcanvas .img .icon li a,
 .shop_4clom .img .icon li a,
 .both_sidebar .img .icon li a,
 .shop_5clom .img .icon li a {
@@ -7005,6 +7066,7 @@ ul.menu_carwegory_list.show {
     color: var(--colorPrimary) !important;
 }
 
+.shop_offcanvas:hover h4,
 .shop_4clom:hover h4,
 .both_sidebar:hover h4,
 .shop_5clom:hover h4 {
@@ -7018,6 +7080,14 @@ ul.menu_carwegory_list.show {
 
 .both_sidebar:hover .icon {
     top: 255px;
+}
+
+.shop_offcanvas .img .icon {
+    top: 203px;
+}
+
+.shop_offcanvas:hover .img .icon {
+    top: 188px;
 }
 
 /* orderdone start */
@@ -7147,7 +7217,10 @@ ul.menu_carwegory_list.show {
 .Frequently_contant {
     gap: 50px;
     align-items: center;
+    position: relative;
 }
+
+.Frequently_contant::after {}
 
 .Frequently_bought_heading h3 {
     font-size: 20px;
@@ -7161,6 +7234,18 @@ ul.menu_carwegory_list.show {
     text-align: center;
     margin-top: 30px;
     position: relative;
+}
+
+.single_Frequently::after {
+    position: absolute;
+    content: "+";
+    top: 52px;
+    right: -34px;
+    font-size: 28px;
+}
+
+.single_Frequently.last::after {
+    display: none;
 }
 
 .single_Frequently .img {
@@ -7182,6 +7267,7 @@ ul.menu_carwegory_list.show {
     height: 20px;
     --bs-form-check-bg: none;
     border-color: var(--colorFurth);
+    border-radius: 0;
 }
 
 .single_Frequently .text {
@@ -7207,6 +7293,15 @@ ul.menu_carwegory_list.show {
     width: 20%;
     text-align: start;
     margin-left: 80px;
+    position: relative;
+}
+
+.Frequently_total::after {
+    position: absolute;
+    content: "=";
+    top: 15%;
+    left: -75px;
+    font-size: 35px;
 }
 
 .Frequently_total h2 {
@@ -7303,4 +7398,77 @@ ul.menu_carwegory_list.show {
 
 .extnded_content .hotdell_text {
     margin-left: 0;
+}
+
+.modal.show .modal-dialog {
+    justify-content: center;
+}
+
+.modal-content {
+    width: 880px !important;
+}
+
+.modal-body {
+    position: relative;
+}
+
+.modal-body .hotdell_text .quantaty .order_plce button {
+    padding: 12px 45px;
+}
+
+.modal-body .prevArrow {
+    left: 10px;
+}
+
+.modal-body .nextArrow,
+.modal-body .prevArrow {
+    right: 10px;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+
+
+.modal-body .hotdell_text h1 {
+    font-size: 20px;
+}
+
+.modal-body .hotdell_text {
+    margin-top: 10px;
+}
+
+.modal-body .hotdell_text .list li {
+    font-weight: 300;
+}
+
+
+.modal-body .btn-close {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(4339%) hue-rotate(173deg) brightness(124%) contrast(110%);
+}
+
+/* Mobule menu start */
+
+header .mobile_header .logo {
+    width: 150px;
+}
+
+header .mobile_header .mobile_btn {
+    font-size: 25px;
+    color: var(--colorSecoundry);
+}
+
+header .mobile_header .mobile_cart {
+    font-size: 30px;
+    color: var(--colorBlack);
+}
+
+header .mobile_header .offcanvas.show:not(.hiding),
+.offcanvas.showing {
+    width: 300px;
+    background: var(--colorBlack);
 }

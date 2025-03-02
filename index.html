@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 ">
-                    <div class="topbar_right ms-auto d-flex  flex-warp ">
+                    <div class="topbar_right ms-auto d-none d-lg-flex">
                         <div class="langauge">
                             <select class="select_js">
                                 <option value=""> English </option>
@@ -70,11 +70,34 @@
     </section>
 
     <!-- ======Header start====== -->
-    <header class="mt_50 ">
+    <header class="mt_50  xs_mt_0">
         <div class="container">
             <div class="row">
+                <div class="col-xs-12">
+                    <div class="mobile_header d-lg-none d-flex flex-wrap justify-content-between align-items-center">
+                        <button class="mobile_btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                                class="fal fa-bars"></i></button>
+                        <div class="logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
+                        </div>
+                        <span class="mobile_cart"><i class="fal fa-shopping-bag"></i></span>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>sabuj</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-xl-8">
-                    <div class="header_left d-flex flex-warp align-items-center">
+                    <div class="header_left d-flex flex-warp align-items-center  d-none d-lg-flex">
                         <div class="logo">
                             <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
                         </div>
@@ -96,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 d-none d-lg-flex">
                     <div class="header_right d-flex flex-warp">
                         <div class="call_info d-flex flex-warp align-items-center">
                             <div class="icon">
@@ -131,10 +154,11 @@
                 </div>
             </div>
         </div>
+
     </header>
 
     <!-- ======Menu start====== -->
-    <nav class="main_menu">
+    <nav class="main_menu d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
@@ -469,6 +493,7 @@
         </div>
     </nav>
 
+
     <!-- ======Banner start====== -->
     <section class="banner_area ">
         <div class="row banner_slider">
@@ -676,22 +701,27 @@
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-3-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-4-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-3-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-4-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-2-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-4-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                     </div>
                                 </div>
@@ -763,40 +793,50 @@
                                     <div class="col-xl-3 slider-nav-1">
                                         <div class="hotdell_small_img">
                                             <img src="images/1-3-600x675.jpg" alt="image" class="img-fluid">
+
                                         </div>
                                         <div class="hotdell_small_img">
                                             <img src="images/1-3-600x675.jpg" alt="image" class="img-fluid">
+
                                         </div>
                                         <div class="hotdell_small_img">
                                             <img src="images/1-4-600x675.jpg" alt="image" class="img-fluid">
+
                                         </div>
                                         <div class="hotdell_small_img">
                                             <img src="images/1-3-600x675.jpg" alt="image" class="img-fluid">
+
                                         </div>
                                         <div class="hotdell_small_img">
                                             <img src="images/1-2-600x675.jpg" alt="image" class="img-fluid">
+
                                         </div>
                                     </div>
                                     <div class="col-xl-9 slider-for-1">
                                         <div class="hotdell_main_img">
-                                            <img class="zoom_01" src="images/1-3-600x675.jpg" alt="image"
+                                            <img class="zoom_0" src="images/1-3-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-4-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-3-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-4-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-2-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-4-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-3-600x675.jpg">
+                                            <span>Off 25%</span>
                                         </div>
                                     </div>
                                 </div>
@@ -860,7 +900,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 ">
-                    <div class="hotdell_sidbar Variable_Product">
+                    <div class="hotdell_sidbar ">
                         <div class="refeshing">
                         </div>
                         <div class="hotdell_sidbar_heading">
@@ -4056,6 +4096,7 @@
     <script src="js/progress-bar.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.calendar.js"></script>
+    <script src="js/sticky_sidebar.js"></script>
 
 
     <!--main/custom js-->
