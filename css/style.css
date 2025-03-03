@@ -7672,3 +7672,11 @@ header .mobile_header .offcanvas.show:not(.hiding),
 .masonry_content .hotdell_text {
     margin-top: 10px;
 }
+
+.mobile_topbar_left {
+    width: 50%
+}
+
+.mobile_topbar_right {
+    width: 50%;
+}

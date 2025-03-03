@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/progress-bar.css">
+    <link rel="stylesheet" href="css/jquery.calendar.css">
+    <link rel="stylesheet" href="css/animate.css">
+
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -24,14 +27,14 @@
     <!-- ======Topbar start======= -->
     <section class="topbar">
         <div class="container">
-            <div class="row justify-contant-between">
+            <div class="row justify-contant-between d-none d-lg-flex">
                 <div class="col-xl-6">
                     <div class="topbar_left">
                         <p>Welcome to Wolmart Store message or remove it!</p>
                     </div>
                 </div>
                 <div class="col-xl-6 ">
-                    <div class="topbar_right ms-auto d-flex  flex-warp ">
+                    <div class="topbar_right ms-auto d-none d-lg-flex">
                         <div class="langauge">
                             <select class="select_js">
                                 <option value=""> English </option>
@@ -52,15 +55,48 @@
                                 <option value="">RUPI</option>
                             </select>
                         </div>
-                        <a href="blog.html">Blog</a>
-                        <a href="Contact_Us.html">Contact Us</a>
-                        <a href="my_account.htlm">My Account</a>
+                        <a href="blog_grid_4clom.html">Blog</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="my_account_deshboard.html">My Account</a>
                         <div class="sign_register_btn">
-                            <a href="signin.html"><i class="fal fa-user"></i> SIgn In</a>
-                            <span>/</span>
-                            <a class="topbar_register" href="register.html">Register</a>
+                            <a href="my_account_login.html"><i class="fal fa-user"></i> SIgn In</a>
+                            <span class="oblik">/</span>
+                            <a class="topbar_register" href="my_account_signup.html">Register</a>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_topbar d-flex flex-wrap align-items-center d-lg-none">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="mobile_topbar_left">
+                            <marquee behavior="" direction="">Welcome to Wolmart Store message or remove it!</marquee>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="mobile_topbar_right d-flex flex-wrap align-items-center">
+                            <div class="langauge">
+                                <select class="select_js">
+                                    <option value=""> English </option>
+                                    <option value="">Bangla</option>
+                                    <option value="">Chiness</option>
+                                    <option value="">japanis</option>
+                                    <option value="">Aribic</option>
+                                    <option value="">italy</option>
+                                </select>
+                            </div>
+                            <div class="curancy">
+                                <select class="select_js">
+                                    <option value="">USD</option>
+                                    <option value="">YEN</option>
+                                    <option value="">EUR</option>
+                                    <option value="">REAL</option>
+                                    <option value="">BDT</option>
+                                    <option value="">RUPI</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -68,11 +104,34 @@
     </section>
 
     <!-- ======Header start====== -->
-    <header class="mt_50 ">
+    <header class="mt_50  xs_mt_0">
         <div class="container">
             <div class="row">
+                <div class="col-xs-12">
+                    <div class="mobile_header d-lg-none d-flex flex-wrap justify-content-between align-items-center">
+                        <button class="mobile_btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                                class="fal fa-bars"></i></button>
+                        <div class="logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
+                        </div>
+                        <span class="mobile_cart"><i class="fal fa-shopping-bag"></i></span>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>sabuj</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-xl-8">
-                    <div class="header_left d-flex flex-warp align-items-center">
+                    <div class="header_left d-flex flex-warp align-items-center  d-none d-lg-flex">
                         <div class="logo">
                             <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
                         </div>
@@ -94,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 d-none d-lg-flex">
                     <div class="header_right d-flex flex-warp">
                         <div class="call_info d-flex flex-warp align-items-center">
                             <div class="icon">
@@ -102,25 +161,25 @@
                             </div>
                             <div class="text">
                                 <a href="#">Live Chat</a>
-                                or
+                                <span> or</span>
                                 <a class="call_number d-block" href="callTo:123456789">1234556789</a>
                             </div>
 
                         </div>
                         <div class="wishlist text-center">
-                            <a href="#">
+                            <a href="wishlist.html">
                                 <span class="d-block"><i class="far fa-heart"></i></span>
                                 wishlist
                             </a>
                         </div>
                         <div class="compare text-center">
-                            <a href="#">
+                            <a href="compare.html">
                                 <span class="d-block"><i class="fas fa-wagon-covered"></i></span>
                                 Compare
                             </a>
                         </div>
                         <div class="add_curt text-center">
-                            <a href="#">
+                            <a href="cart.html">
                                 <span class="d-block"><i class="far fa-cart-plus"></i></span>
                                 Cart
                             </a>
@@ -129,14 +188,15 @@
                 </div>
             </div>
         </div>
+
     </header>
 
     <!-- ======Menu start====== -->
-    <nav class="main_menu about_menu">
+    <nav class="main_menu about_menu d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
-                    <div class="menu_carwegory_area">
+                    <div class="menu_carwegory_area xs-d-none lg-d-block">
                         <p><i class="far fa-bars"></i> Browse Categories <i class="far fa-angle-down"></i></p>
                         <ul class="menu_carwegory_list">
                             <li>
@@ -145,29 +205,30 @@
                                     <li>
                                         <h4 class="menu-title">Shop Pages</h4>
                                         <ul>
-                                            <li><a href="shop-banner-sidebar.html">Banner With Sidebar</a></li>
-                                            <li><a href="shop-boxed-banner.html">Boxed Banner</a></li>
-                                            <li><a href="shop-fullwidth-banner.html">Full Width Banner</a></li>
-                                            <li><a href="shop-horizontal-filter.html">Horizontal Filter<span
+                                            <li><a href="shope_page_1.html">Banner With Sidebar</a></li>
+                                            <li><a href="shope_page_2.html">Boxed Banner</a></li>
+                                            <li><a href="shope_page_3.html">Full Width Banner</a></li>
+                                            <li><a href="shope_page_4.html">Horizontal Filter<span
                                                         class="tip tip-hot">Hot</span></a></li>
-                                            <li><a href="shop-off-canvas.html">Off Canvas Sidebar<span
-                                                        class="tip tip-new">New</span></a></li>
-                                            <li><a href="shop-infinite-scroll.html">Infinite Ajax Scroll</a>
+                                            <li><a href="shope_page_offcanvas.html">Off Canvas Sidebar<span
+                                                        class="tip tip-new">New</span></a>
                                             </li>
-                                            <li><a href="shop-right-sidebar.html">Right Sidebar</a></li>
-                                            <li><a href="shop-both-sidebar.html">Both Sidebar</a></li>
+                                            <li><a href="shope_page_6.html">Infinite Ajax Scroll</a>
+                                            </li>
+                                            <li><a href="shope_page_right_sidebar.html">Right Sidebar</a></li>
+                                            <li><a href="shope_both_sidebar.html">Both Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <h4 class="menu-title">Shop Layouts</h4>
                                         <ul>
-                                            <li><a href="shop-grid-3cols.html">3 Columns Mode</a></li>
-                                            <li><a href="shop-grid-4cols.html">4 Columns Mode</a></li>
-                                            <li><a href="shop-grid-5cols.html">5 Columns Mode</a></li>
-                                            <li><a href="shop-grid-6cols.html">6 Columns Mode</a></li>
+                                            <li><a href="shope_page_3lolom.html">3 Columns Mode</a></li>
+                                            <li><a href="shope_4_list_view.html">4 Columns Mode</a></li>
+                                            <li><a href="shope_page_5clom.html">5 Columns Mode</a></li>
+                                            <li><a href="shope_page_6clom.html">6 Columns Mode</a></li>
                                             <li><a href="shop-grid-7cols.html">7 Columns Mode</a></li>
                                             <li><a href="shop-grid-8cols.html">8 Columns Mode</a></li>
-                                            <li><a href="shop-list.html">List Mode</a></li>
+                                            <li><a href="shope_list_view.html">List Mode</a></li>
                                             <li><a href="shop-list-sidebar.html">List Mode With Sidebar</a></li>
                                         </ul>
                                     </li>
@@ -280,12 +341,12 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Vandor Listing</a>
+                                        <a href="#">vendor Listing</a>
                                         <ul class="child_menu">
-                                            <li><a href="#">Vandor Listing 1</a></li>
-                                            <li><a href="#">Vandor Listing 2</a></li>
-                                            <li><a href="#">Vandor Listing 3</a></li>
-                                            <li><a href="#">Vandor Listing 4</a></li>
+                                            <li><a href="#">vendor Listing 1</a></li>
+                                            <li><a href="#">vendor Listing 2</a></li>
+                                            <li><a href="#">vendor Listing 3</a></li>
+                                            <li><a href="#">vendor Listing 4</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -305,10 +366,10 @@
                 <div class="col-xl-9 d-flex flex-warp justify-contant-between">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home </a>
+                            <a class="nav-link active" aria-current="page" href="#">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop <i class="far fa-angle-down"></i></a>
+                            <a class="nav-link" href="shope_page_1.html">Shop <i class="far fa-angle-down"></i></a>
                             <ul class="megamenu">
                                 <li>
                                     <h4 class="menu-title">Shop Pages</h4>
@@ -318,25 +379,25 @@
                                         <li><a href="shope_page_3.html">Full Width Banner</a></li>
                                         <li><a href="shope_page_4.html">Horizontal Filter<span
                                                     class="tip tip-hot">Hot</span></a></li>
-                                        <li><a href="shop-off-canvas.html">Off Canvas Sidebar<span
+                                        <li><a href="shope_page_offcanvas.html">Off Canvas Sidebar<span
                                                     class="tip tip-new">New</span></a></li>
-                                        <li><a href="shop-infinite-scroll.html">Infinite Ajax Scroll</a>
+                                        <li><a href="shope_page_5.html">Infinite Ajax Scroll</a>
                                         </li>
-                                        <li><a href="shop-right-sidebar.html">Right Sidebar</a></li>
-                                        <li><a href="shop-both-sidebar.html">Both Sidebar</a></li>
+                                        <li><a href="shope_page_right_sidebar.html">Right Sidebar</a></li>
+                                        <li><a href="shope_both_sidebar.html">Both Sidebar</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <h4 class="menu-title">Shop Layouts</h4>
                                     <ul>
-                                        <li><a href="shop-grid-3cols.html">3 Columns Mode</a></li>
-                                        <li><a href="shop-grid-4cols.html">4 Columns Mode</a></li>
-                                        <li><a href="shop-grid-5cols.html">5 Columns Mode</a></li>
-                                        <li><a href="shop-grid-6cols.html">6 Columns Mode</a></li>
-                                        <li><a href="shop-grid-7cols.html">7 Columns Mode</a></li>
-                                        <li><a href="shop-grid-8cols.html">8 Columns Mode</a></li>
-                                        <li><a href="shop-list.html">List Mode</a></li>
-                                        <li><a href="shop-list-sidebar.html">List Mode With Sidebar</a></li>
+                                        <li><a href="shope_page_3lolom.html">3 Columns Mode</a></li>
+                                        <li><a href="shope_page_4clom.html">4 Columns Mode</a></li>
+                                        <li><a href="shope_page_5clom.html">5 Columns Mode</a></li>
+                                        <li><a href="shope_page_6.html">6 Columns Mode</a></li>
+                                        <li><a href="shope_page_7clom.html">7 Columns Mode</a></li>
+                                        <li><a href="shope_page_8clom.html">8 Columns Mode</a></li>
+                                        <li><a href="shope_list_view .html">List Mode</a></li>
+                                        <li><a href="shope_list_view_with_sidebar.html">List Mode With Sidebar</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -349,24 +410,24 @@
                                         <li><a href="Image_Swatch.html">Image Swatch</a></li>
                                         <li><a href="Extended_Info.html">Extended Info</a>
                                         </li>
-                                        <li><a href="product-without-sidebar.html">Without Sidebar</a></li>
-                                        <li><a href="product-video.html">360<sup>o</sup> &amp; Video<span
+                                        <li><a href="product_without_sidebar.html">Without Sidebar</a></li>
+                                        <li><a href="video_product.html">360<sup>o</sup> &amp; Video<span
                                                     class="tip tip-new">New</span></a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <h4 class="menu-title">Product Layouts</h4>
                                     <ul>
-                                        <li><a href="product-default.html">Default<span
+                                        <li><a href="default_product.html">Default<span
                                                     class="tip tip-hot">Hot</span></a>
                                         </li>
-                                        <li><a href="product-vertical.html">Vertical Thumbs</a></li>
-                                        <li><a href="product-grid.html">Grid Images</a></li>
-                                        <li><a href="product-masonry.html">Masonry</a></li>
-                                        <li><a href="product-gallery.html">Gallery</a></li>
-                                        <li><a href="product-sticky-info.html">Sticky Info</a></li>
-                                        <li><a href="product-sticky-thumb.html">Sticky Thumbs</a></li>
-                                        <li><a href="product-sticky-both.html">Sticky Both</a></li>
+                                        <li><a href="vertical_product.html">Vertical Thumbs</a></li>
+                                        <li><a href="grid_product.html">Grid Images</a></li>
+                                        <li><a href="product_masonry.html">Masonry</a></li>
+                                        <li><a href="product_gelary.html">Gallery</a></li>
+                                        <li><a href="product_sticky_info.html">Sticky Info</a></li>
+                                        <li><a href="product_sticky_thumb.html">Sticky Thumbs</a></li>
+                                        <li><a href="product_sticky_both.html">Sticky Both</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -465,6 +526,7 @@
             </div>
         </div>
     </nav>
+
 
     <!-- ======Breadcumb start====== -->
     <section class="breadcrumb wow fadeInUp" style="background: url(./images/breadcrumb1.jpg);">
@@ -850,6 +912,10 @@
     <script src="js/venobox.min.js"></script>
     <script src="js/progress-bar.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.calendar.js"></script>
+    <script src="js/sticky_sidebar.js"></script>
+    <script src="js/wow.min.js"></script>
+
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

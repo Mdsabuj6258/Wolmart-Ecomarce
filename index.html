@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/progress-bar.css">
     <link rel="stylesheet" href="css/jquery.calendar.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 
     <link rel="stylesheet" href="css/spacing.css">
@@ -26,7 +27,7 @@
     <!-- ======Topbar start======= -->
     <section class="topbar">
         <div class="container">
-            <div class="row justify-contant-between">
+            <div class="row justify-contant-between d-none d-lg-flex">
                 <div class="col-xl-6">
                     <div class="topbar_left">
                         <p>Welcome to Wolmart Store message or remove it!</p>
@@ -63,6 +64,39 @@
                             <a class="topbar_register" href="my_account_signup.html">Register</a>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_topbar d-flex flex-wrap align-items-center d-lg-none">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="mobile_topbar_left">
+                            <marquee behavior="" direction="">Welcome to Wolmart Store message or remove it!</marquee>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="mobile_topbar_right d-flex flex-wrap align-items-center">
+                            <div class="langauge">
+                                <select class="select_js">
+                                    <option value=""> English </option>
+                                    <option value="">Bangla</option>
+                                    <option value="">Chiness</option>
+                                    <option value="">japanis</option>
+                                    <option value="">Aribic</option>
+                                    <option value="">italy</option>
+                                </select>
+                            </div>
+                            <div class="curancy">
+                                <select class="select_js">
+                                    <option value="">USD</option>
+                                    <option value="">YEN</option>
+                                    <option value="">EUR</option>
+                                    <option value="">REAL</option>
+                                    <option value="">BDT</option>
+                                    <option value="">RUPI</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -335,7 +369,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop <i class="far fa-angle-down"></i></a>
+                            <a class="nav-link" href="shope_page_1.html">Shop <i class="far fa-angle-down"></i></a>
                             <ul class="megamenu">
                                 <li>
                                     <h4 class="menu-title">Shop Pages</h4>
@@ -4097,6 +4131,7 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.calendar.js"></script>
     <script src="js/sticky_sidebar.js"></script>
+    <script src="js/wow.min.js"></script>
 
 
     <!--main/custom js-->
