@@ -13,8 +13,8 @@ $(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
-        dots: false,
-        arrows: true,
+        dots: true,
+        arrows: false,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
         responsive: [
@@ -762,7 +762,28 @@ $(function () {
         centerMode: false,
     });
 
-
+    // Hot dell slider
+    $('.slider-for-2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '.slider-nav',
+        autoplay: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+    });
+    $('.slider-nav-2').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        vertical: true,
+        focusOnSelect: true,
+        autoplay: false,
+        dots: false,
+        arrows: false,
+        centerMode: false,
+    });
     //=======COUNTDOWN======   
     var d = new Date(),
         countUpDate = new Date();
@@ -875,7 +896,37 @@ $(function () {
         top: 90,
     })
 
+    //======STICKY SIDEBAR======= 
+    $(".sticky_text").stickit({
+        top: 20,
+    })
+    // menu js
+    if ($(window).scrollTop() > 1) {
+        if ($('.main_menu').offset() != undefined) {
+            $('.main_menu').addClass('menu_fix');
+        }
+    } else {
+        if ($('.main_menu').offset() != undefined) {
+            $('.main_menu').removeClass('menu_fix');
+        }
+    }
 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+
+            if ($('.main_menu').offset() != undefined) {
+                // check if menu_if class is already added
+                if (!$('.main_menu').hasClass("menu_fix")) {
+                    $('.main_menu').addClass("menu_fix");
+                }
+            }
+        }
+        else {
+            if ($('.main_menu').offset() != undefined) {
+                $('.main_menu').removeClass("menu_fix");
+            }
+        }
+    });
 
 
 
