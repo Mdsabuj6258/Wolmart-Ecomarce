@@ -164,6 +164,7 @@
 .nice-select .option.focus,
 .nice-select .option.selected.focus {
   background-color: #f6f6f6;
+  font-weight: 400;
 }
 
 .nice-select .option.selected {

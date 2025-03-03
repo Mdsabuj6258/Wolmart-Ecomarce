@@ -15,8 +15,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -44,6 +44,8 @@ $(function () {
             }
         ]
     });
+
+
     //======SHOPE CATEGORY SLIDER====== 
     $('.shope_categary_slider').slick({
         slidesToShow: 8,
@@ -52,8 +54,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -90,8 +92,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -129,8 +131,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -168,8 +170,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -209,8 +211,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -247,8 +249,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -286,8 +288,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -324,8 +326,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -363,8 +365,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -404,8 +406,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -443,8 +445,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -483,8 +485,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -522,8 +524,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -560,8 +562,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -598,8 +600,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -640,8 +642,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -678,8 +680,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: false,
         arrows: false,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
         responsive: [
             {
                 breakpoint: 1200,
@@ -723,8 +725,8 @@ $(function () {
         arrows: true,
         asNavFor: '.slider-nav',
         autoplay: true,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
     });
     $('.slider-nav-1').slick({
         slidesToShow: 4,
@@ -747,8 +749,8 @@ $(function () {
         arrows: true,
         asNavFor: '.slider-nav',
         autoplay: true,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        nextArrow: '<i class="fal fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-chevron-left prevArrow"></i>',
     });
     $('.slider-nav').slick({
         slidesToShow: 4,
@@ -769,8 +771,7 @@ $(function () {
         arrows: false,
         asNavFor: '.slider-nav',
         autoplay: true,
-        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
     });
     $('.slider-nav-2').slick({
         slidesToShow: 4,
