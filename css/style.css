@@ -641,7 +641,7 @@ header {
 /* Topbar end */
 header {
     border-bottom: 1px solid #eee;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .header_left .logo {
@@ -1285,7 +1285,7 @@ header {
 }
 
 .banner_text h5 span {
-    border-bottom: 2px solid var(--colorOreng);
+    border-bottom: 2px solid #f77c29;
     font-weight: 500;
 }
 
@@ -1304,6 +1304,7 @@ header {
 
 .banner_text p span {
     color: var(--colorOreng);
+    font-weight: 700;
 }
 
 .banner_img {
@@ -1324,7 +1325,7 @@ header {
 }
 
 .banner_2 .banner_text h5 span {
-    color: var(--colorOreng);
+    color: #f77c29;
     border: none;
 }
 
@@ -1359,8 +1360,8 @@ header {
     transform: translateY(-50%) matrix(1, 0, -0.35, 1, 0, 0);
     right: -5px;
     width: 130px;
-    height: 45px;
-    background: var(--colorOreng);
+    height: 44px;
+    background: #f77c29;
     border-radius: 5px;
     z-index: -1;
 }
@@ -1368,11 +1369,11 @@ header {
 .banner_3 .banner_text h1 span::before {
     position: absolute;
     content: "";
-    right: -140px;
+    right: -138px;
     bottom: 6px;
     width: 145px;
     height: 3px;
-    background: var(--colorOreng);
+    background: #f77c29;
 }
 
 .banner_3 .banner_text p {
@@ -1948,6 +1949,9 @@ header {
 
 /* Diccount offer start */
 .discount_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -1960,7 +1964,10 @@ header {
     -o-border-radius: 4px;
 }
 
-.discount_content_left {}
+.discount_content_left {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .discount_content_left .number {
     align-items: center;
@@ -7562,8 +7569,28 @@ header .mobile_header .mobile_btn {
 }
 
 header .mobile_header .mobile_cart {
+    position: relative;
     font-size: 30px;
     color: var(--colorBlack);
+}
+
+header .mobile_header .mobile_cart::after {
+    position: absolute;
+    content: "2";
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    top: 6px;
+    left: 15px;
+    text-align: center;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 header .mobile_header .offcanvas.show:not(.hiding),
@@ -7696,10 +7723,23 @@ header .mobile_header .offcanvas.show:not(.hiding),
     margin-top: 10px;
 }
 
+.mobile_topbar {
+    position: relative;
+}
+
 .mobile_topbar_left {
     width: 50%
 }
 
 .mobile_topbar_right {
     width: 50%;
+    position: absolute;
+    top: 4px;
+    right: -10px;
+}
+
+.mobile_topbar_right .nice-select {
+    background: #f5f6f8;
+    border: 0;
+    font-size: 12px;
 }
