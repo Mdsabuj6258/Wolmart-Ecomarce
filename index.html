@@ -109,13 +109,43 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="mobile_header d-lg-none d-flex flex-wrap justify-content-between align-items-center">
-                        <button class="mobile_btn" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
-                                class="fal fa-bars"></i></button>
-                        <div class="logo">
-                            <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
+                        <div class="mobile_header_left d-flex flex-wrap align-items-center">
+                            <button class="mobile_btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                                    class="fal fa-bars"></i></button>
+                            <div class="logo">
+                                <a href="index.html"> <img src="images/logo.png" alt="main logo"
+                                        class="img-flude w100"></a>
+                            </div>
+                            <div class="text d-flex flex-warp d-none d-md-flex">
+                                <div class="cetagory">
+                                    <select class="select_js">
+                                        <option value=""> All Cetagory</option>
+                                        <option value="">Bangla</option>
+                                        <option value="">Chiness</option>
+                                        <option value="">japanis</option>
+                                        <option value="">Aribic</option>
+                                        <option value="">italy</option>
+                                    </select>
+                                </div>
+                                <form>
+                                    <input type="text" placeholder="Search in......">
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
                         </div>
-                        <span class="mobile_cart"><i class="fal fa-shopping-bag"></i></span>
+                        <div class="mobile_header_right d-flex flex-wrap align-items-center">
+                            <div class="mobile_cart_item d-flex flex-wrap d-none d-sm-flex
+                            ">
+                                <a class="call_cart" href="callTo:123456789"><i class="fal fa-phone-alt"></i></a>
+                                <a class="wish_cart" href="wishlist.html"><i class="fal fa-heart"></i></a>
+                                <a class="compare_cart" href="compare.html"><i class="fal fa-balance-scale"></i></a>
+                            </div>
+                            <a class="shopping_cart" href="cart.html"><i class="fal fa-shopping-bag"></i></a>
+                        </div>
+
+
+
                         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
                             id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                             <div class="offcanvas-header">
@@ -535,15 +565,15 @@
                 <div class="banner_1" style="background: url(.//images/slide-1.jpg);">
                     <div class="container">
                         <div class="row justify-content-end">
-                            <div class="col-xl-9 .col-xs-12">
+                            <div class="col-xl-9 col-sm-12 col-md-12">
                                 <div class="banner_contant">
                                     <div class="row">
-                                        <div class="col-xl-6 col-xs-6">
+                                        <div class="col-xl-6 col-sm-4 col-md-6">
                                             <div class="banner_img">
                                                 <img src="images/shoes.png" alt="Banner image" class="img-flude">
                                             </div>
                                         </div>
-                                        <div class="col-xl-6 col-xs-6">
+                                        <div class="col-xl-6 col-sm-8 col-md-6">
                                             <div class="banner_text">
                                                 <h5>Custom <span>Men’s</span></h5>
                                                 <h1>RUNNING SHOES</h1>
@@ -563,10 +593,10 @@
                 <div class="banner_2" style="background: url(.//images/slide-2.jpg);">
                     <div class="container">
                         <div class="row justify-content-end">
-                            <div class="col-xl-9 ">
+                            <div class="col-xl-9 col-sm-12 col-md-12">
                                 <div class="banner_contant">
                                     <div class="row">
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-6 col-sm-8 col-md-6">
                                             <div class="banner_text">
                                                 <h5>Mountain-<span>Climbing</span></h5>
                                                 <h1>Hot & Packback</h1>
@@ -575,7 +605,7 @@
                                                         class="fas fa-long-arrow-right"></i></a>
                                             </div>
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-6 col-sm-4 col-md-6">
                                             <div class="banner_img">
                                                 <img src="images/men.png" alt="Banner image" class="img-flude">
                                             </div>
@@ -591,15 +621,15 @@
                 <div class="banner_3" style="background: url(./images/slide-3.jpg);">
                     <div class="container">
                         <div class="row justify-content-end">
-                            <div class="col-xl-9 ">
+                            <div class="col-xl-9 col-sm-12 col-md-12">
                                 <div class="banner_contant">
                                     <div class="row">
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-6 col-sm-4 col-md-6">
                                             <div class="banner_img">
                                                 <img src="images/skate.png" alt="Banner image" class="img-flude">
                                             </div>
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-6 col-sm-8 col-md-6">
                                             <div class="banner_text">
                                                 <p>TOP WEEKLY SALE</p>
                                                 <h5>Treanding Collection</h5>
@@ -712,7 +742,7 @@
                             <h3>Deals Hot of The Day</h3>
                         </div>
                         <div class="row">
-                            <div class="col-xl-6 col-xs-12">
+                            <div class="col-xl-6 col-xs-12 col-md-6">
                                 <div class="row">
                                     <div class="col-xl-3 slider-nav-1 order-2 order-lg-1">
                                         <div class="hotdell_small_img">
@@ -760,7 +790,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-md-6">
                                 <div class="hotdell_text">
                                     <a class="title" href="#">Coat PoolComfort Jacket</a>
                                     <h3>$1800-$2500</h3>
@@ -822,7 +852,7 @@
                             <h3>Deals Hot of The Day</h3>
                         </div>
                         <div class="row">
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-md-6">
                                 <div class="row">
                                     <div class="col-xl-3 slider-nav-1 order-2 order-lg-1">
                                         <div class="hotdell_small_img">
@@ -875,7 +905,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-md-6">
                                 <div class="hotdell_text">
                                     <a class="title" href="#">Coat PoolComfort Jacket</a>
                                     <h3>$1800-$2500</h3>
@@ -933,7 +963,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 ">
+                <div class="col-xl-3 col-md-8">
                     <div class="hotdell_sidbar ">
                         <div class="refeshing">
                         </div>
@@ -2192,7 +2222,7 @@
     <section class="women_cetagory mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-md-6">
                     <div class="single_cetagory">
                         <div class="img">
                             <img src="images/3-1.jpg" alt="banner Images">
@@ -2206,7 +2236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-md-6">
                     <div class="single_cetagory">
                         <div class="img">
                             <img src="images/3-2.jpg" alt="banner Images">
@@ -2233,7 +2263,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-4 col-md-4">
                     <div class="apprel_left mt_20">
                         <div class="img">
                             <img src="images/2.jpg" alt="image" class="img-flude">
@@ -2245,7 +2275,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 apprel_slider">
+                <div class="col-xl-9 col-sm-8 col-md-8 apprel_slider">
                     <div class="apprel_cetagory_item d-flex flex-wrap">
                         <ul class="single_popular">
                             <a class="img" href="#">
@@ -2671,7 +2701,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-4">
                     <div class="apprel_left electric_left mt_20">
                         <div class="img">
                             <img src="images/3.jpg" alt="image" class="img-flude">
@@ -2683,7 +2713,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 apprel_slider">
+                <div class="col-xl-9 col-sm-8 apprel_slider">
                     <div class="apprel_cetagory_item d-flex flex-wrap">
                         <ul class="single_popular">
                             <a class="img" href="#">
@@ -3134,7 +3164,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-4">
                     <div class="apprel_left mt_20">
                         <div class="img">
                             <img src="images/5.jpg" alt="image" class="img-flude">
@@ -3146,7 +3176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 apprel_slider">
+                <div class="col-xl-9 col-sm-8 apprel_slider">
                     <div class="apprel_cetagory_item d-flex flex-wrap">
                         <ul class="single_popular">
                             <a class="img" href="#">
@@ -3948,7 +3978,7 @@
     <footer class="mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6">
                     <div class="footer_logo">
                         <a class="logo" href="index.html">
                             <img src="images/logo.png" alt="Footer logo" class="img-flude">
@@ -3965,7 +3995,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6">
                     <div class="Comphany_info">
                         <h2>Company</h2>
                         <ul>
@@ -3978,7 +4008,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6">
                     <div class="account_info">
                         <h2>My Account
                         </h2>
@@ -3992,7 +4022,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6">
                     <div class="footer_service">
                         <h2>Customer Service</h2>
                         <ul>
@@ -4010,12 +4040,12 @@
     </footer>
 
     <!-- ======Footer Secound start====== -->
-    <section class="footer_secound mt_60">
+    <section class="footer_secound mt_60 xs_mt_30">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="footer_secound_contant">
-                        <ul class="d-flex flex-warp">
+                        <ul class="">
                             <h2>Consumer Electric:</h2>
                             <li><a href="#">TV Television</a></li>
                             <li><a href="#">Air Condition</a></li>
@@ -4097,9 +4127,9 @@
     <section class="footer_copyright">
         <div class="container">
             <div class="col-xl-12 ">
-                <div class="copyright_contant justify-content-between  d-flex flex-warp">
+                <div class="copyright_contant justify-content-between  d-flex flex-wrap">
                     <p>Copyright © 2021 Wolmart Store. All Rights Reserved.</p>
-                    <div class="right d-flex flex-warp">
+                    <div class="right d-flex flex-wrap">
                         <p>We're using safe payment for</p>
                         <img src="images/payment.png" alt="phyment img" class="img-flude">
                     </div>

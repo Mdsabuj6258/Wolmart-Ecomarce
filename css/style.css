@@ -2294,9 +2294,11 @@ header {
 }
 
 .footer_secound_contant ul {
-    gap: 15px;
+    gap: 0px 20px;
     align-items: center;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer_secound_contant ul h2 {
@@ -3450,7 +3452,7 @@ ul.menu_carwegory_list.show {
 
 .Checkout_sidebar,
 .Shoping_cart_sidebar {
-    border: 1px solid var(--colorFurth);
+    border: 1px solid #eee;
     padding: 30px;
 }
 
@@ -3465,7 +3467,7 @@ ul.menu_carwegory_list.show {
 .Checkout_sidebar h4,
 .Shoping_cart_sidebar .subtotal,
 .Shoping_cart_sidebar .subtotal {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
 }
 
 .Shoping_cart_sidebar .subtotal p,
@@ -7558,6 +7560,29 @@ ul.menu_carwegory_list.show {
 }
 
 /* Mobule menu start */
+.mobile_header_left .text {
+    border: 2px solid var(--colorPrimary);
+
+}
+
+.mobile_header_left .text input {
+    width: 140px;
+    border: 0;
+    font-size: 12px;
+}
+
+.mobile_header_left .text .select_js {
+    border: 0;
+    border-right: 1px solid #eee;
+}
+
+.mobile_header_left .text .select_js span {
+    font-size: 12px;
+}
+
+
+
+
 
 header .mobile_header .logo {
     width: 150px;
@@ -7568,13 +7593,21 @@ header .mobile_header .mobile_btn {
     color: var(--colorSecoundry);
 }
 
-header .mobile_header .mobile_cart {
+.mobile_header_right,
+.mobile_cart_item {
+    gap: 20px;
+}
+
+header .mobile_header .call_cart,
+header .mobile_header .wish_cart,
+header .mobile_header .compare_cart,
+header .mobile_header .shopping_cart {
     position: relative;
     font-size: 30px;
     color: var(--colorBlack);
 }
 
-header .mobile_header .mobile_cart::after {
+header .mobile_header .shopping_cart::after {
     position: absolute;
     content: "2";
     background: var(--colorPrimary);
