@@ -1,8 +1,470 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {}
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+    .blog_grid_4 .single_clasic .title {
+        font-size: 15px;
+    }
+
+    .blog_grid_4 .single_clasic .img {
+        height: 140px;
+    }
+
+    .Clasic__with_sidebar_area .single_clasic .img {
+        height: 220px;
+    }
+
+    .Clasic__with_sidebar_area .single_clasic .title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .clasic_sidebar_popular_post ul li .img {
+        width: 26%;
+    }
+
+    .clasic_sidebar_popular_post ul li .text .title {
+        font-size: 12px;
+    }
+
+    .clasic_sidebar_popular_post ul li .text .date {
+        font-size: 12px;
+    }
+
+    .clasic_sidebar_cetagory ul li a {
+        color: var(--colorBlack);
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+
+    .clasic_blog_item .single_clasic .img {
+        height: 500px;
+    }
+
+    .clasic_listing_blog .single_clasic .img {
+        height: 225px;
+    }
 
 
 
-@media (min-width: 992px) and (max-width: 1199.99px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .blog_grid_4 .single_clasic .title {
+        font-size: 15px;
+    }
+
+    .blog_grid_4 .single_clasic .img {
+        height: 140px;
+    }
+
+    .Clasic__with_sidebar_area .single_clasic .img {
+        height: 220px;
+    }
+
+    .Clasic__with_sidebar_area .single_clasic .title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .clasic_sidebar_popular_post ul li .img {
+        width: 26%;
+    }
+
+    .clasic_sidebar_popular_post ul li .text .title {
+        font-size: 12px;
+    }
+
+    .clasic_sidebar_popular_post ul li .text .date {
+        font-size: 12px;
+    }
+
+    .clasic_sidebar_cetagory ul li a {
+        color: var(--colorBlack);
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .clasic_blog_item .single_clasic .img {
+        height: 450px;
+    }
+
+    .clasic_listing_blog .single_clasic .img {
+        height: 190px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .topbar_right {
+        gap: 13px;
+    }
+
+    .header_left .text form {
+        width: 250px;
+    }
+
+    .header_right .call_info {
+        padding-right: 30px;
+    }
+
+    .header_right {
+        gap: 15px;
+    }
+
+    .header_left .logo {
+        width: 150px;
+    }
+
+    .header_left .text {
+        margin-left: 30px;
+    }
+
+    .header_right .call_info .icon i {
+        font-size: 20px;
+    }
+
+    .header_right .call_info .text .call_number {
+        font-size: 14px;
+    }
+
+    .header_right .compare a span,
+    .header_right .add_curt a span,
+    .header_right .wishlist a span {
+        font-size: 20px;
+    }
+
+    .header_right {
+        gap: 30px;
+    }
+
+    .header_right .add_curt a::after {
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        margin: 0px 10px;
+        font-size: 13px;
+    }
+
+    .main_menu .right_menu li a {
+        font-size: 14px;
+    }
+
+    .main_menu .child_menu li a,
+    .main_menu .submenu li a {
+        line-height: 30px;
+    }
+
+    .main_menu .megamenu li h4 {
+        font-size: 15px;
+    }
+
+    .banner_text h1 span,
+    .banner_text h1 {
+        font-size: 35px;
+    }
+
+    .banner_text h5 span,
+    .banner_text h5 {
+        font-size: 25px;
+    }
+
+    .banner_text p span,
+    .banner_text p {
+        font-size: 20px;
+    }
+
+    .banner_3 .banner_text h1 span::after {
+        width: 120px;
+        height: 36px;
+    }
+
+    .menu_carwegory_area .menu_carwegory_list>li>a {
+        font-size: 13px;
+    }
+
+    .menu_carwegory_list>li>a::after {
+        font-size: 13px;
+    }
+
+    .frreshoping_area .freeshoping_content li .text h4 {
+        font-size: 13px;
+    }
+
+    .frreshoping_area .freeshoping_content li {
+        margin-left: 10px;
+    }
+
+    .cetagory_area .single_cetagory .img img {
+        height: 200px !important;
+    }
+
+    .hotdell_small_img {
+        height: 85px;
+    }
+
+    .hotdell_text {
+        margin-left: 0;
+    }
+
+    .hotdell_text .quantaty .order_plce button {
+        margin-left: 10px;
+        padding: 12px 30px;
+    }
+
+    .hotdell_text .size p {
+        width: 100%;
+    }
+
+    .vertical_sidebar,
+    .hotdell_sidbar {
+        padding: 10px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .img,
+    .hotdell_sidbar .hotdell_sidbar_contant .img {
+        min-width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .text .title,
+    .hotdell_sidbar .hotdell_sidbar_contant .text .title {
+        font-size: 13px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .text p,
+    .hotdell_sidbar .hotdell_sidbar_contant .text p {
+        font-size: 10px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .text h4,
+    .hotdell_sidbar .hotdell_sidbar_contant .text h4 {
+        font-size: 13px;
+    }
+
+    .vertical_sidebar h3,
+    .hotdell_sidbar_heading h3,
+    .hotdell_heading h3 {
+        font-size: 15px;
+    }
+
+    .cetagory_item .img {
+        height: 160px;
+    }
+
+    .single_popular {
+        max-width: 22.5%;
+    }
+
+    .single_popular .img {
+        height: 240px;
+    }
+
+    .women_cetagory .single_cetagory .img img {
+        height: 200px !important;
+    }
+
+    .apprel_cetagory_item .single_popular {
+        max-width: 35%;
+    }
+
+    .Subscribe_form input {
+        width: 380px;
+    }
+
+    .Subscribe_text .icon i {
+        font-size: 40px;
+    }
+
+    .Subscribe_text h3 {
+        font-size: 18px;
+    }
+
+    .Subscribe_text p {
+        font-size: 12px;
+    }
+
+    .Comphany_info,
+    .account_info,
+    .footer_service {
+        margin-left: 50px;
+    }
+
+    .footer_logo .logo {
+        margin-top: 0px;
+    }
+
+    .single_blog .img {
+        height: 140px;
+    }
+
+    .single_blog .text .title,
+    .single_blog .text .name a {
+        font-size: 15px;
+    }
+
+    /* abot start */
+    .section_heading h2 {
+        font-size: 30px;
+    }
+
+    .about_service_img,
+    .about_banner {
+        height: 400px;
+    }
+
+    .about_service_text h3 {
+        font-size: 30px;
+    }
+
+    .about_service_text h3 {
+        font-size: 24px;
+    }
+
+    .about_service_img {
+        height: 350px;
+    }
+
+    .about_service_text p {
+        margin: 10px 0;
+    }
+
+    .Award_item li p {
+        font-size: 15px;
+    }
+
+    .single_clasic .img {
+        height: 245px;
+    }
+
+    .Clasic_3clom_area .single_clasic .img {
+        height: 160px;
+    }
+
+    .Clasic_3clom_area .single_clasic .title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .blog_grid_4 .single_clasic .img {
+        height: 115px;
+    }
+
+    .blog_grid_4 .single_clasic .title {
+        font-size: 15px;
+    }
+
+    .blog_grid_4 .single_clasic .clasic_post {
+        font-size: 13px;
+    }
+
+    .Clasic__with_sidebar_area .single_clasic .img {
+        height: 180px;
+    }
+
+    .Clasic__with_sidebar_area .single_clasic .title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .clasic_sidebar_popular_post ul li .img {
+        width: 26%;
+    }
+
+    .clasic_sidebar_popular_post ul li .text .title {
+        font-size: 12px;
+    }
+
+    .clasic_sidebar_popular_post ul li .text .date {
+        font-size: 12px;
+    }
+
+    .clasic_sidebar_cetagory ul li a {
+        color: var(--colorBlack);
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .Clasic_blog_area .single_clasic .img {
+        height: 375px;
+    }
+
+    .Clasic_blog_area .clasic_sidebar_Browse_Tag ul li a {
+        font-size: 12px;
+    }
+
+    .clasic_listing_blog .single_clasic .img {
+        height: 190px;
+    }
+
+    .clasic_listing_blog .single_clasic .title {
+        font-size: 18px;
+    }
+
+    .clasic_sidebar_popular_post ul li .img {
+        width: 25%;
+    }
+
+    .clasic_sidebar_Browse_Tag ul li a {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
@@ -222,9 +684,91 @@
         margin-bottom: 0px;
     }
 
+    .Comphany_info,
+    .account_info,
+    .footer_service {
+        margin-left: 0;
+    }
+
+    /* abot start */
+    .section_heading h2 {
+        font-size: 30px;
+    }
+
+    .about_service_img,
+    .about_banner {
+        height: 300px;
+    }
+
+    .about_service_text h3 {
+        font-size: 30px;
+    }
+
+    .about_service_text h3 {
+        font-size: 24px;
+    }
+
+    .about_service_img {
+        height: 275px;
+    }
 
 
+    .about_service_text {
+        margin-left: 0 !important;
+    }
 
+    .about_service_text p {
+        margin: 10px 0;
+    }
+
+    .Award_item li p {
+        font-size: 15px;
+    }
+
+    .single_clasic .img {
+        height: 180px;
+    }
+
+    .isitio_filter_btn {
+        gap: 10px;
+    }
+
+    .isitio_filter_btn button {
+        font-size: 14px;
+    }
+
+    .single_clasic .title {
+        font-size: 18px;
+    }
+
+    .clasic_sidebar {
+        margin-top: 30px;
+    }
+
+    .Clasic_blog_area .clasic_blog_item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Clasic_blog_area .single_clasic {
+        width: 50%;
+    }
+
+    .contact_accrodian .accordion-button {
+        font-size: 12px;
+    }
+
+    .contact_accrodian .faq_header {
+        font-size: 18px;
+    }
+
+    .contact_info_form label {
+        font-size: 13px;
+    }
+
+    .contact_info_form button {
+        font-size: 13px;
+    }
 
 }
 
@@ -613,10 +1157,108 @@
         text-align: center;
     }
 
+    /* about page start */
+    .section_heading h2 {
+        font-size: 25px;
+    }
 
+    .about_service_img,
+    .about_banner {
+        height: 225px;
+    }
 
+    .about_service_text h3 {
+        font-size: 20px;
+    }
 
+    .faq_accordion .accordion-button {
+        font-size: 15px;
+    }
 
+    .about_service_img {
+        margin-top: 20px;
+        height: 380px;
+    }
+
+    .about_counter_area ul li h2 span,
+    .about_counter_area ul li h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .about_counter_area ul li h5 {
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+
+    .about_counter_area ul li p {
+        font-size: 11px;
+    }
+
+    .about_service_text h3 {
+        font-size: 15px;
+    }
+
+    .about_service_text p {
+        margin: 20px 0;
+        font-size: 13px;
+    }
+
+    .Award_item li p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .Award_item li img {
+        display: inline-block !important;
+        width: 125px !important;
+        height: 125px !important;
+    }
+
+    .single_team .img {
+        height: 275px;
+    }
+
+    .isitio_filter_btn {
+        gap: 10px;
+    }
+
+    .isitio_filter_btn button {
+        font-size: 15px;
+    }
+
+    .single_clasic .img {
+        height: 180px;
+    }
+
+    .single_clasic .title {
+        font-size: 18px;
+    }
+
+    .single_clasic .clasic_post {
+        font-size: 15px;
+    }
+
+    .clasic_sidebar {
+        margin-top: 30px;
+    }
+
+    .clasic_listing_blog .single_clasic .img {
+        height: 260px;
+    }
+
+    .contact_accrodian .faq_accordion .accordion-button {
+        font-size: 12px;
+    }
+
+    .contact_accrodian .faq_header {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .contact_location_area iframe {
+        height: auto;
+    }
 
 
 
@@ -1012,7 +1654,7 @@
     }
 
     .Subscribe_form button {
-        margin-left: 90px;
+        margin-left: 10px;
         margin-top: 20px;
     }
 
@@ -1065,6 +1707,155 @@
     .hotdell_sidbar {
         margin-top: 30px;
     }
+
+    /* about page start */
+    .section_heading h2 {
+        font-size: 25px;
+    }
+
+    .about_service_img,
+    .about_banner {
+        height: auto;
+    }
+
+    .about_service_text h3 {
+        font-size: 20px;
+    }
+
+    .faq_accordion .accordion-button {
+        font-size: 15px;
+    }
+
+    .about_service_img {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .about_counter_area ul li h2 span,
+    .about_counter_area ul li h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .about_counter_area ul li h5 {
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+
+    .about_counter_area ul li p {
+        font-size: 11px;
+    }
+
+    .about_service_text h3 {
+        font-size: 15px;
+    }
+
+    .about_service_text p {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    .Award_item li p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .Award_item li img {
+        display: inline-block !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .single_team .img {
+        height: auto;
+    }
+
+    .isitio_filter_btn {
+        gap: 10px;
+    }
+
+    .isitio_filter_btn button {
+        font-size: 12px;
+    }
+
+    .single_clasic .img {
+        height: auto;
+    }
+
+    .single_clasic .title {
+        font-size: 15px;
+    }
+
+    .single_clasic .clasic_post {
+        font-size: 13px;
+    }
+
+    .clasic_sidebar {
+        margin-top: 30px;
+    }
+
+    .clasic_listing_blog .single_clasic {
+        display: initial;
+    }
+
+    .clasic_listing_blog .single_clasic .img {
+        width: 100%;
+    }
+
+    .clasic_listing_blog .single_clasic .text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .clasic_blog_item .pagenation_area {
+        margin-left: 0;
+    }
+
+    .comming_soo_area h1 span,
+    .comming_soo_area h1 {
+        font-size: 35px;
+    }
+
+    .coming_logo {
+        width: 150px;
+    }
+
+    .comming_soo_area .simply-amount {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .comming_soo_area .simply-countdown {
+        margin: 30px 0px;
+    }
+
+    .contact_accrodian .faq_accordion .accordion-button {
+        font-size: 12px;
+    }
+
+    .contact_accrodian .faq_header {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .contact_location_area iframe {
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

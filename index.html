@@ -28,12 +28,12 @@
     <section class="topbar">
         <div class="container">
             <div class="row justify-contant-between d-none d-lg-flex">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="topbar_left">
                         <p>Welcome to Wolmart Store message or remove it!</p>
                     </div>
                 </div>
-                <div class="col-xl-6 ">
+                <div class="col-xl-6 col-lg-6">
                     <div class="topbar_right ms-auto d-none d-lg-flex">
                         <div class="langauge">
                             <select class="select_js">
@@ -148,19 +148,77 @@
 
                         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
                             id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
                             <div class="offcanvas-body">
-                                <p>sabuj</p>
+                                <div class="mobile_menu_form">
+                                    <form>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                        <input type="text" placeholder="Search">
+                                        <button class="submot_btn" type="submit"><i class="fal fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <div class="mobile_memu_tab">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-home" type="button" role="tab"
+                                                aria-controls="pills-home" aria-selected="true">Main Menu</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-profile" type="button" role="tab"
+                                                aria-controls="pills-profile" aria-selected="false">Categories</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                            aria-labelledby="pills-home-tab" tabindex="0">
+                                            <ul class="menu">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="shope_page_1.html">Shope</a></li>
+                                                <li><a href="vendor.html">Vendor</a></li>
+                                                <li><a href="clasic_blog.html">Blog</a></li>
+                                                <li><a href="about.html">Pages</a></li>
+                                                <li><a href="error.html">Elements</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                            aria-labelledby="pills-profile-tab" tabindex="0">
+                                            <ul class="Categories">
+                                                <li><a href="shope_page_3.html"><i class="fal fa-tshirt"></i>
+                                                        Fashion</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-home-lg-alt"></i> Home
+                                                        & Garden</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-tv"></i>
+                                                        Electronics</a>
+                                                </li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-loveseat"></i>
+                                                        Furniture</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-heartbeat"></i> Healthy
+                                                        & Beauty</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-gift"></i> Gift
+                                                        Ideas</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-gamepad"></i> Toy &
+                                                        Games</a></li>
+                                                <li><a href="shope_page_3.html"><i class="far fa-cauldron"></i>
+                                                        Cooking</a></li>
+                                                <li><a href="shope_page_3.html"><i
+                                                            class="fas fa-mobile-android-alt"></i> Smart Phone</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-camera-alt"></i> Camara
+                                                        & Photo</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-gem"></i> Accessories
+                                                    </a></li>
+                                                <li><a class="view_all" href="shope_page_3.html">View All</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-lg-7">
                     <div class="header_left d-flex flex-warp align-items-center  d-none d-lg-flex">
                         <div class="logo">
                             <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
@@ -183,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 d-none d-lg-flex">
+                <div class="col-xl-4 col-lg-5 d-none d-lg-flex">
                     <div class="header_right d-flex flex-warp">
                         <div class="call_info d-flex flex-warp align-items-center">
                             <div class="icon">
@@ -225,7 +283,7 @@
     <nav class="main_menu d-none d-lg-block">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3">
                     <div class="menu_carwegory_area xs-d-none lg-d-block">
                         <p><i class="far fa-bars"></i> Browse Categories <i class="far fa-angle-down"></i></p>
                         <ul class="menu_carwegory_list">
@@ -393,7 +451,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-9 d-flex flex-warp justify-contant-between">
+                <div class="col-xl-9 col-lg-9 d-flex flex-warp justify-contant-between">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home </a>
@@ -561,19 +619,19 @@
     <!-- ======Banner start====== -->
     <section class="banner_area ">
         <div class="row banner_slider">
-            <div class="col-xl-12">
+            <div class="col-xl-12 ">
                 <div class="banner_1" style="background: url(.//images/slide-1.jpg);">
                     <div class="container">
                         <div class="row justify-content-end">
-                            <div class="col-xl-9 col-sm-12 col-md-12">
+                            <div class="col-xl-9 col-lg-9 col-sm-12 col-md-12">
                                 <div class="banner_contant">
                                     <div class="row">
-                                        <div class="col-xl-6 col-sm-4 col-md-6">
+                                        <div class="col-xl-6 col-sm-4 col-md-6 col-lg-6">
                                             <div class="banner_img">
                                                 <img src="images/shoes.png" alt="Banner image" class="img-flude">
                                             </div>
                                         </div>
-                                        <div class="col-xl-6 col-sm-8 col-md-6">
+                                        <div class="col-xl-6 col-sm-8 col-md-6 col-lg-6">
                                             <div class="banner_text">
                                                 <h5>Custom <span>Men’s</span></h5>
                                                 <h1>RUNNING SHOES</h1>
@@ -593,10 +651,10 @@
                 <div class="banner_2" style="background: url(.//images/slide-2.jpg);">
                     <div class="container">
                         <div class="row justify-content-end">
-                            <div class="col-xl-9 col-sm-12 col-md-12">
+                            <div class="col-xl-9 col-lg-9 col-sm-12 col-md-12">
                                 <div class="banner_contant">
                                     <div class="row">
-                                        <div class="col-xl-6 col-sm-8 col-md-6">
+                                        <div class="col-xl-6 col-lg-6 col-sm-8 col-md-6">
                                             <div class="banner_text">
                                                 <h5>Mountain-<span>Climbing</span></h5>
                                                 <h1>Hot & Packback</h1>
@@ -605,7 +663,7 @@
                                                         class="fas fa-long-arrow-right"></i></a>
                                             </div>
                                         </div>
-                                        <div class="col-xl-6 col-sm-4 col-md-6">
+                                        <div class="col-xl-6 col-lg-6 col-sm-4 col-md-6">
                                             <div class="banner_img">
                                                 <img src="images/men.png" alt="Banner image" class="img-flude">
                                             </div>
@@ -621,7 +679,7 @@
                 <div class="banner_3" style="background: url(./images/slide-3.jpg);">
                     <div class="container">
                         <div class="row justify-content-end">
-                            <div class="col-xl-9 col-sm-12 col-md-12">
+                            <div class="col-xl-9 col-lg-9 col-sm-12 col-md-12">
                                 <div class="banner_contant">
                                     <div class="row">
                                         <div class="col-xl-6 col-sm-4 col-md-6">
@@ -653,7 +711,7 @@
     <section class="frreshoping_area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12 col-lg-12">
                     <ul class="freeshoping_content d-flex flex-warp frreshoping_slider">
                         <li class="d-flex flex-warp">
                             <div class="icon"><i class="fal fa-truck-moving"></i></div>
@@ -700,7 +758,7 @@
     <section class="cetagory_area mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="single_cetagory">
                         <div class="img">
                             <img src="images/1-1.jpg" alt="banner Images">
@@ -714,7 +772,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="single_cetagory">
                         <div class="img">
                             <img src="images/1-2.jpg" alt="banner Images">
@@ -736,7 +794,7 @@
     <section class="hotdell_area mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-9 col-xs-12 hotdell_contant_slider">
+                <div class="col-xl-9 col-lg-9 col-xs-12 hotdell_contant_slider">
                     <div class="hotdell_contant">
                         <div class="hotdell_heading">
                             <h3>Deals Hot of The Day</h3>
@@ -744,7 +802,7 @@
                         <div class="row">
                             <div class="col-xl-6 col-xs-12 col-md-6">
                                 <div class="row">
-                                    <div class="col-xl-3 slider-nav-1 order-2 order-lg-1">
+                                    <div class="col-xl-3 slider-nav-1 order-2 order-xl-1">
                                         <div class="hotdell_small_img">
                                             <img src="images/1-3-600x675.jpg" alt="image" class="img-fluid">
                                         </div>
@@ -761,7 +819,7 @@
                                             <img src="images/1-2-600x675.jpg" alt="image" class="img-fluid">
                                         </div>
                                     </div>
-                                    <div class="col-xl-9 col-xs-12 slider-for-1 order-lg-2">
+                                    <div class="col-xl-9 col-xs-12 slider-for-1 order-xl-2">
                                         <div class="hotdell_main_img">
                                             <img class="zoom_01" src="images/1-3-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-4-600x675.jpg">
@@ -854,7 +912,7 @@
                         <div class="row">
                             <div class="col-xl-6 col-md-6">
                                 <div class="row">
-                                    <div class="col-xl-3 slider-nav-1 order-2 order-lg-1">
+                                    <div class="col-xl-3 slider-nav-1 order-2 order-xl-1">
                                         <div class="hotdell_small_img">
                                             <img src="images/1-3-600x675.jpg" alt="image" class="img-fluid">
 
@@ -876,7 +934,7 @@
 
                                         </div>
                                     </div>
-                                    <div class="col-xl-9 slider-for-1 order-lg-2">
+                                    <div class="col-xl-9 slider-for-1 order-xl-2">
                                         <div class="hotdell_main_img">
                                             <img class="zoom_0" src="images/1-3-600x675.jpg" alt="image"
                                                 class="img-fluid" data-zoom-image="images/1-4-600x675.jpg">
@@ -963,7 +1021,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-8">
+                <div class="col-xl-3 col-lg-3 col-md-8">
                     <div class="hotdell_sidbar ">
                         <div class="refeshing">
                         </div>
@@ -1076,7 +1134,7 @@
                     </div>
                 </div>
                 <div class="row top_munth_slider">
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-1.jpg" alt="image" class="img-flude">
@@ -1085,7 +1143,7 @@
                             <a class="link" href="#">SHOP NOW</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-6.jpg" alt="image" class="img-flude">
@@ -1094,7 +1152,7 @@
                             <a class="link" href="#">SHOP NOW</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-2.jpg" alt="image" class="img-flude">
@@ -1103,7 +1161,7 @@
                             <a class="link" href="#">SHOP NOW</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-3.jpg" alt="image" class="img-flude">
@@ -1112,7 +1170,7 @@
                             <a class="link" href="#">SHOP NOW</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-4.jpg" alt="image" class="img-flude">
@@ -1121,7 +1179,7 @@
                             <a class="link" href="#">SHOP NOW</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-5.jpg" alt="image" class="img-flude">
@@ -1130,7 +1188,7 @@
                             <a class="link" href="#">SHOP NOW</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                         <div class="cetagory_item">
                             <a class="img" href="#">
                                 <img src="images/2-6.jpg" alt="image" class="img-flude">
@@ -1155,7 +1213,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-cl-12">
+                <div class="col-xl-12">
                     <div class="popular_cetagory_tab ">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -2222,7 +2280,7 @@
     <section class="women_cetagory mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-md-6">
+                <div class="col-xl-6 col-md-6 col-lg-6">
                     <div class="single_cetagory">
                         <div class="img">
                             <img src="images/3-1.jpg" alt="banner Images">
@@ -2236,7 +2294,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-md-6">
+                <div class="col-xl-6 col-md-6 col-lg-6">
                     <div class="single_cetagory">
                         <div class="img">
                             <img src="images/3-2.jpg" alt="banner Images">
@@ -2263,7 +2321,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3 col-sm-4 col-md-4">
+                <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4">
                     <div class="apprel_left mt_20">
                         <div class="img">
                             <img src="images/2.jpg" alt="image" class="img-flude">
@@ -2275,7 +2333,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-sm-8 col-md-8 apprel_slider">
+                <div class="col-xl-9 col-lg-9 col-sm-8 col-md-8 apprel_slider">
                     <div class="apprel_cetagory_item d-flex flex-wrap">
                         <ul class="single_popular">
                             <a class="img" href="#">
@@ -2701,7 +2759,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3 col-sm-4">
+                <div class="col-xl-3 col-lg-3 col-sm-4">
                     <div class="apprel_left electric_left mt_20">
                         <div class="img">
                             <img src="images/3.jpg" alt="image" class="img-flude">
@@ -2713,7 +2771,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-sm-8 apprel_slider">
+                <div class="col-xl-9 col-lg-9 col-sm-8 apprel_slider">
                     <div class="apprel_cetagory_item d-flex flex-wrap">
                         <ul class="single_popular">
                             <a class="img" href="#">
@@ -3164,7 +3222,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3 col-sm-4">
+                <div class="col-xl-3 col-lg-3 col-sm-4">
                     <div class="apprel_left mt_20">
                         <div class="img">
                             <img src="images/5.jpg" alt="image" class="img-flude">
@@ -3176,7 +3234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-sm-8 apprel_slider">
+                <div class="col-xl-9 col-lg-9 col-sm-8 apprel_slider">
                     <div class="apprel_cetagory_item d-flex flex-wrap">
                         <ul class="single_popular">
                             <a class="img" href="#">
@@ -3978,7 +4036,7 @@
     <footer class="mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="footer_logo">
                         <a class="logo" href="index.html">
                             <img src="images/logo.png" alt="Footer logo" class="img-flude">
@@ -3995,7 +4053,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="Comphany_info">
                         <h2>Company</h2>
                         <ul>
@@ -4008,7 +4066,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="account_info">
                         <h2>My Account
                         </h2>
@@ -4022,7 +4080,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="footer_service">
                         <h2>Customer Service</h2>
                         <ul>

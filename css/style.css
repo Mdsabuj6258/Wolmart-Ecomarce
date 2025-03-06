@@ -492,6 +492,46 @@ header {
     border-color: var(--colorWhite);
 }
 
+.breadcrumb_nav {}
+
+.breadcrumb_nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.breadcrumb_nav ul li {
+    position: relative;
+}
+
+.breadcrumb_nav ul li.active a {
+    color: var(--colorPrimary);
+}
+
+.breadcrumb_nav ul li::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "font awesome 5 free";
+    font-size: 25px;
+    font-weight: 600;
+    top: 0px;
+    right: -25px;
+    color: #999;
+}
+
+.breadcrumb_nav ul li:last-child::after {
+    display: none;
+}
+
+.breadcrumb_nav ul li a {
+    color: #999;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--headingFont);
+}
+
 .section_heading {
     text-align: center;
 }
@@ -652,6 +692,7 @@ header {
     border: 2px solid var(--colorPrimary);
     margin-left: 50px;
     align-items: center;
+    border-radius: 4px;
 }
 
 .header_left .text .cetagory span {
@@ -1173,6 +1214,10 @@ header {
     height: 50px;
     line-height: 50px;
     padding-left: 20px;
+}
+
+.about_menu {
+    border-bottom: 1px solid #eee;
 }
 
 .about_menu .menu_carwegory_area p {
@@ -3508,6 +3553,8 @@ ul.menu_carwegory_list.show {
     box-shadow: none;
     margin-top: 5px;
     border-radius: 0;
+    height: 20px;
+    width: 20px;
 }
 
 .Shoping_cart_sidebar label {
@@ -3533,6 +3580,7 @@ ul.menu_carwegory_list.show {
 
 .Shoping_cart_sidebar input {
     margin: 10px 0;
+    height: 40px;
 }
 
 .Shoping_cart_sidebar .total p,
@@ -3585,11 +3633,13 @@ ul.menu_carwegory_list.show {
 
 .Checkout_sidebar .form-check-input[type=checkbox],
 .checkout_contant .form-check-input[type=checkbox] {
-    border-radius: .25em;
     margin: 0;
     padding: 0;
     margin-top: 5px;
     margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 0;
 }
 
 .Checkout_sidebar .form-check-input:checked,
@@ -4304,9 +4354,6 @@ ul.menu_carwegory_list.show {
     margin-right: 30px;
 }
 
-.clasic_blog_item .pagenation_area {
-    margin-left: 35%;
-}
 
 .clasic_listing_blog .single_clasic {
     display: flex;
@@ -7565,6 +7612,89 @@ ul.menu_carwegory_list.show {
 
 }
 
+.mobile_menu_form {
+    margin-bottom: 25px;
+}
+
+.mobile_menu_form input {
+    background: #222;
+    border-color: #333;
+}
+
+.mobile_menu_form .btn-close {
+    position: absolute;
+    top: -18px;
+    right: -20px;
+    z-index: 1;
+    color: var(--colorFurth);
+}
+
+.mobile_menu_form .submot_btn {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    color: #eee;
+}
+
+.mobile_memu_tab .nav-link {
+    color: var(--colorWhite);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0;
+}
+
+.mobile_memu_tab .nav-pills {
+    border-bottom: 1px solid var(--colorWhite);
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.mobile_memu_tab .nav-link.active {
+    color: var(--colorPrimary);
+    padding: 0;
+    border-color: var(--colorPrimary);
+    background: 0;
+}
+
+.mobile_memu_tab .menu,
+.mobile_memu_tab .Categories {
+    margin-top: 30px;
+}
+
+.mobile_memu_tab .Categories li,
+.mobile_memu_tab .menu li {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.mobile_memu_tab .menu li a,
+.mobile_memu_tab .Categories li a {
+    color: var(--colorWhite);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.mobile_memu_tab .Categories li a:hover,
+.mobile_memu_tab .menu li a:hover {
+    color: var(--colorPrimary);
+}
+
+.mobile_memu_tab .menu {}
+
+.mobile_memu_tab .menu li {}
+
+.mobile_memu_tab .menu li a {}
+
+
+
+
+
 .mobile_header_left .text input {
     width: 140px;
     border: 0;
@@ -7629,7 +7759,7 @@ header .mobile_header .shopping_cart::after {
 header .mobile_header .offcanvas.show:not(.hiding),
 .offcanvas.showing {
     width: 300px;
-    background: var(--colorBlack);
+    background: #222;
 }
 
 
