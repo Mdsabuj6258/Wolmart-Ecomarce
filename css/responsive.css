@@ -44,10 +44,27 @@
         height: 225px;
     }
 
+    .masonary_grid_2 .single_clasic .img {
+        height: auto;
+    }
 
+    .masonary_blog .single_clasic .img {
+        height: auto;
+    }
 
+    .single_mask .text .title {
+        font-size: 14px;
+        line-height: 10px;
+    }
 
+    .single_mask .text .mask_post {
+        font-size: 13px;
+    }
 
+    .single_mask .text .mask_buttom span,
+    .single_mask .text .mask_buttom span a {
+        font-size: 12px;
+    }
 
 
 
@@ -207,6 +224,35 @@
     .Variable_Product .grid_img {
         height: 210px;
     }
+
+    .masonary_grid_2 .single_clasic .img {
+        height: auto;
+    }
+
+    .masonary_blog .single_clasic .img {
+        height: auto;
+    }
+
+    .single_mask .text .title {
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .single_mask .text .mask_post {
+        font-size: 13px;
+    }
+
+    .single_mask .text .mask_buttom span,
+    .single_mask .text .mask_buttom span a {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -571,16 +617,13 @@
     }
 
     .Variable_sidebar_banner .text {
-        top: 85px;
+        top: 170px;
         left: 15px;
     }
 
     .Variable_Product_tab .vandor_info .vandor_img {
         height: 225px;
     }
-
-
-
 
     .extnded_content .hotdell_main_img {
         height: 350px;
@@ -607,15 +650,27 @@
         margin-bottom: 15px;
     }
 
+    .masonary_grid_4 .single_clasic .img {
+        height: auto;
+    }
 
+    .masonary_blog .single_clasic .img {
+        height: auto;
+    }
 
+    .single_mask .text .title {
+        font-size: 14px;
+        line-height: 10px;
+    }
 
+    .single_mask .text .mask_post {
+        font-size: 13px;
+    }
 
-
-
-
-
-
+    .single_mask .text .mask_buttom span,
+    .single_mask .text .mask_buttom span a {
+        font-size: 12px;
+    }
 
 
 
@@ -885,6 +940,10 @@
         height: 180px;
     }
 
+    .masonary_grid_2 .single_clasic .img {
+        height: auto;
+    }
+
     .isitio_filter_btn {
         gap: 10px;
     }
@@ -977,6 +1036,45 @@
     .Variable_Product .grid_img {
         height: 600px;
     }
+
+    .masonary_grid_4 .single_clasic .img {
+        height: auto;
+    }
+
+    .masonary_blog .single_clasic .img {
+        height: auto;
+    }
+
+    .single_mask .text .title {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .my_account_contant ul li .text p {
+        width: 100px;
+    }
+
+    .my_accout_tab ul li a {
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+
+    .my_account_contant .common_btn_3 {
+        font-size: 13px;
+    }
+
+    .my_account_contant .dashboard_box {
+        width: 47%;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1445,6 +1543,14 @@
         height: 180px;
     }
 
+    .masonary_blog .single_clasic .img {
+        height: auto;
+    }
+
+    .masonary_grid_2 .single_clasic .img {
+        height: auto;
+    }
+
     .single_clasic .title {
         font-size: 18px;
     }
@@ -1554,6 +1660,60 @@
     .Variable_Product .grid_img {
         height: 560px;
     }
+
+    .masonary_grid_4 .single_clasic .img {
+        height: auto;
+    }
+
+    .my_account_contant {
+        margin-top: 30px;
+    }
+
+    .my_accout_tab ul li a {
+        font-size: 15px;
+    }
+
+    .my_account_contant ul li .text p {
+        width: 100px;
+    }
+
+    .my_account_contant .common_btn_3 {
+        font-size: 13px;
+    }
+
+    .my_account_contant .dashboard_box {
+        width: 47%;
+    }
+
+    .date_id {
+        width: 15%;
+    }
+
+    .status_id {
+        width: 20%;
+    }
+
+    .status_id {}
+
+    .total_id {
+        width: 20%;
+    }
+
+    .text-end.action_id {
+        width: 15%;
+    }
+
+    .order_id {
+        width: 15%;
+    }
+
+    .my_account_contant .common_btn {
+        padding: 4px 15px;
+    }
+
+
+
+
 
 
 
@@ -2215,6 +2375,91 @@
     .contact_info_area .text h2 {
         font-size: 25px;
     }
+
+    .single_mask .text .title {
+        font-size: 17px;
+        line-height: 10px;
+    }
+
+    .my_account_contant {
+        margin-top: 30px;
+    }
+
+    .my_account_contant h3 {
+        font-size: 18px;
+    }
+
+    .my_accout_tab ul li a {
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+
+    .my_account_contant ul li h4 {
+        font-size: 13px;
+    }
+
+    .my_account_contant .common_btn_3 {
+        font-size: 13px;
+    }
+
+    .my_account_contant ul {
+        margin-top: 0px;
+        display: inherit !important;
+    }
+
+    .my_account_contant ul li {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .my_account_contant .dashboard_box {
+        width: 46%;
+        height: 160px;
+    }
+
+    .my_account_contant .common_btn_2 {
+        margin-left: 12px;
+    }
+
+    .login_contant .login_heading a {
+        width: 140px;
+    }
+
+    .date_id {
+        width: 15%;
+    }
+
+    .status_id {
+        width: 20%;
+    }
+
+    .status_id {}
+
+    .total_id {
+        width: 20%;
+    }
+
+    .text-end.action_id {
+        width: 15%;
+    }
+
+    .order_id {
+        width: 15%;
+    }
+
+    .my_account_contant .common_btn {
+        padding: 4px 15px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }

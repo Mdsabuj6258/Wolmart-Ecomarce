@@ -3710,7 +3710,6 @@ ul.menu_carwegory_list.show {
 
 .my_accout_tab ul li {
     border-bottom: 1px solid #eee;
-    width: 300px;
 }
 
 .my_accout_tab ul li a {
@@ -3731,6 +3730,10 @@ ul.menu_carwegory_list.show {
     font-weight: 700;
 }
 
+.my_account_contant h3 i {
+    margin-right: 3px;
+}
+
 .my_account_contant .common_btn {
     padding: 4px 25px;
     font-size: 16px;
@@ -3741,6 +3744,14 @@ ul.menu_carwegory_list.show {
 
 .my_account_contant table p {
     margin: 20px 0;
+}
+
+.my_account_contant p a {
+    color: var(--colorPrimary);
+}
+
+.my_account_contant p a:hover {
+    text-decoration: underline;
 }
 
 .my_account_contant .common_btn_2 {
@@ -3823,7 +3834,7 @@ ul.menu_carwegory_list.show {
 }
 
 .my_account_contant ul li h4 {
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
     padding-bottom: 10px;
     font-size: 15px;
     font-weight: 700;
@@ -3927,6 +3938,9 @@ ul.menu_carwegory_list.show {
 
 .form-check-input[type=checkbox] {
     padding: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 0;
 }
 
 .login_contant ul {
