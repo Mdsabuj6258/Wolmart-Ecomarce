@@ -192,9 +192,21 @@
         gap: 20px;
     }
 
+    .extnded_content .hotdell_main_img {
+        height: 400px;
+    }
 
+    .Subscribe_form input {
+        width: 520px;
+    }
 
+    .Frequently_total {
+        width: 28%;
+    }
 
+    .Variable_Product .grid_img {
+        height: 210px;
+    }
 
 
 
@@ -570,16 +582,30 @@
 
 
 
+    .extnded_content .hotdell_main_img {
+        height: 350px;
+    }
 
+    .Variable_Product_tab .Variable_vandor_text ul {
+        margin: 20px 0px 20px 0px;
+    }
 
+    .Variable_Product_tab .Variable_vandor_text ul li {
+        margin-bottom: 10px;
+    }
 
+    .hotdell_main_img {
+        height: 370px;
+    }
 
+    .Frequently_total {
+        width: 28%;
+    }
 
-
-
-
-
-
+    .Variable_Product .grid_img {
+        height: 170px;
+        margin-bottom: 15px;
+    }
 
 
 
@@ -932,14 +958,25 @@
         height: 265px;
     }
 
+    .Frequently_total {
+        width: 28%;
+    }
 
+    .Variable_Product_tab .vandor_info .vandor_img {
+        height: 160px;
+    }
 
+    .Variable_Product_tab .Variable_vandor_text ul {
+        margin: 20px 0px 20px 0px;
+    }
 
+    .Variable_Product_tab .Variable_vandor_text ul li {
+        margin-bottom: 10px;
+    }
 
-
-
-
-
+    .Variable_Product .grid_img {
+        height: 600px;
+    }
 
 
 
@@ -1510,8 +1547,13 @@
         font-size: 15px;
     }
 
+    .Frequently_total {
+        width: 40%;
+    }
 
-
+    .Variable_Product .grid_img {
+        height: 560px;
+    }
 
 
 
@@ -2162,13 +2204,17 @@
         margin-top: 30px;
     }
 
+    .hotdell_main_img {
+        height: auto;
+    }
 
+    .Frequently_total {
+        width: 70%;
+    }
 
-
-
-
-
-
+    .contact_info_area .text h2 {
+        font-size: 25px;
+    }
 
 
 }
