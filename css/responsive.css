@@ -113,10 +113,84 @@
         height: 190px !important;
     }
 
+    .hotdell_text .quantaty .order_plce button {
+        padding: 12px 40px;
+    }
 
+    .Variable_Product_tab .discription_item li {
+        width: 30%;
+    }
 
+    .Variable_sidebar .refeshing .text h4 {
+        font-size: 12px;
+    }
 
+    .Variable_sidebar .refeshing .img i {
+        font-size: 25px;
+    }
 
+    .Variable_sidebar_banner .text {
+        top: 120px;
+        left: 20px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .img,
+    .hotdell_sidbar .hotdell_sidbar_contant .img {
+        min-width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .text .title,
+    .hotdell_sidbar .hotdell_sidbar_contant .text .title {
+        font-size: 12px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .text p,
+    .hotdell_sidbar .hotdell_sidbar_contant .text p {
+        font-size: 11px;
+    }
+
+    .vertical_sidebar .hotdell_sidbar_contant .text h4,
+    .hotdell_sidbar .hotdell_sidbar_contant .text h4 {
+        font-size: 13px;
+    }
+
+    .vertical_sidebar h3,
+    .hotdell_sidbar_heading h3,
+    .hotdell_heading h3 {
+        font-size: 15px;
+    }
+
+    .Variable_Product_tab .vandor_info .vandor_img {
+        height: 195px;
+    }
+
+    .Variable_Product_tab .Variable_vandor_text ul li {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .Variable_Product_tab .Variable_vandor_text ul {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .Variable_Product_tab .progressbar_area {
+        min-width: 230px;
+    }
+
+    .from_chacks label {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .Variable_Product_tab .discription_item {
+        margin-bottom: 20px;
+    }
+
+    .review_tab .nav-pills {
+        gap: 20px;
+    }
 
 
 
@@ -449,6 +523,62 @@
         font-size: 12px;
     }
 
+    .hotdell_contant.Variable_Product .hotdell_text {
+        margin-top: 10px;
+    }
+
+    .hotdell_text h1 {
+        font-size: 20px;
+    }
+
+    .Variable_Product_tab .discription_item li {
+        width: 30%;
+    }
+
+    .Variable_Product_tab .discription_item li p {
+        font-size: 12px;
+    }
+
+    .Variable_Product_tab .discription_item li h4 span,
+    .Variable_Product_tab .discription_item li h4 {
+        font-size: 13px;
+    }
+
+    .Variable_sidebar {
+        padding: 10px;
+    }
+
+    .Variable_sidebar .refeshing .img i {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .Variable_sidebar .refeshing .text h4 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .Variable_sidebar_banner .text {
+        top: 85px;
+        left: 15px;
+    }
+
+    .Variable_Product_tab .vandor_info .vandor_img {
+        height: 225px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -769,6 +899,53 @@
     .contact_info_form button {
         font-size: 13px;
     }
+
+    .Variable_Product_tab .discription_item li {
+        width: 47%;
+    }
+
+    .Variable_Product_tab .teft {
+        margin-top: 30px;
+    }
+
+    .Variable_Product_tab .submit_review h3 {
+        margin-top: 30px;
+    }
+
+    .from_chacks label {
+        margin-bottom: 6px;
+    }
+
+    .review_tab .nav-pills {
+        gap: 0px 10px;
+    }
+
+    .review_tab .nav-link {
+        font-size: 13px;
+    }
+
+    .Variable_sidebar {
+        margin-top: 30px;
+    }
+
+    .Variable_sidebar_banner .img {
+        height: 265px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -1259,6 +1436,83 @@
     .contact_location_area iframe {
         height: auto;
     }
+
+    .contact_info_form h4 {
+        margin-top: 30px;
+    }
+
+    .Variable_Product_tab .nav-link {
+        font-size: 20px;
+    }
+
+    .Variable_Product_tab .nav-pills {
+        gap: 0px 10px;
+    }
+
+    .Variable_Product_tab .discription .text h3 {
+        font-size: 18px;
+    }
+
+    .Variable_Product_tab .discription_item li {
+        width: 100%;
+    }
+
+    .Variable_coustomar_review {
+        margin-top: 30px;
+    }
+
+    .Variable_Product_tab .progressbar_area {
+        min-width: 240px;
+    }
+
+    .Variable_Product_tab .submit_review h3 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .from_chacks label {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .Variable_Product_tab .submit_review form button {
+        font-size: 14px;
+    }
+
+    .Variable_Product_tab .nav-link {
+        font-size: 20px;
+    }
+
+    .review_tab .single_review .text {
+        width: 70%;
+        margin-left: 15px;
+    }
+
+    .review_tab .single_review .text .retting {
+        margin: 10px 0px 20px 0px;
+        font-size: 12px;
+    }
+
+    .Variable_Product_item .img {
+        height: 275px;
+    }
+
+    .Variable_sidebar {
+        margin-top: 30px;
+    }
+
+    .Variable_Product_tab .vandor_info .vandor_img {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .Variable_Product_tab .review_tab .nav-link {
+        font-size: 15px;
+    }
+
+
+
+
 
 
 
@@ -1844,12 +2098,69 @@
         height: auto;
     }
 
+    .contact_info_form h4 {
+        margin-top: 30px;
+    }
 
 
+    .Variable_Product_tab .nav-link {
+        font-size: 20px;
+    }
 
+    .Variable_Product_tab .nav-pills {
+        gap: 0px 10px;
+    }
 
+    .Variable_Product_tab .discription .text h3 {
+        font-size: 18px;
+    }
 
+    .Variable_Product_tab .discription_item li {
+        width: 100%;
+    }
 
+    .Variable_coustomar_review {
+        margin-top: 30px;
+    }
+
+    .Variable_Product_tab .progressbar_area {
+        min-width: 240px;
+    }
+
+    .Variable_Product_tab .submit_review h3 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .from_chacks label {
+        font-size: 10px;
+    }
+
+    .Variable_Product_tab .submit_review form button {
+        font-size: 12px;
+    }
+
+    .Variable_Product_tab .nav-link {
+        font-size: 14px;
+    }
+
+    .review_tab .single_review .text {
+        width: 70%;
+        margin-left: 15px;
+    }
+
+    .review_tab .single_review .text .retting {
+        margin: 10px 0px 20px 0px;
+        font-size: 12px;
+    }
+
+    .Variable_Product_item .img {
+        height: auto;
+    }
+
+    .Variable_sidebar {
+        margin-top: 30px;
+    }
 
 
 
