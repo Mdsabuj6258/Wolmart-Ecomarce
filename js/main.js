@@ -60,19 +60,19 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 6,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                 }
             },
             {
@@ -98,25 +98,25 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 6,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             }
         ]
@@ -922,15 +922,15 @@ $(function () {
     });
 
 
-    //======STICKY SIDEBAR======= 
-    $(".sticky_sidebar").stickit({
-        top: 90,
-    })
+    // //======STICKY SIDEBAR======= 
+    // $(".sticky_sidebar").stickit({
+    //     top: 90,
+    // })
 
-    //======STICKY SIDEBAR======= 
-    $(".sticky_text").stickit({
-        top: 20,
-    })
+    // //======STICKY SIDEBAR======= 
+    // $(".sticky_text").stickit({
+    //     top: 20,
+    // })
     // menu js
     if ($(window).scrollTop() > 1) {
         if ($('.main_menu').offset() != undefined) {

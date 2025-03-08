@@ -28,12 +28,12 @@
     <section class="topbar">
         <div class="container">
             <div class="row justify-contant-between d-none d-lg-flex">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="topbar_left">
                         <p>Welcome to Wolmart Store message or remove it!</p>
                     </div>
                 </div>
-                <div class="col-xl-6 ">
+                <div class="col-xl-6 col-lg-6">
                     <div class="topbar_right ms-auto d-none d-lg-flex">
                         <div class="langauge">
                             <select class="select_js">
@@ -104,33 +104,121 @@
     </section>
 
     <!-- ======Header start====== -->
-    <header class="mt_50  xs_mt_0">
+    <header class="mt_30  xs_mt_0">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="mobile_header d-lg-none d-flex flex-wrap justify-content-between align-items-center">
-                        <button class="mobile_btn" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
-                                class="fal fa-bars"></i></button>
-                        <div class="logo">
-                            <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
+                        <div class="mobile_header_left d-flex flex-wrap align-items-center">
+                            <button class="mobile_btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                                    class="fal fa-bars"></i></button>
+                            <div class="logo">
+                                <a href="index.html"> <img src="images/logo.png" alt="main logo"
+                                        class="img-flude w100"></a>
+                            </div>
+                            <div class="text d-flex flex-warp d-none d-md-flex">
+                                <div class="cetagory">
+                                    <select class="select_js">
+                                        <option value=""> All Cetagory</option>
+                                        <option value="">Bangla</option>
+                                        <option value="">Chiness</option>
+                                        <option value="">japanis</option>
+                                        <option value="">Aribic</option>
+                                        <option value="">italy</option>
+                                    </select>
+                                </div>
+                                <form>
+                                    <input type="text" placeholder="Search in......">
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
                         </div>
-                        <span class="mobile_cart"><i class="fal fa-shopping-bag"></i></span>
+                        <div class="mobile_header_right d-flex flex-wrap align-items-center">
+                            <div class="mobile_cart_item d-flex flex-wrap d-none d-sm-flex
+                            ">
+                                <a class="call_cart" href="callTo:123456789"><i class="fal fa-phone-alt"></i></a>
+                                <a class="wish_cart" href="wishlist.html"><i class="fal fa-heart"></i></a>
+                                <a class="compare_cart" href="compare.html"><i class="fal fa-balance-scale"></i></a>
+                            </div>
+                            <a class="shopping_cart" href="cart.html"><i class="fal fa-shopping-bag"></i></a>
+                        </div>
+
+
+
                         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
                             id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
                             <div class="offcanvas-body">
-                                <p>sabuj</p>
+                                <div class="mobile_menu_form">
+                                    <form>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                        <input type="text" placeholder="Search">
+                                        <button class="submot_btn" type="submit"><i class="fal fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <div class="mobile_memu_tab">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-home" type="button" role="tab"
+                                                aria-controls="pills-home" aria-selected="true">Main Menu</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-profile" type="button" role="tab"
+                                                aria-controls="pills-profile" aria-selected="false">Categories</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                            aria-labelledby="pills-home-tab" tabindex="0">
+                                            <ul class="menu">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="shope_page_1.html">Shope</a></li>
+                                                <li><a href="vendor.html">Vendor</a></li>
+                                                <li><a href="clasic_blog.html">Blog</a></li>
+                                                <li><a href="about.html">Pages</a></li>
+                                                <li><a href="error.html">Elements</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                            aria-labelledby="pills-profile-tab" tabindex="0">
+                                            <ul class="Categories">
+                                                <li><a href="shope_page_3.html"><i class="fal fa-tshirt"></i>
+                                                        Fashion</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-home-lg-alt"></i> Home
+                                                        & Garden</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-tv"></i>
+                                                        Electronics</a>
+                                                </li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-loveseat"></i>
+                                                        Furniture</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-heartbeat"></i> Healthy
+                                                        & Beauty</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-gift"></i> Gift
+                                                        Ideas</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-gamepad"></i> Toy &
+                                                        Games</a></li>
+                                                <li><a href="shope_page_3.html"><i class="far fa-cauldron"></i>
+                                                        Cooking</a></li>
+                                                <li><a href="shope_page_3.html"><i
+                                                            class="fas fa-mobile-android-alt"></i> Smart Phone</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fas fa-camera-alt"></i> Camara
+                                                        & Photo</a></li>
+                                                <li><a href="shope_page_3.html"><i class="fal fa-gem"></i> Accessories
+                                                    </a></li>
+                                                <li><a class="view_all" href="shope_page_3.html">View All</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-lg-7">
                     <div class="header_left d-flex flex-warp align-items-center  d-none d-lg-flex">
                         <div class="logo">
                             <a href="index.html"> <img src="images/logo.png" alt="main logo" class="img-flude w100"></a>
@@ -153,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 d-none d-lg-flex">
+                <div class="col-xl-4 col-lg-5 d-none d-lg-flex">
                     <div class="header_right d-flex flex-warp">
                         <div class="call_info d-flex flex-warp align-items-center">
                             <div class="icon">
@@ -195,7 +283,7 @@
     <nav class="main_menu about_menu d-none d-lg-block">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3">
                     <div class="menu_carwegory_area xs-d-none lg-d-block">
                         <p><i class="far fa-bars"></i> Browse Categories <i class="far fa-angle-down"></i></p>
                         <ul class="menu_carwegory_list">
@@ -363,7 +451,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-9 d-flex flex-warp justify-contant-between">
+                <div class="col-xl-9 col-lg-9 d-flex flex-warp justify-contant-between">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home </a>
@@ -615,43 +703,43 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>Order</th>
-                                        <th>Date</th>
-                                        <th>Status</th>
-                                        <th>Total</th>
+                                        <th class="order_id">Order</th>
+                                        <th class="date_id">Date</th>
+                                        <th class="status_id">Status</th>
+                                        <th class="total_id">Total</th>
                                         <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th>
+                                        <th class="order_id">
                                             <p>#2321</p>
                                         </th>
-                                        <td>
+                                        <td class="date_id">
                                             <p> August 20, 2021</p>
                                         </td>
-                                        <td>
+                                        <td class="status_id">
                                             <p>On hold</p>
                                         </td>
-                                        <td>
+                                        <td class="total_id">
                                             <p> $121.00 for 1 item</p>
                                         </td>
-                                        <td class="text-end"><a class="common_btn" href="#">View</a></td>
+                                        <td class="text-end action_id"><a class="common_btn" href="#">View</a></td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <th class="order_id">
                                             <p>#2321</p>
                                         </th>
-                                        <td>
+                                        <td class="date_id">
                                             <p> August 20, 2021</p>
                                         </td>
-                                        <td>
+                                        <td class="status_id">
                                             <p>On hold</p>
                                         </td>
-                                        <td>
+                                        <td class="total_id">
                                             <p> $121.00 for 1 item</p>
                                         </td>
-                                        <td class="text-end"><a class="common_btn" href="#">View</a></td>
+                                        <td class="text-end action_id"><a class="common_btn" href="#">View</a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -743,15 +831,12 @@
 
                 </div>
             </div>
-
-
-
         </div>
     </section>
 
     <!-- ======Subscribe BOx start====== -->
-    <section class="Subscribe_area mt_100">
-        <div class=" container">
+    <section class="Subscribe_area mt_60">
+        <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="Subscribe_content d-flex flex-warp justify-content-between">
@@ -781,7 +866,7 @@
     <footer class="mt_60">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="footer_logo">
                         <a class="logo" href="index.html">
                             <img src="images/logo.png" alt="Footer logo" class="img-flude">
@@ -798,7 +883,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="Comphany_info">
                         <h2>Company</h2>
                         <ul>
@@ -811,7 +896,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="account_info">
                         <h2>My Account
                         </h2>
@@ -825,7 +910,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="footer_service">
                         <h2>Customer Service</h2>
                         <ul>
@@ -843,12 +928,12 @@
     </footer>
 
     <!-- ======Footer Secound start====== -->
-    <section class="footer_secound mt_60">
+    <section class="footer_secound mt_60 xs_mt_30">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="footer_secound_contant">
-                        <ul class="d-flex flex-warp">
+                        <ul class="">
                             <h2>Consumer Electric:</h2>
                             <li><a href="#">TV Television</a></li>
                             <li><a href="#">Air Condition</a></li>
@@ -930,9 +1015,9 @@
     <section class="footer_copyright">
         <div class="container">
             <div class="col-xl-12 ">
-                <div class="copyright_contant justify-content-between  d-flex flex-warp">
+                <div class="copyright_contant justify-content-between  d-flex flex-wrap">
                     <p>Copyright © 2021 Wolmart Store. All Rights Reserved.</p>
-                    <div class="right d-flex flex-warp">
+                    <div class="right d-flex flex-wrap">
                         <p>We're using safe payment for</p>
                         <img src="images/payment.png" alt="phyment img" class="img-flude">
                     </div>

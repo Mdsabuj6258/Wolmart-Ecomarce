@@ -66,7 +66,18 @@
         font-size: 12px;
     }
 
+    .store_list_item .text {
+        margin-left: 30px;
+        width: 64%;
+    }
 
+    .store_list_item .text .bottom {
+        margin-top: 20px !important;
+    }
+
+    .Shope_list_view_bottom {
+        padding-top: 20px;
+    }
 
 
 
@@ -246,6 +257,56 @@
     .single_mask .text .mask_buttom span a {
         font-size: 12px;
     }
+
+    .Variable_Product_tab .nav-pills {
+        gap: 0px 10px;
+    }
+
+    .Variable_Product_tab .nav-link {
+        font-size: 20px;
+    }
+
+    .masonry_content .masonry_main_img {
+        height: 425px;
+    }
+
+    .masonry_content .hotdell_main_img {
+        height: 275px;
+        margin-bottom: 25px;
+    }
+
+    .masonry_content .masonry_small_img {
+        height: 130px;
+        position: relative;
+    }
+
+    .Variable_Product_tab .review_tab .nav-link {
+        font-size: 15px;
+    }
+
+    .sticky_content .hotdell_main_img {
+        height: 425px;
+    }
+
+    .store_list_item .text {
+        margin-left: 30px;
+        width: 64%;
+    }
+
+    .store_list_item .text .bottom {
+        margin-top: 20px !important;
+    }
+
+    .Shope_list_view_bottom {
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -617,7 +678,7 @@
     }
 
     .Variable_sidebar_banner .text {
-        top: 170px;
+        top: 80px;
         left: 15px;
     }
 
@@ -672,9 +733,135 @@
         font-size: 12px;
     }
 
+    .Variable_Product_tab .nav-pills {
+        gap: 0px 10px;
+    }
 
+    .Variable_Product_tab .nav-link {
+        font-size: 20px;
+    }
 
+    .masonry_content .masonry_main_img {
+        height: 350px;
+    }
 
+    .masonry_content .hotdell_main_img {
+        height: 235px;
+        margin-bottom: 25px;
+    }
+
+    .masonry_content .masonry_small_img {
+        height: 105px;
+    }
+
+    .sticky_both_content .hotdell_text h1 {
+        font-size: 18px;
+    }
+
+    .sticky_both_content .hotdell_text .brand .img {
+        width: 60px;
+        border: 1px solid var(--colorFurth);
+        margin-right: 10px;
+    }
+
+    .sticky_both_content .hotdell_text .price_1 {
+        font-size: 20px;
+    }
+
+    .sticky_both_content .hotdell_text .color p {
+        margin-right: 20px;
+    }
+
+    .sticky_both_content .hotdell_text .color p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sticky_both_content .hotdell_text .size p {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .sticky_both_content .hotdell_text .quantaty p {
+        margin-bottom: 30px;
+    }
+
+    .sticky_both_content .hotdell_text .buttom {
+        display: inherit !important;
+    }
+
+    .sticky_both_content .hotdell_text .buttom .wish_list {
+        margin-top: 15px;
+    }
+
+    .sticky_both_content .hotdell_text .buttom .wish_list::after {
+        display: none;
+    }
+
+    .sticky_both_content .hotdell_main_img {
+        height: 475px;
+        margin-bottom: 25px;
+    }
+
+    .Variable_Product_tab .review_tab .nav-link {
+        font-size: 15px;
+    }
+
+    .Variable_Product_tab .submit_review form .from_chacks label {
+        margin-left: 25px;
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .Variable_coustomar_review {
+        margin-top: 20px;
+    }
+
+    .sticky_content .hotdell_main_img {
+        height: 350px;
+    }
+
+    .both_sidebar_contant,
+    .shope_page_3_area .vandor_store_content,
+    .Shope_list_view_bottom,
+    .Shope_list_view .vandor_store_content {
+        padding: 20px;
+    }
+
+    .store_list_item .img {
+        width: 35%;
+        position: relative;
+    }
+
+    .store_list_item .text {
+        margin-left: 20px;
+        width: 60%;
+    }
+
+    .store_list_item .text .bottom {
+        margin-top: 20px !important;
+    }
+
+    .shope_1_banner .banner_content {
+        padding: 40px 20px;
+    }
+
+    .shope_1_banner .banner_content h2 {
+        font-size: 40px;
+    }
+
+    .shope_1_banner .banner_content h5 {
+        font-size: 25px;
+    }
+
+    .store_item.shope_4_item .img .icon,
+    .store_item.shope_1_item .img .icon {
+        top: 164px;
+    }
+
+    .store_item.shope_1_item:hover .icon {
+        top: 150px;
+    }
 }
 
 
@@ -1067,16 +1254,45 @@
         width: 47%;
     }
 
+    .Variable_Product_tab .nav-pills {
+        gap: 0px 10px;
+    }
 
+    .Variable_Product_tab .nav-link {
+        font-size: 20px;
+    }
 
+    .Variable_Product_tab .review_tab .nav-link {
+        font-size: 14px;
+    }
 
+    .Variable_Product_tab .discription .text h3 {
+        font-size: 18px;
+    }
 
+    .Variable_Product_tab .discription .text h3 {
+        font-size: 15px;
+    }
 
+    .extnded_content .hotdell_main_img {
+        height: 350px;
+    }
 
+    .store_list_item .img {
+        width: 100%;
+    }
 
+    .store_list_item .text {
+        margin-left: 0;
+        width: 100%;
+    }
 
-
-
+    .both_sidebar_contant,
+    .shope_page_3_area .vandor_store_content,
+    .Shope_list_view_bottom,
+    .Shope_list_view .vandor_store_content {
+        padding-top: 30px;
+    }
 
 
 
@@ -1711,7 +1927,113 @@
         padding: 4px 15px;
     }
 
+    .breadcrumb_nav ul {
+        gap: 0 35px;
+    }
 
+    .order_done_heading h1 {
+        font-size: 22px;
+    }
+
+    .order_done_contant .order_view {
+        display: inherit !important;
+    }
+
+    .order_done_contant .order_view li {
+        width: 100%;
+        text-align: start;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .order_done_contant .order_view li p {
+        font-weight: 600;
+        width: 140px;
+    }
+
+    .order_done_contant .order_view li h5 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .extnded_content .hotdell_main_img {
+        height: 570px;
+    }
+
+    .Variable_Product_tab .nav-pills {
+        gap: 0px 10px;
+    }
+
+    .masonry_content .masonry_small_img {
+        height: 170px;
+    }
+
+    .sticky_both_content .hotdell_main_img {
+        height: 560px;
+    }
+
+    .Product_without_sidebar_contant .quantaty input {
+        width: 140px;
+    }
+
+    .Product_without_sidebar_contant .hotdell_text .quantaty .plus::after {
+        left: 60px;
+    }
+
+    .Product_without_sidebar_contant .hotdell_text .quantaty .minus::after {
+        left: 100px;
+    }
+
+    .Product_without_sidebar_contant .quantaty .order_plce button {
+        width: initial;
+    }
+
+    .store_list_item .img {
+        width: 100%;
+        position: relative;
+    }
+
+    .store_list_item .text {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .store_list_item .text .bottom .action {
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .store_list_item .text .bottom {
+        margin-top: 20px !important;
+    }
+
+    .shope_1_banner .banner_content {
+        padding: 30px 20px;
+    }
+
+    .shope_1_banner .banner_content h2 {
+        font-size: 30px;
+    }
+
+    .shope_1_banner .banner_content h5 {
+        font-size: 25px;
+    }
+
+    .shope_1_banner .banner_content h5 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .both_sidebar_contant,
+    .shope_page_3_area .vandor_store_content,
+    .Shope_list_view_bottom,
+    .Shope_list_view .vandor_store_content {
+        padding-top: 30px;
+    }
 
 
 
@@ -1722,7 +2044,6 @@
 
 
 }
-
 
 
 
@@ -2343,6 +2664,10 @@
     }
 
     .Variable_Product_tab .nav-link {
+        font-size: 18px;
+    }
+
+    .review_tab .Variable_Product_tab .nav-link {
         font-size: 14px;
     }
 
@@ -2451,6 +2776,117 @@
         padding: 4px 15px;
     }
 
+    .breadcrumb_nav ul {
+        gap: 0 35px;
+    }
+
+    .breadcrumb_nav ul li a {
+        font-size: 18px;
+    }
+
+    .order_done_heading h1 {
+        font-size: 22px;
+    }
+
+    .order_done_contant .order_view {
+        display: inherit !important;
+    }
+
+    .order_done_contant .order_view li {
+        width: 100%;
+        text-align: start;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .order_done_contant .order_view li p {
+        font-weight: 600;
+        width: 140px;
+    }
+
+    .order_done_contant .order_view li h5 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .extnded_content .hotdell_main_img {
+        height: 385px;
+    }
+
+    .masonry_content .masonry_main_img {
+        height: 380px;
+    }
+
+    .masonry_content .masonry_small_img {
+        height: 375px;
+        margin-bottom: 25px;
+    }
+
+    .sticky_both_content .hotdell_main_img {
+        height: 380px;
+    }
+
+    .sticky_content .hotdell_main_img {
+        height: 370px;
+    }
+
+    .Product_without_sidebar_contant .quantaty input {
+        width: 140px;
+    }
+
+    .Product_without_sidebar_contant .hotdell_text .quantaty .plus::after {
+        left: 60px;
+    }
+
+    .Product_without_sidebar_contant .hotdell_text .quantaty .minus::after {
+        left: 100px;
+    }
+
+    .Product_without_sidebar_contant .quantaty .order_plce button {
+        width: initial;
+    }
+
+    .shope_1_banner .banner_content {
+        padding: 40px 25px;
+    }
+
+    .shope_1_banner .banner_content h5 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .shope_1_banner .banner_content h2 {
+        font-size: 30px;
+    }
+
+    .both_sidebar_contant,
+    .shope_page_3_area .vandor_store_content,
+    .Shope_list_view_bottom,
+    .Shope_list_view .vandor_store_content {
+        padding: 0 15px;
+    }
+
+    .content_header .left p {
+        font-weight: 700;
+        margin-right: 10px;
+        color: var(--colorBlack);
+    }
+
+    .store_list_item .img {
+        width: 100%;
+    }
+
+    .store_list_item .text {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .store_list_item .text .bottom {
+        margin-top: 29px !important;
+    }
 
 
 

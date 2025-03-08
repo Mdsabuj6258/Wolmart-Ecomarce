@@ -3464,6 +3464,14 @@ ul.menu_carwegory_list.show {
     left: 95px;
 }
 
+.Product_without_sidebar_contant .hotdell_text .quantaty .minus::after {
+    left: 145px;
+}
+
+.Product_without_sidebar_contant .hotdell_text .quantaty .plus::after {
+    left: 105px;
+}
+
 .vandor_store_sidebar .accordion-flush .accordion-item .accordion-button,
 .vandor_store_sidebar .accordion-flush .accordion-item .accordion-button.collapsed {
     padding-left: 0;
@@ -7018,6 +7026,7 @@ ul.menu_carwegory_list.show {
 .from_chacks label {
     margin-left: 25px;
     font-size: 15px;
+    margin-bottom: 7px;
 }
 
 .Variable_Product_tab .submit_review form {
@@ -7043,7 +7052,7 @@ ul.menu_carwegory_list.show {
 .review_tab .nav-pills {
     --bs-nav-pills-link-active-bg: none;
     gap: 65px;
-    border-bottom: 1px solid var(--colorFurth);
+    border-bottom: 1px solid #eee;
 }
 
 .review_tab .nav-link {
