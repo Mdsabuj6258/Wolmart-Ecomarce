@@ -922,15 +922,15 @@ $(function () {
     });
 
 
-    // //======STICKY SIDEBAR======= 
-    // $(".sticky_sidebar").stickit({
-    //     top: 90,
-    // })
+    //======STICKY SIDEBAR======= 
+    $(".sticky_sidebar").stickit({
+        top: 90,
+    })
 
-    // //======STICKY SIDEBAR======= 
-    // $(".sticky_text").stickit({
-    //     top: 20,
-    // })
+    //======STICKY SIDEBAR======= 
+    $(".sticky_text").stickit({
+        top: 20,
+    })
     // menu js
     if ($(window).scrollTop() > 1) {
         if ($('.main_menu').offset() != undefined) {

@@ -845,15 +845,6 @@ header {
     -o-transition: all linear .3s;
 }
 
-.main_menu.menu_fix {
-    top: 0;
-    animation: menu_animate 2s;
-    -webkit-animation: menu_animate 2s;
-    background: var(--colorWhite);
-    z-index: 999;
-    border-bottom: 1px solid #EEE;
-}
-
 @keyframes menu_animate {
     from {
         transform: translateY(-100%);
@@ -1104,10 +1095,13 @@ header {
     visibility: visible;
 }
 
+
 .main_menu.menu_fix {
+    position: fixed;
     left: 0;
     top: 0;
-    z-index: 999;
+    border-bottom: 1px solid #eee;
+    background: var(--colorWhite);
     animation: menu_animate 2s;
     -webkit-animation: menu_animate 2s;
 }
@@ -1225,6 +1219,7 @@ header {
     font-size: 14px;
     font-weight: 700;
     transition: all linear .3s;
+    color: var(--colorBlack);
 }
 
 .about_menu .menu_carwegory_area p:hover {
@@ -3323,8 +3318,8 @@ ul.menu_carwegory_list.show {
     color: var(--colorPrimary);
 }
 
-.wishlist_text table a {
-    margin-top: 40px;
+.wishlist_img {
+    min-width: 250px;
 }
 
 .wishlist_text table p {
@@ -3333,7 +3328,7 @@ ul.menu_carwegory_list.show {
 
 .wishlist_text table p,
 .wishlist_text table h5 {
-    margin-top: 50px;
+    min-width: 100px;
 }
 
 .wishlist_text table .common_btn {
@@ -3341,6 +3336,12 @@ ul.menu_carwegory_list.show {
     border: 1px solid var(--colorFurth);
     margin-right: 5px;
     font-size: 15px;
+    min-width: 125px;
+    text-align: center;
+}
+
+.wishlist_text table td {
+    vertical-align: middle;
 }
 
 .wishlist_text table .common_btn:hover {
@@ -3351,6 +3352,7 @@ ul.menu_carwegory_list.show {
 .wishlist_text table .common_btn_2 {
     font-size: 15px;
     padding: 7px 30px;
+    min-width: 160px;
 }
 
 .socal_link {
@@ -4041,36 +4043,74 @@ ul.menu_carwegory_list.show {
 
 
 /* Compare start */
-.compare_contant {}
 
-.compare_contant ul {
-    gap: 20px;
+.compare_area table {
+    margin-top: 40px;
+    border-bottom: 0;
 }
 
-.compare_contant ul .heading {
-    width: 150px !important;
-    text-align: end;
-    margin-right: 50px;
+.compare_area .table-striped {
+    --bs-table-striped-bg: #fbfbfb;
 }
 
-.compare_contant ul .heading p {
-    color: var(--paraColor) !important;
+.compare_area .table tr {
+    display: flex;
+}
+
+.compare_area .table tr th,
+.compare_area .table tr td {
+    padding: 20px 10px;
+    border-bottom: 0;
+    width: 20%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.compare_area table .heading {
+    /* min-width: 150px; */
+}
+
+.compare_Availability .heading p {
+    color: var(--paraColor);
+
+}
+
+.compare_area table .heading {
+    min-width: 150px;
+    text-align: right;
+    padding-right: 60px !important;
+}
+
+.compare_area table .heading p {
+    font-weight: 700;
+    color: var(--paraColor);
+}
+
+.compare_area table .discription_list {
+    min-width: 250px;
+    padding-left: 23px;
+    margin-right: 20px;
 }
 
 .single_compare_produst {
     position: relative;
-    width: 20%;
+    min-width: 200px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .single_compare_produst .img {
     overflow: hidden;
     border-radius: 4px;
+    height: 270px;
+    display: block;
 }
 
 .single_compare_produst .remove_icon {
     position: absolute;
-    top: -35px;
+    top: -15px;
     left: 50%;
     border: 1px solid var(--colorFurth);
     padding: 4px 10px;
@@ -4081,8 +4121,8 @@ ul.menu_carwegory_list.show {
 
 .single_compare_produst .scocal_icon {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 20px;
+    right: 30px;
     visibility: hidden;
     opacity: 0;
     transition: all linear .3s;
@@ -4117,40 +4157,38 @@ ul.menu_carwegory_list.show {
 .single_compare_produst .title {
     font-size: 14px;
     margin-top: 10px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
+.single_compare_produst th {
+    background: none !important;
+    /* padding: 0 !important; */
+    margin-bottom: 20px;
+}
 
-.single_compare_produst:hover .scocal_icon {
+.single_compare_produst .heading {
+    padding-right: 60px !important;
+}
+
+/* .single_compare_produst:hover .scocal_icon {
     visibility: visible;
     opacity: 1;
-    top: 20px;
+    top: 40px;
+} */
+
+
+.compare_area table tr th:hover>.scocal_icon {
+    visibility: visible;
+    opacity: 1;
+    top: 40px;
 }
 
-.compare_SKU,
-.compare_Category,
-.compatre_Ratings_Reviews,
-.compare_discription,
-.compare_Availability li,
-.compare_contant .compare_price {
-    background: #fbfbfb;
-    padding: 20px 0;
-    margin-top: 30px;
-}
-
-.compare_SKU li,
-.compare_Category li,
-.compatre_Ratings_Reviews li,
-.compare_Availability li,
-.compare_contant .compare_price li {
-    width: 20%;
-}
-
-.compare_contant .compare_price li p {
+.compare_price p {
     color: var(--colorPrimary);
+    font-weight: 600;
 }
 
-.compare_contant .compare_price li p del {
+.compare_price p del {
     color: var(--paraColor);
 }
 
@@ -4163,12 +4201,8 @@ ul.menu_carwegory_list.show {
     margin-bottom: 10px;
     color: var(--colorBlack);
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     margin-right: 10px;
-}
-
-.compare_discription li {
-    margin-left: 25px !important;
 }
 
 .compare_discription .discription_list li::after {
@@ -4191,16 +4225,11 @@ ul.menu_carwegory_list.show {
     left: -25px;
 }
 
-.compatre_Ratings_Reviews li a p {
+.compatre_Ratings_Reviews a p {
     color: var(--paraColor);
 }
 
-.compare_Category li p,
-.compare_SKU li p {
-    color: var(--colorBlack);
-}
-
-.compare_SKU li p span {
+.compare_SKU p span {
     vertical-align: middle;
     margin-right: 0.4rem;
     width: 15px;
@@ -6446,12 +6475,12 @@ ul.menu_carwegory_list.show {
 }
 
 .shope_page_3_area .store_item.shope_1_item .img .icon {
-    top: 274px;
+    top: 313px;
     gap: 0px;
 }
 
 .shope_page_3_area .store_item.shope_1_item:hover .icon {
-    top: 260px;
+    top: 298px;
 }
 
 .shope_page_3_area .Shope_list_view_bottom {

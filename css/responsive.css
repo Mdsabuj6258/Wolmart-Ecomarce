@@ -301,7 +301,14 @@
         padding-top: 20px;
     }
 
+    .store_item.shope_4_item .img .icon,
+    .store_item.shope_1_item .img .icon {
+        top: 213px;
+    }
 
+    .store_item.shope_1_item:hover .icon {
+        top: 198px;
+    }
 
 
 
@@ -862,6 +869,33 @@
     .store_item.shope_1_item:hover .icon {
         top: 150px;
     }
+
+    .Variable_Product_tab .progressbar_area {
+        min-width: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -1196,10 +1230,6 @@
         font-size: 13px;
     }
 
-    .Variable_sidebar {
-        margin-top: 30px;
-    }
-
     .Variable_sidebar_banner .img {
         height: 265px;
     }
@@ -1294,8 +1324,34 @@
         padding-top: 30px;
     }
 
+    .store_item.shope_4_item .img .icon,
+    .store_item.shope_1_item .img .icon {
+        top: 165px;
+    }
 
+    .store_item.shope_1_item:hover .icon {
+        top: 150px;
+    }
 
+    .vandor_more_item {
+        margin-bottom: 30px;
+    }
+
+    .Sigle_blog_item .img_title {
+        font-size: 25px;
+    }
+
+    .blog_qata h3 {
+        font-size: 25px;
+    }
+
+    .Sigle_blog_item .author .text {
+        width: 79%;
+    }
+
+    .coment_area .single_coment .text {
+        width: 79%;
+    }
 
 
 }
@@ -1856,10 +1912,6 @@
         height: 275px;
     }
 
-    .Variable_sidebar {
-        margin-top: 30px;
-    }
-
     .Variable_Product_tab .vandor_info .vandor_img {
         height: 250px;
         margin-bottom: 20px;
@@ -2035,13 +2087,68 @@
         padding-top: 30px;
     }
 
+    .store_item.shope_4_item .img .icon,
+    .store_item.shope_1_item .img .icon {
+        top: 180px;
+    }
 
+    .store_item.shope_4_item .img .icon,
+    .store_item.shope_1_item .img .icon {
+        top: 160px;
+    }
 
+    .vandor_more_item {
+        margin-bottom: 30px;
+    }
 
+    .Sigle_blog_item .img_title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 
+    .blog_qata h3 {
+        font-size: 20px;
+    }
 
+    .Sigle_blog_item .tags ul li a {
+        padding: 4px 12px;
+        font-size: 12px;
+    }
 
+    .Sigle_blog_item .author .img {
+        width: 80px;
+        height: 80px;
+    }
 
+    .Sigle_blog_item .author .text {
+        width: 79%;
+        margin-left: 15px;
+    }
+
+    .coment_area .single_coment .img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .coment_area .single_coment .text {
+        width: 75%;
+        margin-left: 20px;
+    }
+
+    .coment_area h3,
+    .Sigle_blog_item .form h3,
+    .Sigle_blog_item .releted_post h3 {
+        font-size: 20px;
+    }
+
+    .vandor_info_3 .text .logo,
+    .single_vendor .vandor_batch {
+        top: 210px;
+    }
+
+    .single_vendor:hover .vandor_batch {
+        top: 210px;
+    }
 
 }
 
@@ -2685,9 +2792,6 @@
         height: auto;
     }
 
-    .Variable_sidebar {
-        margin-top: 30px;
-    }
 
     .hotdell_main_img {
         height: auto;
@@ -2888,11 +2992,129 @@
         margin-top: 29px !important;
     }
 
+    .store_item.shope_4_item .img .icon,
+    .store_item.shope_1_item .img .icon {
+        top: 240px;
+    }
+
+    .store_item.shope_1_item:hover .icon {
+        top: 225px;
+    }
+
+    .vandor_more_item {
+        margin-bottom: 30px;
+    }
+
+    .Sigle_blog_item .img_title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .blog_qata h3 {
+        font-size: 20px;
+    }
+
+    .Sigle_blog_item .tags ul li a {
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+
+    .Sigle_blog_item .author .img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Sigle_blog_item .author .text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Sigle_blog_item p {
+        font-size: 12px;
+    }
+
+    .Sigle_blog_item .next_prev_btn h4 {
+        font-size: 14px;
+    }
+
+    .coment_area .single_coment .img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .coment_area .single_coment .text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .coment_area h3,
+    .Sigle_blog_item .form h3,
+    .Sigle_blog_item .releted_post h3 {
+        font-size: 20px;
+    }
+
+    .vandor_info_3 .text .logo,
+    .single_vendor .vandor_batch {
+        width: 60px;
+        height: 60px;
+        top: 140px;
+    }
+
+    .single_vendor .vandor_batch::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .single_vendor:hover .vandor_batch {
+        top: 130px;
+    }
+
+    .single_vendor .text {
+        top: 20px;
+        left: 20px;
+    }
+
+    .single_vendor .vendor_button {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .vandor_content {
+        margin-bottom: 30px;
+    }
+
+    .vendor_grid_map iframe {
+        height: auto;
+    }
+
+    .vendor_header {
+        display: initial !important;
+    }
+
+    .single_vendor .vendor_button .vendor_btn a {
+        font-size: 13px;
+    }
+
+    .single_vendor .text .title {
+        font-size: 15px;
+    }
+
+    .single_vendor .text .retting {
+        font-size: 10px;
+    }
+
+    .single_vendor .text .Featur {
+        right: 55px;
+        font-size: 9px;
+    }
 
 
-
-
-
+    .compare_area .table tr th,
+    .compare_area .table tr td {
+        width: auto;
+        min-width: 120px;
+    }
 
 
 
