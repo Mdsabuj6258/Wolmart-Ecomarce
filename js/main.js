@@ -879,10 +879,10 @@ $(function () {
         $(".vendor_heder_form").toggleClass("show");
     });
 
-    //=======Menu add class======
-    $(".menu_carwegory_area").on("click", function () {
-        $(".menu_carwegory_list").toggleClass("show");
-    });
+    // //=======Menu add class======
+    // $(".menu_carwegory_area").on("click", function () {
+    //     $(".menu_carwegory_list").toggleClass("show");
+    // });
 
 
 
