@@ -313,13 +313,20 @@
         padding-top: 20px;
     }
 
-    .store_item.shope_4_item .img .icon,
     .store_item.shope_1_item .img .icon {
         top: 213px;
     }
 
     .store_item.shope_1_item:hover .icon {
         top: 198px;
+    }
+
+    .store_item.shope_4_item .img .icon {
+        top: 250px;
+    }
+
+    .store_item.shope_4_item:hover .icon {
+        top: 235px;
     }
 
     .single_vandor_list .vandor_batch {
@@ -379,9 +386,21 @@
         margin-left: 30px;
     }
 
+    .shope_page_3_area .shope_1_item .img .icon {
+        top: 140px !important;
+    }
 
+    .shope_page_3_area .shope_1_item:hover .icon {
+        top: 125px !important;
+    }
 
+    .shop_offcanvas:hover .img .icon {
+        top: 163px;
+    }
 
+    .shop_offcanvas:hover:hover .icon {
+        top: 148px;
+    }
 
 
 
@@ -1071,6 +1090,33 @@
         width: 49%;
         margin-left: 50px;
     }
+
+    .shope_1_item .img .icon {
+        top: 200px !important;
+    }
+
+    .shope_1_item:hover .icon {
+        top: 185px !important;
+    }
+
+    .col-xl-1-5 {
+        width: 25% !important;
+    }
+
+    .shop_offcanvas .img .icon {
+        top: 196px;
+    }
+
+    .shop_offcanvas:hover .icon {
+        top: 180px !important;
+    }
+
+
+
+
+
+
+
 }
 
 
@@ -1693,15 +1739,41 @@
         height: 495px;
     }
 
+    .shope_1_item .img .icon {
+        top: 200px !important;
+    }
 
+    .shope_1_item:hover .icon {
+        top: 185px !important;
+    }
 
+    .shope_page_3_area .shope_1_item .img .icon {
+        top: 190px !important;
+    }
 
+    .shope_page_3_area .shope_1_item:hover .icon {
+        top: 175px !important;
+    }
 
+    .store_item.shope_4_item .img .icon {
+        top: 200px;
+    }
 
+    .store_item.shope_4_item:hover .icon {
+        top: 185px;
+    }
 
+    .col-xl-1-5 {
+        width: 33% !important;
+    }
 
+    .shop_offcanvas .img .icon {
+        top: 196px;
+    }
 
-
+    .shop_offcanvas:hover .icon {
+        top: 180px !important;
+    }
 
 
 
@@ -2446,14 +2518,8 @@
         padding-top: 30px;
     }
 
-    .store_item.shope_4_item .img .icon,
-    .store_item.shope_1_item .img .icon {
+    .shope_4_item .img .icon {
         top: 180px;
-    }
-
-    .store_item.shope_4_item .img .icon,
-    .store_item.shope_1_item .img .icon {
-        top: 160px;
     }
 
     .vandor_more_item {
@@ -2796,17 +2862,41 @@
         width: 42%;
     }
 
+    .shope_1_item .img .icon {
+        top: 236px !important;
+    }
 
+    .shope_1_item:hover .icon {
+        top: 220px !important;
+    }
 
+    .shope_page_3_area .shope_1_item .img .icon {
+        top: 215px !important;
+    }
 
+    .shope_page_3_area .shope_1_item:hover .icon {
+        top: 200px !important;
+    }
 
+    .shope_4_item .img .icon {
+        top: 235px !important;
+    }
 
+    .shope_4_item:hover .icon {
+        top: 220px !important;
+    }
 
+    .col-xl-1-5 {
+        width: 50% !important;
+    }
 
+    .shop_offcanvas .img .icon {
+        top: 233px;
+    }
 
-
-
-
+    .shop_offcanvas:hover .icon {
+        top: 218px !important;
+    }
 
 
 
@@ -3651,7 +3741,7 @@
     .shope_page_3_area .vandor_store_content,
     .Shope_list_view_bottom,
     .Shope_list_view .vandor_store_content {
-        padding: 0 15px;
+        padding: 50px;
     }
 
     .content_header .left p {
@@ -3674,11 +3764,11 @@
     }
 
     .store_item.shope_4_item .img .icon {
-        top: 240px;
+        top: 350px;
     }
 
-    .store_item.shope_1_item:hover .icon {
-        top: 225px;
+    .store_item.shope_4_item:hover .icon {
+        top: 335px;
     }
 
     .vandor_more_item {
@@ -4100,14 +4190,28 @@
     }
 
 
+    .shope_1_item .img .icon {
+        top: 353px !important;
+    }
 
+    .shope_1_item:hover .icon {
+        top: 329px !important;
+    }
 
+    .filter_cetagory {
+        gap: 10px;
+    }
 
+    .col-xl-1-5 {
+        width: 100% !important;
+    }
 
+    .shop_offcanvas .img .icon {
+        top: 350px;
+    }
 
-
-
-
-
+    .shop_offcanvas .img:hover .icon {
+        top: 335px;
+    }
 
 }
