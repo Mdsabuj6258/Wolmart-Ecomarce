@@ -79,13 +79,25 @@
         padding-top: 20px;
     }
 
+    .single_vandor_list .vandor_batch {
+        left: 345px;
+    }
 
+    .single_vandor_list:hover .vandor_batch {
+        left: 340px;
+    }
 
+    .vandor_info .text {
+        padding: 30px;
+    }
 
+    .apprel_cetagory_item .single_popular {
+        max-width: 31.3%;
+    }
 
-
-
-
+    .single_popular .img {
+        height: 305px;
+    }
 
 
 
@@ -310,18 +322,58 @@
         top: 198px;
     }
 
+    .single_vandor_list .vandor_batch {
+        left: 295px;
+    }
 
+    .single_vandor_list:hover .vandor_batch {
+        left: 290px;
+    }
 
+    .single_vendor_3 .img {
+        height: 250px;
+    }
 
+    .single_vendor_3 .text {
+        padding: 10px 20px 10px 100px;
+    }
 
+    .vandor_info .text {
+        padding: 25px;
+    }
 
+    .vandor_info_2 .text .logo,
+    .vandor_info .text .logo {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+    }
 
+    .vandor_info_2 .text h4,
+    .vandor_info .text h4 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
 
+    .apprel_cetagory_item .single_popular {
+        max-width: 31%;
+    }
 
+    .single_popular .img {
+        height: 255px;
+    }
 
+    .previus_review .single_author .single_author_info {
+        width: 50%;
+    }
 
+    .previus_review .single_author .single_author_retting {
+        width: 34%;
+    }
 
-
+    .vandor_store_sidebar .accordion-item .best_seling .img {
+        width: 100px;
+    }
 
 
 }
@@ -874,27 +926,132 @@
         min-width: 150px;
     }
 
+    .single_vandor_list .vandor_batch {
+        top: 65px;
+        left: 375px;
+    }
 
+    .single_vandor_list:hover .vandor_batch {
+        left: 370px;
+    }
 
+    .single_vandor_list .img {
+        height: 200px;
+        width: 45%;
+    }
 
+    .vandor_info_3 .text .logo,
+    .single_vendor .vandor_batch {
+        width: 60px;
+        height: 60px;
+    }
 
+    .single_vendor .vandor_batch::after {
+        width: 60px;
+        height: 60px;
+    }
 
+    .single_vendor .vendor_button {
+        padding: 20px 0px 20px 20px;
+    }
 
+    .single_vendor .vendor_button .vendor_btn a {
+        padding: 7px 14px;
+        font-size: 14px;
+    }
 
+    .single_vendor .text .Featur {
+        right: 20px;
+    }
 
+    .single_vendor .text {
+        top: 10px;
+    }
 
+    .single_vendor_3 .img {
+        height: 140px;
+    }
 
+    .single_vendor_3 .text {
+        padding: 15px 20px 0px 100px;
+    }
 
+    .vendor_grid_map iframe {
+        height: 150px;
+    }
 
+    .vendor_brand_area .vandor_brand {
+        margin-bottom: 30px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
 
+    .vandor_store_content {
+        padding: 0;
+    }
 
+    .vandor_info .text {
+        padding: 15px 0px 20px 20px;
+    }
 
+    .vandor_info_2 .text .logo,
+    .vandor_info .text .logo {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+    }
 
+    .vandor_info_2 .text h4,
+    .vandor_info .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
 
+    .vandor_store_content .product a {
+        padding: 15px;
+        font-size: 13px;
+    }
 
+    .previus_review .single_author .single_author_retting {
+        width: 40%;
+        margin-top: 20px;
+    }
 
+    .vandor_store_sidebar .accordion-item .best_seling .text {
+        width: 43%;
+        margin-left: 10px;
+    }
 
+    .vandor_store_sidebar .accordion-item .best_seling .img {
+        width: 90px;
+    }
 
+    .vandor_store_sidebar .accordion-item .best_seling .text .title {
+        font-size: 12px;
+    }
+
+    .vandor_store_sidebar .accordion-item .best_seling .text .reting {
+        margin: 5px 0;
+        font-size: 10px;
+    }
+
+    .vandor_store_sidebar .accordion-item .best_seling .text h4 {
+        font-size: 15px;
+    }
+
+    .creat_vendor_area .vendor_text {
+        margin-right: 20px !important;
+    }
+
+    .vandor_what_say .section_heading_2 h2 {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 20px 0px;
+    }
+
+    .vandor_what_say .section_heading_2 h5 {
+        font-size: 18px;
+    }
 
 }
 
@@ -1352,6 +1509,190 @@
     .coment_area .single_coment .text {
         width: 79%;
     }
+
+    .single_vandor_list .img {
+        height: 150px;
+        width: 45%;
+    }
+
+    .single_vandor_list .text {
+        width: 48%;
+        margin-left: 48px;
+    }
+
+    .single_vandor_list .vandor_batch {
+        top: 45px;
+        left: 265px;
+    }
+
+    .single_vandor_list:hover .vandor_batch {
+        left: 265px;
+    }
+
+    .single_vendor .text {
+        top: 10px;
+        left: 20px;
+    }
+
+    .vandor_info_3 .text .logo,
+    .single_vendor .vandor_batch {
+        width: 60px;
+        height: 60px;
+    }
+
+    .single_vendor .vandor_batch::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .single_vendor .vendor_button {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .single_vendor .vendor_button .vendor_btn a {
+        padding: 7px 14px;
+        font-size: 14px;
+    }
+
+    .single_vendor .text .Featur {
+        right: 20px;
+    }
+
+    .vandor_grid_sidebar {
+        margin-top: 30px;
+    }
+
+    .single_vendor_3 .img {
+        height: 160px;
+    }
+
+    .single_vendor_3 .text {
+        padding: 0px 0px 5px 90px;
+    }
+
+    .single_vendor_3 .vandor_batch {
+        height: 60px;
+        width: 60px;
+        bottom: 15px;
+    }
+
+    .single_vendor_3 .text .title {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .single_vendor_3 .text .location {
+        font-size: 12px;
+    }
+
+    .single_vendor_3 .text .retting {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .vendor_grid_map iframe {
+        height: 150px;
+    }
+
+    .vendor_brand_area .vandor_brand {
+        margin-bottom: 30px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .vandor_store_content {
+        padding: 0;
+    }
+
+    .vandor_info .text {
+        padding: 15px;
+        width: 300px;
+    }
+
+    .vandor_info_2 .text .logo,
+    .vandor_info .text .logo {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+    }
+
+    .vandor_info_2 .text h4,
+    .vandor_info .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .vandor_info .text .socal_link {
+        margin-top: 15px;
+    }
+
+    .vandor_store_sidebar {
+        margin-top: 30px;
+    }
+
+    .previus_review .single_author .single_author_retting {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .vandor_info_2 .text .right {
+        text-align: left !important;
+        margin-left: 115px;
+    }
+
+    .vandor_info_2 .text .right .Inquiry {
+        margin-top: 10px;
+    }
+
+    .vandor_info_2 .text .right .socal_link {
+        margin-top: 15px;
+    }
+
+    .vandor_info_2 .text {
+        padding: 0px 30px 30px 30px;
+    }
+
+    .about_counter_area ul li {
+        text-align: center;
+        width: 50%;
+    }
+
+    .vendor_tread_area .tread_text {
+        margin-left: 0 !important;
+        margin-top: 30px;
+    }
+
+    .vandor_what_say .common_btn_3 {
+        margin-bottom: 30px;
+    }
+
+    .creat_vendor_area .section_heading_2 .common_btn {
+        margin-bottom: 30px;
+    }
+
+    .tread_img,
+    .vendor_img {
+        height: 495px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -2149,6 +2490,328 @@
     .single_vendor:hover .vandor_batch {
         top: 210px;
     }
+
+    .vendor_header_left {
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    .single_vandor_list .img {
+        height: 120px;
+        width: 48%;
+        overflow: hidden;
+    }
+
+    .single_vandor_list .text {
+        width: 48%;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .single_vandor_list .vandor_batch {
+        top: 110px;
+        left: 445px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .single_vandor_list .vandor_batch::after {
+        width: 60px;
+        height: 60px;
+        left: -1px;
+    }
+
+    .single_vandor_list:hover .vandor_batch {
+        left: 445px;
+    }
+
+    .single_vandor_list:hover .vandor_batch::after {
+
+        left: 5px;
+    }
+
+    .single_vandor_list .Featur {
+        top: 35px;
+    }
+
+    .vandor_grid_sidebar {
+        margin-top: 30px;
+    }
+
+    .single_vendor_3 .img {
+        height: 250px;
+    }
+
+    .single_vendor_3 .text {
+        padding: 10px 28px 10px 100px;
+    }
+
+    .single_vendor_3 .vandor_batch {
+        bottom: 15px;
+    }
+
+    .vendor_grid_map form ul li .select_js {
+        width: 200px;
+    }
+
+    .vendor_grid_map form ul li input {
+        width: 270px;
+    }
+
+    .vendor_brand_area .vandor_brand {
+        margin-bottom: 30px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+
+    .vandor_store_content {
+        padding: 0;
+    }
+
+    .vandor_info .img {
+        height: 400px;
+    }
+
+    .vandor_info .text {
+        padding: 15px;
+        background: none;
+        width: 300px;
+    }
+
+    .vandor_info_2 .text .logo,
+    .vandor_info .text .logo {
+        width: 60px;
+        height: 60px;
+        padding: 9px;
+    }
+
+    .vandor_info_2 .text h4,
+    .vandor_info .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .socal_link a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    .socal_link {
+        margin-top: 20px;
+    }
+
+    .vandor_store_content .product a {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    .vandor_store_sidebar {
+        margin-top: 30px;
+    }
+
+
+    .vandor_info_2 .img {
+        height: 550px;
+    }
+
+    .vandor_info_2 .text .logo {
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 250px;
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+    }
+
+    .vandor_info_2 .text .left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .vandor_info_2 .text {
+        display: initial;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .vandor_info_2 .text .right {
+        text-align: center !important;
+    }
+
+    .vandor_info_2 .text .reting {
+        position: initial;
+        margin-bottom: 10px;
+    }
+
+    .vandor_info_2 .socal_link {
+        justify-content: center;
+    }
+
+    .vandor_info_2 .text h4,
+    .vandor_info .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .vandor_info_2 .text .web,
+    .vandor_info_2 .text .number,
+    .vandor_info .text .number {
+        margin: 5px 0;
+    }
+
+    .content_header .left {
+        margin-bottom: 20px;
+    }
+
+
+    .previus_review .single_author .single_author_retting {
+        width: 100%;
+    }
+
+    .previus_review .single_author .single_author_profile {
+        width: 20%;
+        margin-right: 20px;
+    }
+
+    .previus_review .single_author .single_author_info span {
+        margin: 10px 0;
+    }
+
+    .previus_review .single_author .single_author_info p {
+        font-size: 14px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .previus_review .single_author .single_author_info {
+        width: 73%;
+        margin-right: 0;
+    }
+
+    .vandor_store_content .polici li h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    .vandor_info_3 .text {
+        padding: 10px;
+        text-align: start;
+    }
+
+    .vandor_info_3 .text h4 {
+        margin-top: 0;
+    }
+
+    .vandor_info_3 .text ul {
+        top: -50px;
+        right: 310px;
+    }
+
+    .vandor_info_3 .text .logo {
+        top: -45px;
+        left: 470px;
+    }
+
+    .creat_vendor_area .vendor_text {
+        margin-right: 0 !important;
+    }
+
+    .section_heading_2 h2 {
+        font-size: 40px;
+    }
+
+    .creat_vendor_area .section_heading_2 .common_btn {
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .tread_img,
+    .vendor_img {
+        height: 370px;
+    }
+
+    .vendor_tread_area {
+        padding: 50px 0;
+        margin-top: 50px !important;
+    }
+
+    .vendor_tread_area .tread_text {
+        margin-left: 0px !important;
+        margin-top: 30px;
+    }
+
+    .tread_text .section_heading_2 h2 {
+        font-size: 28px;
+    }
+
+    .section_heading_2 h5 {
+        font-size: 18px;
+    }
+
+    .about_counter_area ul li {
+        width: 50%;
+    }
+
+    .vandor_what_say {
+        padding: 50px 0;
+    }
+
+    .vandor_what_say .common_btn_3 {
+        margin-bottom: 30px;
+    }
+
+    .vendor_store_list_4 .store_list_item .text,
+    .vendor_store_list_3 .store_list_item .text,
+    .vendor_store_list_2 .store_list_item .text {
+        width: 54%;
+        margin-left: 20px;
+    }
+
+    .vendor_store_list_4 .store_list_item .img,
+    .vendor_store_list_3 .store_list_item .img,
+    .vendor_store_list_2 .store_list_item .img {
+        width: 42%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -2992,8 +3655,7 @@
         margin-top: 29px !important;
     }
 
-    .store_item.shope_4_item .img .icon,
-    .store_item.shope_1_item .img .icon {
+    .store_item.shope_4_item .img .icon {
         top: 240px;
     }
 
@@ -3115,6 +3777,316 @@
         width: auto;
         min-width: 120px;
     }
+
+    .shope_page_3_area .shope_1_item .icon {
+        top: 347px;
+    }
+
+    .shope_page_3_area .store_item.shope_1_item:hover .icon {
+        top: 332px;
+    }
+
+    .wishlist_text table .common_btn {
+        min-width: 125px;
+    }
+
+    .vendor_header_left {
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    .single_vandor_list .img {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .single_vandor_list .text {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .single_vandor_list .vandor_batch {
+        top: 130px;
+        left: 250px;
+    }
+
+    .single_vandor_list:hover .vandor_batch {
+        left: 250px;
+    }
+
+    .single_vandor_list:hover .vandor_batch::after {
+        top: 10px;
+        left: 0;
+    }
+
+    .vendor_grid_map form ul li input {
+        width: 265px;
+        border-color: #e8e8e8;
+    }
+
+    .vandor_sort {
+        margin-bottom: 20px;
+    }
+
+    .single_vendor_3 .img {
+        height: auto;
+    }
+
+    .single_vendor_3 .text {
+        position: absolute;
+        background: rgba(34, 34, 40, 0.85);
+        bottom: 0;
+        left: 0;
+        padding: 0px 0px 5px 100px;
+    }
+
+    .single_vendor_3 .text .title {
+        font-size: 12px;
+        color: var(--colorWhite) !important;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+
+
+    .single_vendor_3 .text .location {
+        font-size: 12px;
+    }
+
+    .single_vendor_3 .text .retting {
+        color: var(--colorOreng);
+        font-size: 10px;
+        margin-top: 5px;
+
+
+    }
+
+    .single_vendor_3 .vandor_batch {
+        height: 60px;
+        width: 60px;
+        top: 14px;
+    }
+
+    .vendor_brand_area .vandor_brand {
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 20px;
+    }
+
+    .vandor_store_content {
+        padding: 0;
+    }
+
+    .vandor_info .img {
+        height: 400px;
+    }
+
+    .vandor_info .text {
+        position: absolute;
+        padding: 15px;
+        background: none;
+        width: 300px;
+    }
+
+    .vandor_info .text .logo {
+        width: 60px;
+        height: 60px;
+        padding: 9px;
+    }
+
+    .vandor_info .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .socal_link a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    .socal_link {
+        margin-top: 20px;
+    }
+
+    .vandor_store_content .product a {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    .vandor_store_sidebar {
+        margin-top: 30px;
+    }
+
+    .vandor_info_2 .img {
+        height: 550px;
+    }
+
+    .vandor_info_2 .text .logo {
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 275px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .vandor_info_2 .text .left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .vandor_info_2 .text {
+        display: initial;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .vandor_info_2 .text .right {
+        text-align: center !important;
+    }
+
+    .vandor_info_2 .text .reting {
+        position: initial;
+        margin-bottom: 10px;
+    }
+
+    .vandor_info_2 .socal_link {
+        justify-content: center;
+    }
+
+    .vandor_info_2 .text h4,
+    .vandor_info .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .vandor_info_2 .text .web,
+    .vandor_info_2 .text .number,
+    .vandor_info .text .number {
+        margin: 5px 0;
+    }
+
+    .content_header .left {
+        margin-bottom: 20px;
+    }
+
+
+    .previus_review .single_author .single_author_retting {
+        width: 100%;
+    }
+
+    .previus_review .single_author .single_author_profile {
+        width: 20%;
+        margin-right: 20px;
+    }
+
+    .previus_review .single_author .single_author_info span {
+        margin: 10px 0;
+    }
+
+    .previus_review .single_author .single_author_info p {
+        font-size: 14px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .previus_review .single_author .single_author_info {
+        width: 73%;
+        margin-right: 0;
+    }
+
+    .vandor_store_content .polici li h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    .vandor_info_3 .img {
+        height: 450px;
+    }
+
+    .vandor_info_3 .text {
+        min-height: 40%;
+        padding: 20px 20px 50px 20px;
+    }
+
+    .vandor_info_3 .text ul {
+        top: 150px;
+        right: 24%;
+    }
+
+    .vandor_info_3 .text .logo {
+        width: 80px;
+        height: 80px;
+        top: -45px;
+    }
+
+    .creat_vendor_area .vendor_text {
+        margin-right: 0 !important;
+    }
+
+    .section_heading_2 h2 {
+        font-size: 35px;
+    }
+
+    .creat_vendor_area .section_heading_2 .common_btn {
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .tread_img,
+    .vendor_img {
+        height: auto;
+    }
+
+    .vendor_tread_area {
+        padding: 50px 0;
+        margin-top: 50px !important;
+    }
+
+    .vendor_tread_area .tread_text {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+
+    .tread_text .section_heading_2 h2 {
+        font-size: 28px;
+    }
+
+    .section_heading_2 h5 {
+        font-size: 18px;
+    }
+
+    .about_counter_area ul li {
+        width: 50%;
+    }
+
+    .vandor_what_say {
+        padding: 50px 0;
+    }
+
+    .vandor_what_say .common_btn_3 {
+        margin-bottom: 30px;
+    }
+
+    .vendor_heder_form form input {
+        width: 70%;
+    }
+
+    .vendor_heder_form form button {
+        top: 0px;
+        padding: 8px 18px;
+    }
+
+
+
+
+
+
+
 
 
 

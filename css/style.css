@@ -2774,6 +2774,7 @@ b .main_menu {
 .about_menu .menu_carwegory_list {
     visibility: hidden;
     opacity: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transform-origin: top;
     transform: scaleY(.5);
     transition: all linear .3s;
@@ -3372,7 +3373,7 @@ b .main_menu {
     border: 1px solid var(--colorFurth);
     margin-right: 5px;
     font-size: 15px;
-    min-width: 125px;
+    min-width: 115px;
     text-align: center;
 }
 
@@ -5650,6 +5651,10 @@ b .main_menu {
 
 .content_header .nice-select {
     width: inherit;
+}
+
+.offcanvas .offcanvas-start .show {
+    background: #000;
 }
 
 .content_header .left {}

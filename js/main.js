@@ -648,19 +648,19 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -878,14 +878,6 @@ $(function () {
     $(".vendor_header_left a").on("click", function () {
         $(".vendor_heder_form").toggleClass("show");
     });
-
-    // //=======Menu add class======
-    // $(".menu_carwegory_area").on("click", function () {
-    //     $(".menu_carwegory_list").toggleClass("show");
-    // });
-
-
-
 
     //=======Filter Cetagory add class======
     $(".menu_1").on("click", function () {
