@@ -5551,10 +5551,12 @@ b .main_menu {
 }
 
 .vandor_store_sidebar .accordion-item .store_time ul li::after {
+    font-size: 13px;
     position: absolute;
     content: "\f2d1";
     width: 20px;
     height: 20px;
+    font-family: "font awesome 5 free";
     color: var(--colorBlack);
     margin-left: 10px;
 }
@@ -6466,7 +6468,7 @@ b .main_menu {
 }
 
 .Shope_both_sidebar_bottom {
-    border-top: 1px solid var(--colorFurth);
+    border-top: 1px solid #eee
 }
 
 /* shope start */
@@ -6544,10 +6546,10 @@ b .main_menu {
 }
 
 .Sidebar_price .price_range .price_btn {
-    padding: 9px 30px;
+    padding: 9px 15px;
     margin-top: 9px;
     border-radius: 5px;
-    margin-left: 9px;
+    margin-left: 5px;
 }
 
 .Sidebar_price input {
@@ -8002,4 +8004,65 @@ header .mobile_header .offcanvas.show:not(.hiding),
     background: #f5f6f8;
     border: 0;
     font-size: 12px;
+}
+
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+    transform: none;
+    width: 300px;
+}
+
+.both_sidebar_contant {
+    position: relative;
+
+}
+
+.both_sidebar_contant .fitler_btn {
+    position: absolute;
+    top: -355px;
+    right: 0;
+    background: #2222228f;
+    color: var(--colorWhite);
+    border: none;
+}
+
+.both_sidebar_contant .fitler_btn:hover {
+    background: #222;
+}
+
+.breadcrumb_shope {
+    height: 50px;
+    line-height: 50px;
+    gap: 20px;
+}
+
+.breadcrumb_shope li {
+    position: relative;
+    font-size: 13px;
+    color: var(--colorBlack);
+    font-family: 'Poppins';
+}
+
+.breadcrumb_shope li a {
+    color: var(--colorSecoundry);
+    font-size: 13px;
+}
+
+.breadcrumb_shope li::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "font awesome 5 free";
+    font-size: 8px;
+    font-weight: 600;
+    color: var(--colorSecoundry);
+    top: 1px;
+    left: 47px;
+}
+
+.breadcrumb_shope li:last-child::after {
+    display: none;
+}
+
+.breadcrumb_shope li:nth-child(2):after {
+    left: 42px;
 }
