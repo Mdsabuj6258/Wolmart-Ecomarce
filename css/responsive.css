@@ -99,8 +99,32 @@
         height: 305px;
     }
 
+    .shop_4clom .img .icon {
+        top: 180px;
+    }
 
+    .shop_4clom:hover .img .icon {
+        top: 165px !important;
+    }
 
+    .shope_page_6clom_area .shope_1_item .img .icon {
+        top: 180px !important;
+    }
+
+    .shope_page_6clom_area .shope_1_item:hover .img .icon {
+        top: 165px !important;
+    }
+
+    .shope7clom .img .icon {
+        top: 150px !important;
+        right: 22px !important;
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    .shope7clom:hover .icon {
+        top: 135px !important;
+    }
 
 
 
@@ -400,6 +424,56 @@
 
     .shop_offcanvas:hover:hover .icon {
         top: 148px;
+    }
+
+    .shop_4clom .img .icon {
+        top: 141px;
+    }
+
+    .shop_4clom:hover .img .icon {
+        top: 125px !important;
+    }
+
+    .Sidebar_price .price_range .price_btn {
+        padding: 7px 15px;
+    }
+
+    .shop_5clom .img .icon {
+        top: 162px;
+    }
+
+    .shop_5clom:hover .icon {
+        top: 147px;
+    }
+
+    .shope_page_6clom_area .shope_1_item .img .icon {
+        top: 140px !important;
+    }
+
+    .shope_page_6clom_area .shope_1_item:hover .img .icon {
+        top: 125px !important;
+    }
+
+    .shope7clom .img .icon {
+        top: 119px !important;
+        right: 8px !important;
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    .shope8clom:hover .icon {
+        top: 104px !important;
+    }
+
+    .shope8clom .img .icon {
+        top: 119px !important;
+        right: 8px !important;
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    .shope7clom:hover .icon {
+        top: 104px !important;
     }
 
 
@@ -1020,7 +1094,7 @@
     }
 
     .vandor_store_content {
-        padding: 0;
+        padding: 10px;
     }
 
     .vandor_info .text {
@@ -1111,12 +1185,41 @@
         top: 180px !important;
     }
 
+    .shop_4clom .img .icon {
+        top: 200px;
+    }
 
+    .shop_4clom:hover .img .icon {
+        top: 185px !important;
+    }
 
+    .Sidebar_price input {
+        width: 60px;
+    }
 
+    .Sidebar_price .price_range .price_btn {
+        padding: 7px 7px;
+        margin-left: 5px;
+    }
 
+    .col-xl-1-7 {
+        max-width: 25% !important;
+    }
 
+    .shope8clom .img .icon,
+    .shope7clom .img .icon {
+        top: 210px !important;
+        right: 35px !important;
+    }
 
+    .shope8clom:hover .icon,
+    .shope7clom:hover .icon {
+        top: 195px !important;
+    }
+
+    .col-xl-1-8 {
+        max-width: 25% !important;
+    }
 }
 
 
@@ -1665,7 +1768,7 @@
     }
 
     .vandor_store_content {
-        padding: 0;
+        padding: 10px;
     }
 
     .vandor_info .text {
@@ -1775,11 +1878,40 @@
         top: 180px !important;
     }
 
+    .shop_4clom .img .icon {
+        top: 200px;
+    }
 
+    .shop_4clom:hover .img .icon {
+        top: 185px !important;
+    }
 
+    .shope_page_6clom_area .shope_1_item .img .icon {
+        top: 228px !important;
+    }
 
+    .shope_page_6clom_area .shope_1_item:hover .img .icon {
+        top: 213px !important;
+    }
 
+    .col-xl-1-7 {
+        max-width: 33% !important;
+    }
 
+    .shope8clom .img .icon,
+    .shope7clom .img .icon {
+        top: 220px !important;
+        right: 35px !important;
+    }
+
+    .shope8clom:hover .icon,
+    .shope7clom:hover .icon {
+        top: 205px !important;
+    }
+
+    .col-xl-1-8 {
+        max-width: 33% !important;
+    }
 
 
 
@@ -2392,7 +2524,6 @@
         width: 20%;
     }
 
-    .status_id {}
 
     .total_id {
         width: 20%;
@@ -2651,7 +2782,7 @@
 
 
     .vandor_store_content {
-        padding: 0;
+        padding: 10px;
     }
 
     .vandor_info .img {
@@ -2898,11 +3029,40 @@
         top: 218px !important;
     }
 
+    .shop_5clom .img .icon,
+    .shop_4clom .img .icon {
+        top: 233px;
+    }
 
+    .shop_5clom:hover:hover .img .icon,
+    .shop_4clom:hover:hover .img .icon {
+        top: 218px !important;
+    }
 
+    .shope_page_6clom_area .shope_1_item .img .icon {
+        top: 259px !important;
+    }
 
+    .shope_page_6clom_area .shope_1_item:hover .img .icon {
+        top: 245px !important;
+    }
 
+    .col-xl-1-7 {
+        max-width: 50% !important;
+    }
 
+    .shope8clom .img .icon .shope7clom .img .icon {
+        top: 260px !important;
+        right: 52px !important;
+    }
+
+    .shope8clom:hover .icon .shope7clom:hover .icon {
+        top: 245px !important;
+    }
+
+    .col-xl-1-8 {
+        max-width: 50% !important;
+    }
 
 
 
@@ -3633,8 +3793,6 @@
         width: 20%;
     }
 
-    .status_id {}
-
     .total_id {
         width: 20%;
     }
@@ -3984,7 +4142,7 @@
     }
 
     .vandor_store_content {
-        padding: 0;
+        padding: 10px;
     }
 
     .vandor_info .img {
@@ -4213,5 +4371,36 @@
     .shop_offcanvas .img:hover .icon {
         top: 335px;
     }
+
+    .shop_5clom .img .icon,
+    .shop_4clom .img .icon {
+        top: 350px;
+    }
+
+    .shop_5clom:hover .icon,
+    .shop_4clom:hover .icon {
+        top: 335px !important;
+    }
+
+    .col-xl-1-7 {
+        max-width: 100% !important;
+    }
+
+    .shope8clom .img .icon,
+    .shope7clom .img .icon {
+        top: 360px !important;
+        right: 90px !important;
+    }
+
+    .shope8clom:hover .icon,
+    .shope7clom:hover .icon {
+        top: 345px !important;
+    }
+
+    .col-xl-1-8 {
+        max-width: 100% !important;
+    }
+
+
 
 }

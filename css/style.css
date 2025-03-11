@@ -7290,11 +7290,11 @@ b .main_menu {
 }
 
 .shop_4clom .img .icon {
-    top: 210px;
+    top: 180px;
 }
 
 .shop_4clom:hover .img .icon {
-    top: 195px;
+    top: 165px;
 }
 
 .shop_offcanvas .img .icon li a,
@@ -7304,8 +7304,12 @@ b .main_menu {
     margin: 0;
 }
 
+.shop_5clom .img .icon {
+    top: 202px;
+}
+
 .shop_5clom:hover .icon {
-    top: 210px;
+    top: 187px;
 }
 
 .both_sidebar .icon li a:hover,
