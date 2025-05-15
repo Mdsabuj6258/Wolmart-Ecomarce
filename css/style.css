@@ -2360,6 +2360,7 @@ b .main_menu {
 .account_info ul li a:hover,
 .footer_service ul li a:hover {
     color: var(--colorPrimary);
+    margin-left: 2px;
 }
 
 .footer_secound_contant ul {
@@ -3989,6 +3990,7 @@ b .main_menu {
     width: 15px;
     height: 15px;
     border-radius: 0;
+    margin-top: 5px;
 }
 
 .login_contant ul {
