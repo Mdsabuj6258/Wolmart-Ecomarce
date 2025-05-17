@@ -952,33 +952,42 @@ $(function () {
     });
 
 
-    const plus = document.querySelectorAll(".plus");
-    minus = document.querySelectorAll(".minus");
-    number = document.querySelectorAll(".number");
+    // const plus = document.querySelectorAll(".plus");
+    // minus = document.querySelectorAll(".minus");
+    // number = document.querySelectorAll(".number");
 
 
-    let a = 1;
+    // let a = 1;
 
-    plus.addEventListener("click", () => {
-        a++;
-        a = (a < 10) ? "0" + a : a;
-        number.innerText = a;
-        console.log(a);
-    })
+    // plus.addEventListener("click", () => {
+    //     a++;
+    //     a = (a < 10) ? "0" + a : a;
+    //     number.innerText = a;
+    //     console.log(a);
+    // })
 
 
-    minus.addEventListener("click", () => {
-        if (a > 1) {
-            a--;
-            a = (a < 10) ? "0" + a : a;
-            number.innnerText = a;
-            console.log(a);
+    // minus.addEventListener("click", () => {
+    //     if (a > 1) {
+    //         a--;
+    //         a = (a < 10) ? "0" + a : a;
+    //         number.innnerText = a;
+    //         console.log(a);
+    //     }
+    // })
+
+
+
+    $('.plus').click(function () {
+        if ($(this).prev().val() < 10) {
+            $(this).prev().val(+$(this).prev().val() + 1);
         }
-    })
-
-
-
-
+    });
+    $('.minus').click(function () {
+        if ($(this).next().val() > 1) {
+            if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
+        }
+    });
 
 
 
